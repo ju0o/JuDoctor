@@ -19,13 +19,13 @@ public sealed class TrayController : IDisposable
         _dispatcher    = Dispatcher.CurrentDispatcher;
 
         _menu = new ContextMenuStrip();
-        _menu.Items.Add("Open Dashboard", null, (_, _) => _openDashboard?.Invoke());
+        _menu.Items.Add("Open JuDoctor", null, (_, _) => _openDashboard?.Invoke());
         _menu.Items.Add(new ToolStripSeparator());
         _menu.Items.Add("Exit", null, (_, _) => OnExit());
 
         _icon = new NotifyIcon
         {
-            Text    = "MainPC Doctor",
+            Text    = "JuDoctor",
             Icon    = SystemIcons.Application,
             Visible = true,
         };
