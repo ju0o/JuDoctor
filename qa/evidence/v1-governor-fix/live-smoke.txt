@@ -1,9 +1,0 @@
-{"at":"2026-09-18T11:49:42.2387614+09:00","snapshots":0}
-{"at":"2026-09-18T11:49:52.2728753+09:00","snapshots":1}
-{"at":"2026-09-18T11:50:02.2874736+09:00","snapshots":1}
-{"at":"2026-09-18T11:50:12.29859+09:00","snapshots":1}
-{"at":"2026-09-18T11:50:22.3116102+09:00","snapshots":2}
-{"at":"2026-09-18T11:50:32.3259097+09:00","snapshots":2}
-{"at":"2026-09-18T11:50:42.3317849+09:00","snapshots":3}
-{"at":"2026-09-18T11:50:52.3410914+09:00","snapshots":3}
-{"rows":2,"snapshots":3,"cleanStop":true,"latest":{"CollectedAt":"2026-09-18T02:50:42.3157938+00:00","Cpu":{"TotalUtilizationPercent":30.092121,"PerCoreUtilizationPercent":[38.41952,24.833298,40.13732,34.725826,31.600357,23.063416,31.183922,26.967505,23.479853,21.97287,33.16199,31.548302],"LogicalCoreCount":12,"BaseClockMhz":2904,"CurrentClockMhz":2904,"TemperatureCelsius":null},"Memory":{"TotalPhysicalGb":31.91655,"AvailableGb":13.781292,"CommitChargeGb":20.761341,"CommitLimitGb":40.91655,"PagefilePressureProxy":false,"UsedGb":18.135258,"CommitChargeRatio":0.50740695},"Disks":[{"DriveName":"1 C:","UtilizationPercent":0.69455004,"AverageLatencyMs":0.21252498,"QueueDepth":0},{"DriveName":"2 F:","UtilizationPercent":0,"AverageLatencyMs":0,"QueueDepth":0},{"DriveName":"0 E:","UtilizationPercent":0,"AverageLatencyMs":0,"QueueDepth":0}],"Gpu":{"UtilizationPercent":0,"VramUsedGb":0.007160187,"VramTotalGb":5.861328,"TemperatureCelsius":null},"Processes":null}}

@@ -1,5 +1,0 @@
-
-Algorithm : SHA256
-Hash      : C26FE1EAAF08EDEBE8CDD56D95128C48F8B9A4161AA87CA4B182D04329451CFE
-Path      : C:\Users\user\Desktop\4_Projects_Ju\JuGuard\qa\evidence\v1-governor-fix\MainPCDoctor-1.0.0-Setup-v3.exe
-

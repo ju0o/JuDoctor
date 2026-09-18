@@ -1,8 +1,0 @@
-{
-  "samples": 15,
-  "privateMinMiB": 54.15234375,
-  "privateMaxMiB": 56.67578125,
-  "workingSetMinMiB": 121.80078125,
-  "workingSetMaxMiB": 124.6171875,
-  "cpuSecondsAtLastObservation": 5.328125
-}

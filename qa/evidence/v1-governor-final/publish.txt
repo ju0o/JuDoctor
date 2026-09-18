@@ -1,7 +1,0 @@
-  복원할 프로젝트를 확인하는 중...
-  복원할 모든 프로젝트가 최신 상태입니다.
-  MainPCDoctor.Core -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\src\MainPCDoctor.Core\bin\Release\net9.0\MainPCDoctor.Core.dll
-  MainPCDoctor.Storage -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\src\MainPCDoctor.Storage\bin\Release\net9.0\MainPCDoctor.Storage.dll
-  MainPCDoctor.Platform.Windows -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\src\MainPCDoctor.Platform.Windows\bin\Release\net9.0-windows\MainPCDoctor.Platform.Windows.dll
-  MainPCDoctor.Desktop -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\src\MainPCDoctor.Desktop\bin\Release\net9.0-windows\win-x64\MainPCDoctor.Desktop.dll
-  MainPCDoctor.Desktop -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\src\MainPCDoctor.Desktop\bin\publish\win-x64\
