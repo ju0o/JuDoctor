@@ -2,47 +2,57 @@
 
 > **Know why your Windows PC is slowing down — before replacing hardware blindly.**
 
-[한국어 README](README_KO.md) · [Releases](https://github.com/ju0o/JuDoctor/releases) · [Known issues](KNOWN_ISSUES.md) · [Privacy](PRIVACY.md)
+[한국어](README_KO.md) · [Download](https://github.com/ju0o/JuDoctor/releases/latest) · [Releases](https://github.com/ju0o/JuDoctor/releases) · [Privacy](PRIVACY.md) · [Known issues](KNOWN_ISSUES.md)
 
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows)](https://github.com/ju0o/JuDoctor)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 [![GitHub Release](https://img.shields.io/github/v/release/ju0o/JuDoctor?display_name=tag)](https://github.com/ju0o/JuDoctor/releases)
 [![Downloads](https://img.shields.io/github/downloads/ju0o/JuDoctor/total)](https://github.com/ju0o/JuDoctor/releases)
 
-JuDoctor is a **local-first Windows PC health monitor and upgrade advisor**. It runs quietly in the system tray, records real workload history, explains likely bottlenecks, and waits for sustained evidence before recommending a CPU or RAM upgrade.
+JuDoctor is a **local-first Windows PC health monitor and upgrade advisor**. It runs quietly in the system tray, keeps a history of real workload behavior, explains likely bottlenecks, and waits for sustained evidence before recommending a CPU or RAM upgrade.
 
-Task Manager shows numbers. JuDoctor tries to answer the question behind them:
+Task Manager tells you what the number is. JuDoctor tries to answer the question behind it:
 
-> **“Do I actually need to upgrade my PC — and what is the evidence?”**
+> **“Does this actually matter, and is it really time to upgrade?”**
 
 ---
 
-## Download
+## ⬇ Download JuDoctor
 
-### Windows 10 / 11 x64
+### Windows 10 / 11 · x64
 
-**[⬇ Download JuDoctor from GitHub Releases](https://github.com/ju0o/JuDoctor/releases)**
+**[Download the latest Windows installer →](https://github.com/ju0o/JuDoctor/releases/latest)**
 
-The first public binary release (`v1.0.0`) is being prepared from the source now published in this repository. Once released, the stable installer will also be available through:
+For the first stable public release, the release page provides:
 
-**[Latest release](https://github.com/ju0o/JuDoctor/releases/latest)**
+- `JuDoctor-1.0.0-Setup.exe`
+- `JuDoctor-1.0.0-Setup.exe.sha256`
 
-Every official Windows release is structured with these assets:
+Direct v1.0.0 links after the release is published:
 
-- `JuDoctor-<version>-Setup.exe`
-- `JuDoctor-<version>-Setup.exe.sha256`
+- [JuDoctor-1.0.0-Setup.exe](https://github.com/ju0o/JuDoctor/releases/download/v1.0.0/JuDoctor-1.0.0-Setup.exe)
+- [SHA256 checksum](https://github.com/ju0o/JuDoctor/releases/download/v1.0.0/JuDoctor-1.0.0-Setup.exe.sha256)
 
-JuDoctor V1 uses a **self-contained folder publish wrapped by the installer**, so users do not need to install a separate .NET runtime.
+JuDoctor is published as a **self-contained Windows installer**. You do not need to install a separate .NET runtime.
 
-> Early unsigned builds may trigger Windows SmartScreen because the publisher does not yet have established reputation. Verify the installer SHA256 against the hash published in the same GitHub Release.
+### Install
 
-See [Installation](docs/INSTALLATION.md) for details.
+1. Download `JuDoctor-1.0.0-Setup.exe` from GitHub Releases.
+2. Run the installer.
+3. Enable **Start with Windows** if you want JuDoctor to collect long-term history automatically.
+4. Leave it in the system tray and open the Dashboard only when you want to inspect your PC.
 
-### Reproducible release path
+> Early unsigned builds may trigger Windows SmartScreen because the publisher does not yet have established reputation. Verify the SHA256 against the checksum published in the same GitHub Release before running the installer.
 
-This repository includes a Windows GitHub Actions release pipeline. A `v*` tag (for example `v1.0.0`) runs the test suite, builds the installer through `installer/publish.ps1 -Installer`, generates SHA256, and publishes both files to GitHub Releases.
+PowerShell checksum example:
 
-See [Releasing JuDoctor](docs/RELEASING.md).
+```powershell
+Get-FileHash .\JuDoctor-1.0.0-Setup.exe -Algorithm SHA256
+```
+
+See [Installation](docs/INSTALLATION.md) for more details.
+
+> **Release status:** the public source is already available in this repository. The downloadable installer is published through the repository's release workflow. If the direct v1.0.0 link above is not live yet, use the [Releases page](https://github.com/ju0o/JuDoctor/releases) to check the current binary release status.
 
 ---
 
@@ -50,38 +60,40 @@ See [Releasing JuDoctor](docs/RELEASING.md).
 
 - Runs quietly in the Windows system tray
 - Monitors **CPU, RAM, GPU, VRAM, and disk**
-- Records incidents instead of reacting to every short spike
+- Records meaningful incidents instead of reacting to every short spike
 - Provides **Why Was My PC Slow?** analysis
-- Keeps local incident/history data in SQLite
+- Keeps local history in SQLite
 - Distinguishes temporary load from sustained pressure
 - Recommends **CPU or RAM upgrades only after enough historical evidence**
 - Starts with Windows in tray-only mode when enabled
 - Prevents duplicate app instances
 - Works without an account or cloud service
 
-### What it does *not* do
+### V1 recommendation scope
 
-JuDoctor does not treat a brief `100% CPU` reading as proof that you need a new processor. It does not automatically kill processes, overclock hardware, edit the registry, or upload your activity history to a cloud service in V1.
+JuDoctor V1 can produce historical **CPU/RAM upgrade recommendations**. GPU, VRAM, disk, process and temperature data are used as diagnostic evidence/status where available; V1 does not make GPU/disk replacement recommendations.
+
+### What it does not do
+
+JuDoctor does not treat a brief `100% CPU` reading as proof that you need a new processor. It does not automatically kill processes, overclock hardware, or upload your activity history to a JuDoctor cloud service in V1.
 
 ---
 
 ## Why not just use Task Manager?
 
-A single utilization number has very little context.
-
 | Situation | Task Manager | JuDoctor |
 | --- | --- | --- |
-| CPU reaches 100% for a short build | Shows 100% | Usually stays silent |
-| RAM pressure repeats across real work sessions | Shows current RAM | Tracks repeated pressure over time |
-| PC felt slow 15 minutes ago | Current state only | Reviews recent recorded evidence |
-| “Should I buy more RAM?” | You decide manually | Waits for sustained multi-signal evidence |
-| GPU is legitimately at 99% while gaming | Shows 99% | Does not automatically warn or recommend replacement |
+| CPU hits 100% during a short build | Shows 100% | Usually stays silent |
+| RAM pressure repeats during real work | Shows current usage | Tracks repeated pressure over time |
+| The PC was slow 15 minutes ago | Current state only | Uses recorded history |
+| “Should I buy more RAM?” | You decide manually | Waits for sustained evidence |
+| GPU sits at 99% while gaming | Shows 99% | Does not automatically recommend replacement |
 
 JuDoctor is designed around **duration + repeated evidence + corroborating signals**, not one-off percentages.
 
 ---
 
-## V1 diagnosis loop
+## How the V1 diagnosis loop works
 
 ```text
 Background monitoring
@@ -107,42 +119,37 @@ CPU/RAM upgrade recommendations have a **minimum 14-day observation gate**. Reac
 
 ## Privacy: local-first by default
 
-JuDoctor V1 keeps monitoring history on your PC.
+JuDoctor V1 keeps monitoring history on your PC. No JuDoctor account is required, and V1 does not require cloud telemetry upload.
 
-It does **not** need to collect:
+JuDoctor is not designed to collect the contents of your:
 
-- file contents
-- browser page contents
-- terminal/command text
+- files or documents
+- browser pages
+- terminal commands
 - passwords
-- clipboard contents
-- personal documents
-
-No JuDoctor account is required, and V1 does not require cloud telemetry upload.
+- clipboard
 
 See [PRIVACY.md](PRIVACY.md).
 
 ---
 
-## Verified V1 status
+## Verified V1 baseline
 
-The V1 release candidate completed internal certification with:
+The certified V1 baseline completed:
 
-- **93 / 93 automated tests** passing at the final code-level audit
-- **15 / 15 manual acceptance checks** passing
+- **93 / 93 automated tests** at the final code-level audit
+- **15 / 15 manual acceptance checks**
 - real DXGI VRAM detection on an RTX 3050-class GPU (~5.9 GB dedicated VRAM)
-- reboot autostart verified in tray-only mode
-- database persistence verified across restart/reboot scenarios
-- Resource Governor emergency/recovery monitoring verified
-- Level 4 CPU/RAM recommendation scheduling and restart-safe deduplication verified
+- reboot autostart verification in tray-only mode
+- database persistence across restart/reboot scenarios
+- Resource Governor emergency/recovery verification
+- restart-safe Level 4 CPU/RAM recommendation notification state
 
 Certification verdict:
 
 `USER_STABLE_PASS_WITH_KNOWN_ISSUES`
 
-The public repository is now being re-validated from `main` before the first binary tag is published. Release status is tracked in [Issue #1](https://github.com/ju0o/JuDoctor/issues/1).
-
-See [KNOWN_ISSUES.md](KNOWN_ISSUES.md) for accepted V1 limitations.
+See [KNOWN_ISSUES.md](KNOWN_ISSUES.md).
 
 ---
 
@@ -152,56 +159,67 @@ JuDoctor V1 includes:
 
 - **Dashboard** — current system health at a glance
 - **Incident History** — recorded abnormal periods
-- **Why Was My PC Slow?** — recent evidence-based diagnosis
+- **Why Was My PC Slow?** — evidence-based recent diagnosis
 - **System Capacity** — long-term CPU/RAM capacity status
 - **Settings** — startup and monitoring preferences
 
-Screenshots will be added here before the first public binary release.
+Public screenshots will be added here as part of the first binary release presentation.
 
 ---
 
 ## Build from source
 
-The V1 source is now public in this repository.
+Requirements:
 
-```text
-src/        application source
-tests/      unit / integration / storage tests
-installer/  self-contained publish + Inno Setup packaging
-planning/   product and architecture documentation
-qa/         certification reports and QA tooling
-```
-
-JuDoctor is a Windows WPF application targeting .NET 9. Internal project/namespace names such as `MainPCDoctor.*` are intentionally retained in V1 to avoid destabilizing the certified implementation; the public product name is **JuDoctor**.
-
-For V1, use the release tooling rather than `PublishSingleFile=true`; WPF pack-URI resources have a known single-file limitation.
+- Windows 10/11
+- .NET 9 SDK
+- Inno Setup 6 only if you want to build the installer
 
 ```powershell
-# [repository root]
+git clone https://github.com/ju0o/JuDoctor.git
+cd JuDoctor
 dotnet restore MainPCDoctor.sln
 dotnet test MainPCDoctor.sln --configuration Release
 .\installer\publish.ps1 -Installer
 ```
 
-Release-hardening status is tracked in [Issue #1](https://github.com/ju0o/JuDoctor/issues/1).
+V1 intentionally uses a self-contained **folder publish** inside the installer. `PublishSingleFile=true` is not the supported V1 packaging path because of the accepted WPF pack-URI limitation.
 
 ---
 
-## Release channels
+## Release process
 
-| Channel | Purpose |
-| --- | --- |
-| `v1.0.x` | Stability, compatibility, installer, privacy/security fixes |
-| `v1.1+` | Only features justified by repeated real-user feedback |
-| Linux/macOS | Not part of V1 |
+The repository includes `.github/workflows/release.yml`.
 
-JuDoctor intentionally avoids turning every idea into the current release line. V1 exists to prove that the core monitoring and recommendation loop works reliably on real Windows PCs.
+A `v*` tag such as `v1.0.0` runs the Windows release pipeline:
+
+```text
+checkout
+  ↓
+restore
+  ↓
+test
+  ↓
+self-contained win-x64 publish
+  ↓
+Inno Setup installer
+  ↓
+SHA256
+  ↓
+GitHub Release
+```
+
+The resulting assets are downloadable by normal users directly from [GitHub Releases](https://github.com/ju0o/JuDoctor/releases).
+
+See [Releasing JuDoctor](docs/RELEASING.md).
 
 ---
 
 ## Report a problem
 
-Hardware compatibility reports are especially useful. When filing an issue, please include Windows version, CPU/GPU model, installed RAM, JuDoctor version, what you expected, and what actually happened. **Do not upload private databases/logs without reviewing them first.**
+Hardware compatibility reports are especially useful. Please include your Windows version, CPU/GPU model, RAM amount, JuDoctor version, expected behavior and actual behavior.
+
+**Review logs or databases yourself before attaching them to a public issue.**
 
 - [Report a bug](https://github.com/ju0o/JuDoctor/issues/new?template=bug_report.yml)
 - [Request a feature](https://github.com/ju0o/JuDoctor/issues/new?template=feature_request.yml)
@@ -211,18 +229,16 @@ Hardware compatibility reports are especially useful. When filing an issue, plea
 
 ## License
 
-JuDoctor is intended to be released under **GNU GPL v3.0**. See [LICENSE](LICENSE).
+JuDoctor source is released under **GNU GPL v3.0**. See [LICENSE](LICENSE).
 
-The canonical full GPL-3.0 license text must be present before binary distribution; this is tracked as a `v1.0.0` release blocker in Issue #1.
-
-The license does not grant third parties the right to present modified distributions as the official **JuDoctor** product. See [TRADEMARKS.md](TRADEMARKS.md).
+The software license does not grant third parties the right to present modified builds as the official **JuDoctor** product. See [TRADEMARKS.md](TRADEMARKS.md).
 
 ---
 
 ## Project status
 
-**JuDoctor V1 — Windows / Local-first / Public release track**
+**JuDoctor V1 — Windows / Local-first / Open Source**
 
-Public source migration is complete. Current focus: sanitize release evidence, finish visible JuDoctor branding, run the public-tree release validation, publish `v1.0.0`, and collect compatibility feedback from real Windows PCs.
+The V1 line is focused on stability, compatibility, privacy and reliable PC diagnosis. New features should be justified by real-user feedback rather than added to the stable line by default.
 
 > Task Manager tells you what the number is. **JuDoctor tries to tell you whether that number actually matters.**
