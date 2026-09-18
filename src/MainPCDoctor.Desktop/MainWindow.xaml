@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:views="clr-namespace:MainPCDoctor.Desktop.Views"
         mc:Ignorable="d"
-        Title="MainPC Doctor"
+        Title="JuDoctor"
         Height="720" Width="1100"
         MinHeight="580" MinWidth="860"
         Background="{StaticResource BgDeepBrush}"
@@ -25,7 +25,7 @@
                 BorderThickness="0,0,1,0">
             <StackPanel Margin="12,24,12,12">
                 <!-- Logo -->
-                <TextBlock Text="MAINPC" FontFamily="Consolas" FontSize="18" FontWeight="Bold"
+                <TextBlock Text="JU" FontFamily="Consolas" FontSize="18" FontWeight="Bold"
                            Foreground="{StaticResource CyanPrimaryBrush}" Margin="4,0,0,2" />
                 <TextBlock Text="DOCTOR" FontFamily="Consolas" FontSize="11"
                            Foreground="{StaticResource TextSecondaryBrush}" Margin="4,0,0,16" />
