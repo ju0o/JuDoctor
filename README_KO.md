@@ -158,7 +158,13 @@ V1에는 다음 화면이 있습니다.
 - **System Capacity** — CPU/RAM 장기 용량 판단
 - **Settings** — 자동 시작 및 설정
 
-첫 바이너리 Release 공개 화면 정리와 함께 실제 스크린샷을 README에 추가할 예정입니다.
+공개 V1 스크린샷:
+
+![JuDoctor Dashboard](docs/screenshots/dashboard.png)
+
+![Why Was My PC Slow?](docs/screenshots/why-was-my-pc-slow.png)
+
+![System Capacity](docs/screenshots/system-capacity.png)
 
 ---
 

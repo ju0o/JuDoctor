@@ -163,7 +163,15 @@ JuDoctor V1 includes:
 - **System Capacity** — long-term CPU/RAM capacity status
 - **Settings** — startup and monitoring preferences
 
-Public screenshots will be added here as part of the first binary release presentation. Screenshot requirements live in [docs/screenshots](docs/screenshots/README.md).
+Public V1 screenshots:
+
+![JuDoctor Dashboard](docs/screenshots/dashboard.png)
+
+![Why Was My PC Slow?](docs/screenshots/why-was-my-pc-slow.png)
+
+![System Capacity](docs/screenshots/system-capacity.png)
+
+Screenshot requirements live in [docs/screenshots](docs/screenshots/README.md).
 
 ---
 
