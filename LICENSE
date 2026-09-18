@@ -1,0 +1,12 @@
+JuDoctor is licensed under the GNU General Public License, version 3.0 (GPL-3.0-only).
+
+SPDX-License-Identifier: GPL-3.0-only
+
+Canonical license text:
+https://www.gnu.org/licenses/gpl-3.0.txt
+
+Copyright (c) 2026 JuDoctor contributors.
+
+You may use, study, modify, and redistribute this software under the terms of the GNU General Public License version 3.0. Distributed versions must comply with the GPL's source-code and license-notice requirements.
+
+Before the first binary release, this repository's public-source migration checklist requires replacing this short-form notice with the canonical full GPL-3.0 license text (or otherwise including the complete license text with the distribution).
