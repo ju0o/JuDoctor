@@ -1,0 +1,2659 @@
+﻿2026-09-18 12:11:44.279   Log opened. (Time zone: UTC+09:00)
+2026-09-18 12:11:44.280   Setup version: Inno Setup version 6.7.3
+2026-09-18 12:11:44.280   Original Setup EXE: C:\Users\user\Desktop\4_Projects_Ju\JuGuard\installer\output\MainPCDoctor-1.0.0-Setup-v4.exe
+2026-09-18 12:11:44.280   Setup command line: /SL5="$1C0C7C,52182453,893952,C:\Users\user\Desktop\4_Projects_Ju\JuGuard\installer\output\MainPCDoctor-1.0.0-Setup-v4.exe" /VERYSILENT /SUPPRESSMSGBOXES /NORESTART /NOCLOSEAPPLICATIONS /DIR="C:\Users\user\AppData\Local\Programs\MainPCDoctorV1" /LOG="C:\Users\user\Desktop\4_Projects_Ju\JuGuard\qa\evidence\v1-governor-final\install-v4.txt"
+2026-09-18 12:11:44.280   Windows version: 10.0.26200
+2026-09-18 12:11:44.280   Windows architecture: x64 (64-bit)
+2026-09-18 12:11:44.280   Machine types supported by system: x86 x64
+2026-09-18 12:11:44.280   User privileges: None
+2026-09-18 12:11:44.287   Administrative install mode: No
+2026-09-18 12:11:44.287   Install mode root key: HKEY_CURRENT_USER
+2026-09-18 12:11:44.287   64-bit install mode: Yes
+2026-09-18 12:11:44.287   RedirectionGuard status for current process: Enabled in enforcing mode
+2026-09-18 12:11:44.290   Created temporary directory: C:\Users\user\AppData\Local\Temp\is-QI1ID0J1GV.tmp
+2026-09-18 12:11:44.529   Starting the installation process.
+2026-09-18 12:11:44.532   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1
+2026-09-18 12:11:44.532   Directory for uninstall files: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1
+2026-09-18 12:11:44.532   Creating new uninstall log: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\unins000.dat
+2026-09-18 12:11:44.536   -- File entry --
+2026-09-18 12:11:44.537   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\unins000.exe
+2026-09-18 12:11:44.537   Non-default bitness: 32-bit
+2026-09-18 12:11:44.539   Time stamp of our file: 2026-09-18 12:11:43.929
+2026-09-18 12:11:44.539   Installing the file.
+2026-09-18 12:11:44.550   Successfully installed the file.
+2026-09-18 12:11:44.550   -- File entry --
+2026-09-18 12:11:44.551   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Accessibility.dll
+2026-09-18 12:11:44.551   Time stamp of our file: 2026-08-14 22:36:22.000
+2026-09-18 12:11:44.551   Installing the file.
+2026-09-18 12:11:44.553   Successfully installed the file.
+2026-09-18 12:11:44.553   -- File entry --
+2026-09-18 12:11:44.553   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\clretwrc.dll
+2026-09-18 12:11:44.554   Time stamp of our file: 2026-08-14 02:43:48.000
+2026-09-18 12:11:44.554   Installing the file.
+2026-09-18 12:11:44.564   Successfully installed the file.
+2026-09-18 12:11:44.565   -- File entry --
+2026-09-18 12:11:44.565   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\clrgc.dll
+2026-09-18 12:11:44.565   Time stamp of our file: 2026-08-14 02:41:50.000
+2026-09-18 12:11:44.565   Installing the file.
+2026-09-18 12:11:44.599   Successfully installed the file.
+2026-09-18 12:11:44.599   -- File entry --
+2026-09-18 12:11:44.599   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\clrgcexp.dll
+2026-09-18 12:11:44.600   Time stamp of our file: 2026-08-14 02:41:50.000
+2026-09-18 12:11:44.600   Installing the file.
+2026-09-18 12:11:44.627   Successfully installed the file.
+2026-09-18 12:11:44.627   -- File entry --
+2026-09-18 12:11:44.629   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\clrjit.dll
+2026-09-18 12:11:44.629   Time stamp of our file: 2026-08-14 02:40:42.000
+2026-09-18 12:11:44.629   Installing the file.
+2026-09-18 12:11:44.725   Successfully installed the file.
+2026-09-18 12:11:44.726   -- File entry --
+2026-09-18 12:11:44.726   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\CommunityToolkit.Mvvm.dll
+2026-09-18 12:11:44.726   Time stamp of our file: 2024-12-12 16:54:40.000
+2026-09-18 12:11:44.726   Installing the file.
+2026-09-18 12:11:44.732   Successfully installed the file.
+2026-09-18 12:11:44.733   -- File entry --
+2026-09-18 12:11:44.733   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\coreclr.dll
+2026-09-18 12:11:44.733   Time stamp of our file: 2026-08-14 02:38:16.000
+2026-09-18 12:11:44.733   Installing the file.
+2026-09-18 12:11:44.944   Successfully installed the file.
+2026-09-18 12:11:44.944   -- File entry --
+2026-09-18 12:11:44.944   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\createdump.exe
+2026-09-18 12:11:44.944   Time stamp of our file: 2026-08-14 02:43:56.000
+2026-09-18 12:11:44.944   Installing the file.
+2026-09-18 12:11:44.949   Successfully installed the file.
+2026-09-18 12:11:44.949   -- File entry --
+2026-09-18 12:11:44.949   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\D3DCompiler_47_cor3.dll
+2026-09-18 12:11:44.949   Time stamp of our file: 2026-01-27 15:18:40.000
+2026-09-18 12:11:44.949   Installing the file.
+2026-09-18 12:11:45.153   Successfully installed the file.
+2026-09-18 12:11:45.153   -- File entry --
+2026-09-18 12:11:45.154   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Dapper.dll
+2026-09-18 12:11:45.154   Time stamp of our file: 2024-03-07 00:03:20.000
+2026-09-18 12:11:45.154   Installing the file.
+2026-09-18 12:11:45.167   Successfully installed the file.
+2026-09-18 12:11:45.167   -- File entry --
+2026-09-18 12:11:45.167   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\DirectWriteForwarder.dll
+2026-09-18 12:11:45.168   Time stamp of our file: 2026-08-22 05:55:04.000
+2026-09-18 12:11:45.168   Installing the file.
+2026-09-18 12:11:45.192   Successfully installed the file.
+2026-09-18 12:11:45.192   -- File entry --
+2026-09-18 12:11:45.192   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\e_sqlite3.dll
+2026-09-18 12:11:45.192   Time stamp of our file: 2024-09-12 05:05:00.000
+2026-09-18 12:11:45.192   Installing the file.
+2026-09-18 12:11:45.287   Successfully installed the file.
+2026-09-18 12:11:45.287   -- File entry --
+2026-09-18 12:11:45.287   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\hostfxr.dll
+2026-09-18 12:11:45.288   Time stamp of our file: 2026-08-14 02:54:38.000
+2026-09-18 12:11:45.288   Installing the file.
+2026-09-18 12:11:45.307   Successfully installed the file.
+2026-09-18 12:11:45.307   -- File entry --
+2026-09-18 12:11:45.307   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\hostpolicy.dll
+2026-09-18 12:11:45.307   Time stamp of our file: 2026-08-14 02:54:38.000
+2026-09-18 12:11:45.307   Installing the file.
+2026-09-18 12:11:45.331   Successfully installed the file.
+2026-09-18 12:11:45.331   -- File entry --
+2026-09-18 12:11:45.331   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Core.dll
+2026-09-18 12:11:45.332   Time stamp of our file: 2026-09-18 12:04:24.000
+2026-09-18 12:11:45.333   Installing the file.
+2026-09-18 12:11:45.341   Successfully installed the file.
+2026-09-18 12:11:45.341   -- File entry --
+2026-09-18 12:11:45.341   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Core.pdb
+2026-09-18 12:11:45.341   Time stamp of our file: 2026-09-18 12:04:24.000
+2026-09-18 12:11:45.341   Installing the file.
+2026-09-18 12:11:45.346   Successfully installed the file.
+2026-09-18 12:11:45.346   -- File entry --
+2026-09-18 12:11:45.346   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Desktop.deps.json
+2026-09-18 12:11:45.346   Time stamp of our file: 2026-09-18 12:04:28.000
+2026-09-18 12:11:45.346   Installing the file.
+2026-09-18 12:11:45.349   Successfully installed the file.
+2026-09-18 12:11:45.349   -- File entry --
+2026-09-18 12:11:45.349   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Desktop.dll
+2026-09-18 12:11:45.350   Time stamp of our file: 2026-09-18 12:05:38.000
+2026-09-18 12:11:45.350   Installing the file.
+2026-09-18 12:11:45.355   Successfully installed the file.
+2026-09-18 12:11:45.355   -- File entry --
+2026-09-18 12:11:45.355   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Desktop.exe
+2026-09-18 12:11:45.355   Time stamp of our file: 2026-09-18 12:05:38.000
+2026-09-18 12:11:45.355   Installing the file.
+2026-09-18 12:11:45.361   Successfully installed the file.
+2026-09-18 12:11:45.361   -- File entry --
+2026-09-18 12:11:45.361   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Desktop.pdb
+2026-09-18 12:11:45.361   Time stamp of our file: 2026-09-18 12:05:38.000
+2026-09-18 12:11:45.361   Installing the file.
+2026-09-18 12:11:45.367   Successfully installed the file.
+2026-09-18 12:11:45.367   -- File entry --
+2026-09-18 12:11:45.368   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Desktop.runtimeconfig.json
+2026-09-18 12:11:45.368   Time stamp of our file: 2026-09-18 12:04:28.000
+2026-09-18 12:11:45.368   Installing the file.
+2026-09-18 12:11:45.370   Successfully installed the file.
+2026-09-18 12:11:45.370   -- File entry --
+2026-09-18 12:11:45.370   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Platform.Windows.dll
+2026-09-18 12:11:45.370   Time stamp of our file: 2026-09-18 12:04:24.000
+2026-09-18 12:11:45.370   Installing the file.
+2026-09-18 12:11:45.383   Successfully installed the file.
+2026-09-18 12:11:45.383   -- File entry --
+2026-09-18 12:11:45.383   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Platform.Windows.pdb
+2026-09-18 12:11:45.383   Time stamp of our file: 2026-09-18 12:04:24.000
+2026-09-18 12:11:45.383   Installing the file.
+2026-09-18 12:11:45.387   Successfully installed the file.
+2026-09-18 12:11:45.387   -- File entry --
+2026-09-18 12:11:45.387   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Storage.dll
+2026-09-18 12:11:45.387   Time stamp of our file: 2026-09-18 12:04:24.000
+2026-09-18 12:11:45.387   Installing the file.
+2026-09-18 12:11:45.392   Successfully installed the file.
+2026-09-18 12:11:45.392   -- File entry --
+2026-09-18 12:11:45.392   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\MainPCDoctor.Storage.pdb
+2026-09-18 12:11:45.393   Time stamp of our file: 2026-09-18 12:04:24.000
+2026-09-18 12:11:45.393   Installing the file.
+2026-09-18 12:11:45.397   Successfully installed the file.
+2026-09-18 12:11:45.397   -- File entry --
+2026-09-18 12:11:45.397   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.CSharp.dll
+2026-09-18 12:11:45.397   Time stamp of our file: 2026-08-14 03:03:58.000
+2026-09-18 12:11:45.397   Installing the file.
+2026-09-18 12:11:45.474   Successfully installed the file.
+2026-09-18 12:11:45.474   -- File entry --
+2026-09-18 12:11:45.474   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Data.Sqlite.dll
+2026-09-18 12:11:45.474   Time stamp of our file: 2024-10-29 18:57:14.000
+2026-09-18 12:11:45.474   Installing the file.
+2026-09-18 12:11:45.486   Successfully installed the file.
+2026-09-18 12:11:45.486   -- File entry --
+2026-09-18 12:11:45.486   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.DiaSymReader.Native.amd64.dll
+2026-09-18 12:11:45.486   Time stamp of our file: 2026-08-05 23:09:02.000
+2026-09-18 12:11:45.487   Installing the file.
+2026-09-18 12:11:45.597   Successfully installed the file.
+2026-09-18 12:11:45.597   -- File entry --
+2026-09-18 12:11:45.597   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Configuration.Abstractions.dll
+2026-09-18 12:11:45.598   Time stamp of our file: 2024-10-29 11:38:02.000
+2026-09-18 12:11:45.598   Installing the file.
+2026-09-18 12:11:45.600   Successfully installed the file.
+2026-09-18 12:11:45.600   -- File entry --
+2026-09-18 12:11:45.601   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Configuration.Binder.dll
+2026-09-18 12:11:45.601   Time stamp of our file: 2024-10-29 11:38:24.000
+2026-09-18 12:11:45.601   Installing the file.
+2026-09-18 12:11:45.604   Successfully installed the file.
+2026-09-18 12:11:45.604   -- File entry --
+2026-09-18 12:11:45.604   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Configuration.CommandLine.dll
+2026-09-18 12:11:45.604   Time stamp of our file: 2024-10-29 11:38:44.000
+2026-09-18 12:11:45.604   Installing the file.
+2026-09-18 12:11:45.606   Successfully installed the file.
+2026-09-18 12:11:45.606   -- File entry --
+2026-09-18 12:11:45.606   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Configuration.dll
+2026-09-18 12:11:45.606   Time stamp of our file: 2024-10-29 11:38:26.000
+2026-09-18 12:11:45.607   Installing the file.
+2026-09-18 12:11:45.611   Successfully installed the file.
+2026-09-18 12:11:45.611   -- File entry --
+2026-09-18 12:11:45.611   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+2026-09-18 12:11:45.611   Time stamp of our file: 2024-10-29 11:38:46.000
+2026-09-18 12:11:45.611   Installing the file.
+2026-09-18 12:11:45.614   Successfully installed the file.
+2026-09-18 12:11:45.614   -- File entry --
+2026-09-18 12:11:45.614   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Configuration.FileExtensions.dll
+2026-09-18 12:11:45.614   Time stamp of our file: 2024-10-29 11:38:50.000
+2026-09-18 12:11:45.614   Installing the file.
+2026-09-18 12:11:45.616   Successfully installed the file.
+2026-09-18 12:11:45.617   -- File entry --
+2026-09-18 12:11:45.617   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Configuration.Json.dll
+2026-09-18 12:11:45.617   Time stamp of our file: 2024-10-29 11:38:54.000
+2026-09-18 12:11:45.617   Installing the file.
+2026-09-18 12:11:45.621   Successfully installed the file.
+2026-09-18 12:11:45.621   -- File entry --
+2026-09-18 12:11:45.621   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Configuration.UserSecrets.dll
+2026-09-18 12:11:45.622   Time stamp of our file: 2024-10-29 11:38:58.000
+2026-09-18 12:11:45.622   Installing the file.
+2026-09-18 12:11:45.625   Successfully installed the file.
+2026-09-18 12:11:45.625   -- File entry --
+2026-09-18 12:11:45.625   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+2026-09-18 12:11:45.625   Time stamp of our file: 2024-10-29 11:38:16.000
+2026-09-18 12:11:45.625   Installing the file.
+2026-09-18 12:11:45.630   Successfully installed the file.
+2026-09-18 12:11:45.630   -- File entry --
+2026-09-18 12:11:45.630   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.DependencyInjection.dll
+2026-09-18 12:11:45.630   Time stamp of our file: 2024-10-29 11:38:42.000
+2026-09-18 12:11:45.630   Installing the file.
+2026-09-18 12:11:45.640   Successfully installed the file.
+2026-09-18 12:11:45.640   -- File entry --
+2026-09-18 12:11:45.640   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Diagnostics.Abstractions.dll
+2026-09-18 12:11:45.640   Time stamp of our file: 2024-10-29 11:38:40.000
+2026-09-18 12:11:45.640   Installing the file.
+2026-09-18 12:11:45.643   Successfully installed the file.
+2026-09-18 12:11:45.643   -- File entry --
+2026-09-18 12:11:45.643   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Diagnostics.dll
+2026-09-18 12:11:45.643   Time stamp of our file: 2024-10-29 11:38:46.000
+2026-09-18 12:11:45.643   Installing the file.
+2026-09-18 12:11:45.647   Successfully installed the file.
+2026-09-18 12:11:45.647   -- File entry --
+2026-09-18 12:11:45.647   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.FileProviders.Abstractions.dll
+2026-09-18 12:11:45.647   Time stamp of our file: 2024-10-29 11:38:14.000
+2026-09-18 12:11:45.648   Installing the file.
+2026-09-18 12:11:45.653   Successfully installed the file.
+2026-09-18 12:11:45.653   -- File entry --
+2026-09-18 12:11:45.653   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.FileProviders.Physical.dll
+2026-09-18 12:11:45.654   Time stamp of our file: 2024-10-29 11:38:42.000
+2026-09-18 12:11:45.654   Installing the file.
+2026-09-18 12:11:45.658   Successfully installed the file.
+2026-09-18 12:11:45.658   -- File entry --
+2026-09-18 12:11:45.658   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.FileSystemGlobbing.dll
+2026-09-18 12:11:45.659   Time stamp of our file: 2024-10-29 11:38:06.000
+2026-09-18 12:11:45.659   Installing the file.
+2026-09-18 12:11:45.665   Successfully installed the file.
+2026-09-18 12:11:45.665   -- File entry --
+2026-09-18 12:11:45.665   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Hosting.Abstractions.dll
+2026-09-18 12:11:45.665   Time stamp of our file: 2024-10-29 11:38:50.000
+2026-09-18 12:11:45.665   Installing the file.
+2026-09-18 12:11:45.669   Successfully installed the file.
+2026-09-18 12:11:45.669   -- File entry --
+2026-09-18 12:11:45.670   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Hosting.dll
+2026-09-18 12:11:45.670   Time stamp of our file: 2024-10-29 11:39:00.000
+2026-09-18 12:11:45.670   Installing the file.
+2026-09-18 12:11:45.673   Successfully installed the file.
+2026-09-18 12:11:45.673   -- File entry --
+2026-09-18 12:11:45.675   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Logging.Abstractions.dll
+2026-09-18 12:11:45.675   Time stamp of our file: 2024-10-29 11:38:44.000
+2026-09-18 12:11:45.675   Installing the file.
+2026-09-18 12:11:45.679   Successfully installed the file.
+2026-09-18 12:11:45.679   -- File entry --
+2026-09-18 12:11:45.679   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Logging.Configuration.dll
+2026-09-18 12:11:45.680   Time stamp of our file: 2024-10-29 11:38:56.000
+2026-09-18 12:11:45.680   Installing the file.
+2026-09-18 12:11:45.682   Successfully installed the file.
+2026-09-18 12:11:45.682   -- File entry --
+2026-09-18 12:11:45.682   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Logging.Console.dll
+2026-09-18 12:11:45.682   Time stamp of our file: 2024-10-29 11:38:58.000
+2026-09-18 12:11:45.682   Installing the file.
+2026-09-18 12:11:45.687   Successfully installed the file.
+2026-09-18 12:11:45.687   -- File entry --
+2026-09-18 12:11:45.687   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Logging.Debug.dll
+2026-09-18 12:11:45.688   Time stamp of our file: 2024-10-29 11:38:56.000
+2026-09-18 12:11:45.688   Installing the file.
+2026-09-18 12:11:45.690   Successfully installed the file.
+2026-09-18 12:11:45.690   -- File entry --
+2026-09-18 12:11:45.690   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Logging.dll
+2026-09-18 12:11:45.690   Time stamp of our file: 2024-10-29 11:38:50.000
+2026-09-18 12:11:45.690   Installing the file.
+2026-09-18 12:11:45.693   Successfully installed the file.
+2026-09-18 12:11:45.693   -- File entry --
+2026-09-18 12:11:45.693   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Logging.EventLog.dll
+2026-09-18 12:11:45.693   Time stamp of our file: 2024-10-29 11:38:52.000
+2026-09-18 12:11:45.693   Installing the file.
+2026-09-18 12:11:45.695   Successfully installed the file.
+2026-09-18 12:11:45.695   -- File entry --
+2026-09-18 12:11:45.696   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Logging.EventSource.dll
+2026-09-18 12:11:45.696   Time stamp of our file: 2024-10-29 11:38:52.000
+2026-09-18 12:11:45.696   Installing the file.
+2026-09-18 12:11:45.699   Successfully installed the file.
+2026-09-18 12:11:45.699   -- File entry --
+2026-09-18 12:11:45.700   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+2026-09-18 12:11:45.700   Time stamp of our file: 2024-10-29 11:38:28.000
+2026-09-18 12:11:45.700   Installing the file.
+2026-09-18 12:11:45.702   Successfully installed the file.
+2026-09-18 12:11:45.703   -- File entry --
+2026-09-18 12:11:45.703   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Options.dll
+2026-09-18 12:11:45.703   Time stamp of our file: 2024-10-29 11:38:24.000
+2026-09-18 12:11:45.703   Installing the file.
+2026-09-18 12:11:45.707   Successfully installed the file.
+2026-09-18 12:11:45.707   -- File entry --
+2026-09-18 12:11:45.707   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Extensions.Primitives.dll
+2026-09-18 12:11:45.707   Time stamp of our file: 2024-10-29 11:38:00.000
+2026-09-18 12:11:45.707   Installing the file.
+2026-09-18 12:11:45.711   Successfully installed the file.
+2026-09-18 12:11:45.711   -- File entry --
+2026-09-18 12:11:45.711   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.VisualBasic.Core.dll
+2026-09-18 12:11:45.712   Time stamp of our file: 2026-08-14 03:04:00.000
+2026-09-18 12:11:45.712   Installing the file.
+2026-09-18 12:11:45.767   Successfully installed the file.
+2026-09-18 12:11:45.767   -- File entry --
+2026-09-18 12:11:45.767   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.VisualBasic.dll
+2026-09-18 12:11:45.768   Time stamp of our file: 2026-08-14 22:38:24.000
+2026-09-18 12:11:45.768   Installing the file.
+2026-09-18 12:11:45.770   Successfully installed the file.
+2026-09-18 12:11:45.770   -- File entry --
+2026-09-18 12:11:45.770   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.VisualBasic.Forms.dll
+2026-09-18 12:11:45.770   Time stamp of our file: 2026-08-22 05:54:56.000
+2026-09-18 12:11:45.771   Installing the file.
+2026-09-18 12:11:45.784   Successfully installed the file.
+2026-09-18 12:11:45.784   -- File entry --
+2026-09-18 12:11:45.784   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Win32.Primitives.dll
+2026-09-18 12:11:45.784   Time stamp of our file: 2026-08-14 02:57:50.000
+2026-09-18 12:11:45.784   Installing the file.
+2026-09-18 12:11:45.786   Successfully installed the file.
+2026-09-18 12:11:45.786   -- File entry --
+2026-09-18 12:11:45.786   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Win32.Registry.AccessControl.dll
+2026-09-18 12:11:45.787   Time stamp of our file: 2026-08-22 05:54:50.000
+2026-09-18 12:11:45.787   Installing the file.
+2026-09-18 12:11:45.789   Successfully installed the file.
+2026-09-18 12:11:45.789   -- File entry --
+2026-09-18 12:11:45.789   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Win32.Registry.dll
+2026-09-18 12:11:45.789   Time stamp of our file: 2026-08-14 03:04:02.000
+2026-09-18 12:11:45.789   Installing the file.
+2026-09-18 12:11:45.796   Successfully installed the file.
+2026-09-18 12:11:45.796   -- File entry --
+2026-09-18 12:11:45.796   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Microsoft.Win32.SystemEvents.dll
+2026-09-18 12:11:45.796   Time stamp of our file: 2026-08-22 05:54:52.000
+2026-09-18 12:11:45.796   Installing the file.
+2026-09-18 12:11:45.801   Successfully installed the file.
+2026-09-18 12:11:45.801   -- File entry --
+2026-09-18 12:11:45.801   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\mscordaccore.dll
+2026-09-18 12:11:45.801   Time stamp of our file: 2026-08-14 02:46:30.000
+2026-09-18 12:11:45.801   Installing the file.
+2026-09-18 12:11:45.845   Successfully installed the file.
+2026-09-18 12:11:45.845   -- File entry --
+2026-09-18 12:11:45.845   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\mscordaccore_amd64_amd64_9.0.2026.41315.dll
+2026-09-18 12:11:45.845   Time stamp of our file: 2026-08-14 02:46:30.000
+2026-09-18 12:11:45.845   Installing the file.
+2026-09-18 12:11:45.866   Successfully installed the file.
+2026-09-18 12:11:45.866   -- File entry --
+2026-09-18 12:11:45.866   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\mscordbi.dll
+2026-09-18 12:11:45.866   Time stamp of our file: 2026-08-14 02:47:10.000
+2026-09-18 12:11:45.866   Installing the file.
+2026-09-18 12:11:45.926   Successfully installed the file.
+2026-09-18 12:11:45.926   -- File entry --
+2026-09-18 12:11:45.926   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\mscorlib.dll
+2026-09-18 12:11:45.926   Time stamp of our file: 2026-08-14 03:00:38.000
+2026-09-18 12:11:45.926   Installing the file.
+2026-09-18 12:11:45.932   Successfully installed the file.
+2026-09-18 12:11:45.932   -- File entry --
+2026-09-18 12:11:45.932   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\mscorrc.dll
+2026-09-18 12:11:45.932   Time stamp of our file: 2026-08-14 02:43:54.000
+2026-09-18 12:11:45.932   Installing the file.
+2026-09-18 12:11:45.938   Successfully installed the file.
+2026-09-18 12:11:45.938   -- File entry --
+2026-09-18 12:11:45.938   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\msquic.dll
+2026-09-18 12:11:45.938   Time stamp of our file: 2026-08-12 06:41:52.000
+2026-09-18 12:11:45.938   Installing the file.
+2026-09-18 12:11:45.978   Successfully installed the file.
+2026-09-18 12:11:45.978   -- File entry --
+2026-09-18 12:11:45.978   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\netstandard.dll
+2026-09-18 12:11:45.979   Time stamp of our file: 2026-08-14 03:00:36.000
+2026-09-18 12:11:45.979   Installing the file.
+2026-09-18 12:11:45.983   Successfully installed the file.
+2026-09-18 12:11:45.984   -- File entry --
+2026-09-18 12:11:45.984   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PenImc_cor3.dll
+2026-09-18 12:11:45.984   Time stamp of our file: 2026-08-22 04:50:12.000
+2026-09-18 12:11:45.984   Installing the file.
+2026-09-18 12:11:45.991   Successfully installed the file.
+2026-09-18 12:11:45.991   -- File entry --
+2026-09-18 12:11:45.991   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationCore.dll
+2026-09-18 12:11:45.991   Time stamp of our file: 2026-08-22 05:55:06.000
+2026-09-18 12:11:45.991   Installing the file.
+2026-09-18 12:11:46.375   Successfully installed the file.
+2026-09-18 12:11:46.375   -- File entry --
+2026-09-18 12:11:46.375   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework-SystemCore.dll
+2026-09-18 12:11:46.375   Time stamp of our file: 2026-08-22 05:55:08.000
+2026-09-18 12:11:46.375   Installing the file.
+2026-09-18 12:11:46.377   Successfully installed the file.
+2026-09-18 12:11:46.377   -- File entry --
+2026-09-18 12:11:46.377   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework-SystemData.dll
+2026-09-18 12:11:46.377   Time stamp of our file: 2026-08-22 05:55:08.000
+2026-09-18 12:11:46.377   Installing the file.
+2026-09-18 12:11:46.380   Successfully installed the file.
+2026-09-18 12:11:46.380   -- File entry --
+2026-09-18 12:11:46.380   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework-SystemDrawing.dll
+2026-09-18 12:11:46.381   Time stamp of our file: 2026-08-22 05:55:08.000
+2026-09-18 12:11:46.381   Installing the file.
+2026-09-18 12:11:46.385   Successfully installed the file.
+2026-09-18 12:11:46.385   -- File entry --
+2026-09-18 12:11:46.386   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework-SystemXml.dll
+2026-09-18 12:11:46.386   Time stamp of our file: 2026-08-22 05:55:08.000
+2026-09-18 12:11:46.386   Installing the file.
+2026-09-18 12:11:46.388   Successfully installed the file.
+2026-09-18 12:11:46.389   -- File entry --
+2026-09-18 12:11:46.389   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework-SystemXmlLinq.dll
+2026-09-18 12:11:46.389   Time stamp of our file: 2026-08-22 05:55:08.000
+2026-09-18 12:11:46.389   Installing the file.
+2026-09-18 12:11:46.391   Successfully installed the file.
+2026-09-18 12:11:46.391   -- File entry --
+2026-09-18 12:11:46.391   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework.Aero.dll
+2026-09-18 12:11:46.392   Time stamp of our file: 2026-08-22 05:55:08.000
+2026-09-18 12:11:46.392   Installing the file.
+2026-09-18 12:11:46.408   Successfully installed the file.
+2026-09-18 12:11:46.408   -- File entry --
+2026-09-18 12:11:46.408   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework.Aero2.dll
+2026-09-18 12:11:46.410   Time stamp of our file: 2026-08-22 05:55:08.000
+2026-09-18 12:11:46.410   Installing the file.
+2026-09-18 12:11:46.423   Successfully installed the file.
+2026-09-18 12:11:46.424   -- File entry --
+2026-09-18 12:11:46.424   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework.AeroLite.dll
+2026-09-18 12:11:46.424   Time stamp of our file: 2026-08-22 05:55:08.000
+2026-09-18 12:11:46.424   Installing the file.
+2026-09-18 12:11:46.433   Successfully installed the file.
+2026-09-18 12:11:46.433   -- File entry --
+2026-09-18 12:11:46.433   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework.Classic.dll
+2026-09-18 12:11:46.433   Time stamp of our file: 2026-08-22 05:55:10.000
+2026-09-18 12:11:46.433   Installing the file.
+2026-09-18 12:11:46.442   Successfully installed the file.
+2026-09-18 12:11:46.442   -- File entry --
+2026-09-18 12:11:46.442   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework.dll
+2026-09-18 12:11:46.442   Time stamp of our file: 2026-08-22 05:55:16.000
+2026-09-18 12:11:46.442   Installing the file.
+2026-09-18 12:11:47.066   Successfully installed the file.
+2026-09-18 12:11:47.066   -- File entry --
+2026-09-18 12:11:47.066   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework.Fluent.dll
+2026-09-18 12:11:47.066   Time stamp of our file: 2026-08-22 05:55:10.000
+2026-09-18 12:11:47.066   Installing the file.
+2026-09-18 12:11:47.083   Successfully installed the file.
+2026-09-18 12:11:47.083   -- File entry --
+2026-09-18 12:11:47.084   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework.Luna.dll
+2026-09-18 12:11:47.084   Time stamp of our file: 2026-08-22 05:55:10.000
+2026-09-18 12:11:47.084   Installing the file.
+2026-09-18 12:11:47.102   Successfully installed the file.
+2026-09-18 12:11:47.102   -- File entry --
+2026-09-18 12:11:47.102   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationFramework.Royale.dll
+2026-09-18 12:11:47.102   Time stamp of our file: 2026-08-22 05:55:10.000
+2026-09-18 12:11:47.102   Installing the file.
+2026-09-18 12:11:47.112   Successfully installed the file.
+2026-09-18 12:11:47.112   -- File entry --
+2026-09-18 12:11:47.112   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationNative_cor3.dll
+2026-09-18 12:11:47.112   Time stamp of our file: 2026-06-10 15:11:42.000
+2026-09-18 12:11:47.112   Installing the file.
+2026-09-18 12:11:47.175   Successfully installed the file.
+2026-09-18 12:11:47.175   -- File entry --
+2026-09-18 12:11:47.175   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\PresentationUI.dll
+2026-09-18 12:11:47.175   Time stamp of our file: 2026-08-22 05:55:16.000
+2026-09-18 12:11:47.175   Installing the file.
+2026-09-18 12:11:47.238   Successfully installed the file.
+2026-09-18 12:11:47.238   -- File entry --
+2026-09-18 12:11:47.239   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ReachFramework.dll
+2026-09-18 12:11:47.239   Time stamp of our file: 2026-08-22 05:55:18.000
+2026-09-18 12:11:47.239   Installing the file.
+2026-09-18 12:11:47.320   Successfully installed the file.
+2026-09-18 12:11:47.320   -- File entry --
+2026-09-18 12:11:47.320   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Serilog.dll
+2026-09-18 12:11:47.321   Time stamp of our file: 2024-12-06 13:11:52.000
+2026-09-18 12:11:47.321   Installing the file.
+2026-09-18 12:11:47.335   Successfully installed the file.
+2026-09-18 12:11:47.335   -- File entry --
+2026-09-18 12:11:47.335   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Serilog.Extensions.Hosting.dll
+2026-09-18 12:11:47.335   Time stamp of our file: 2024-12-09 09:31:56.000
+2026-09-18 12:11:47.335   Installing the file.
+2026-09-18 12:11:47.338   Successfully installed the file.
+2026-09-18 12:11:47.338   -- File entry --
+2026-09-18 12:11:47.339   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Serilog.Extensions.Logging.dll
+2026-09-18 12:11:47.339   Time stamp of our file: 2024-12-09 09:18:50.000
+2026-09-18 12:11:47.339   Installing the file.
+2026-09-18 12:11:47.343   Successfully installed the file.
+2026-09-18 12:11:47.343   -- File entry --
+2026-09-18 12:11:47.343   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Serilog.Sinks.File.dll
+2026-09-18 12:11:47.343   Time stamp of our file: 2024-06-23 07:44:08.000
+2026-09-18 12:11:47.343   Installing the file.
+2026-09-18 12:11:47.347   Successfully installed the file.
+2026-09-18 12:11:47.347   -- File entry --
+2026-09-18 12:11:47.347   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\SharpGen.Runtime.COM.dll
+2026-09-18 12:11:47.347   Time stamp of our file: 2023-01-19 21:55:44.000
+2026-09-18 12:11:47.347   Installing the file.
+2026-09-18 12:11:47.356   Successfully installed the file.
+2026-09-18 12:11:47.356   -- File entry --
+2026-09-18 12:11:47.358   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\SharpGen.Runtime.dll
+2026-09-18 12:11:47.358   Time stamp of our file: 2023-01-19 21:54:58.000
+2026-09-18 12:11:47.358   Installing the file.
+2026-09-18 12:11:47.365   Successfully installed the file.
+2026-09-18 12:11:47.365   -- File entry --
+2026-09-18 12:11:47.365   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\SQLitePCLRaw.batteries_v2.dll
+2026-09-18 12:11:47.366   Time stamp of our file: 2024-09-12 05:14:18.000
+2026-09-18 12:11:47.366   Installing the file.
+2026-09-18 12:11:47.367   Successfully installed the file.
+2026-09-18 12:11:47.367   -- File entry --
+2026-09-18 12:11:47.367   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\SQLitePCLRaw.core.dll
+2026-09-18 12:11:47.367   Time stamp of our file: 2024-09-12 05:12:28.000
+2026-09-18 12:11:47.367   Installing the file.
+2026-09-18 12:11:47.372   Successfully installed the file.
+2026-09-18 12:11:47.372   -- File entry --
+2026-09-18 12:11:47.372   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\SQLitePCLRaw.provider.e_sqlite3.dll
+2026-09-18 12:11:47.372   Time stamp of our file: 2024-09-12 05:12:38.000
+2026-09-18 12:11:47.372   Installing the file.
+2026-09-18 12:11:47.375   Successfully installed the file.
+2026-09-18 12:11:47.376   -- File entry --
+2026-09-18 12:11:47.376   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.AppContext.dll
+2026-09-18 12:11:47.376   Time stamp of our file: 2026-08-14 02:59:44.000
+2026-09-18 12:11:47.376   Installing the file.
+2026-09-18 12:11:47.378   Successfully installed the file.
+2026-09-18 12:11:47.378   -- File entry --
+2026-09-18 12:11:47.378   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Buffers.dll
+2026-09-18 12:11:47.378   Time stamp of our file: 2026-08-14 02:59:46.000
+2026-09-18 12:11:47.378   Installing the file.
+2026-09-18 12:11:47.380   Successfully installed the file.
+2026-09-18 12:11:47.380   -- File entry --
+2026-09-18 12:11:47.380   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.CodeDom.dll
+2026-09-18 12:11:47.381   Time stamp of our file: 2026-08-22 05:54:52.000
+2026-09-18 12:11:47.381   Installing the file.
+2026-09-18 12:11:47.406   Successfully installed the file.
+2026-09-18 12:11:47.406   -- File entry --
+2026-09-18 12:11:47.406   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Collections.Concurrent.dll
+2026-09-18 12:11:47.407   Time stamp of our file: 2026-08-14 03:04:02.000
+2026-09-18 12:11:47.407   Installing the file.
+2026-09-18 12:11:47.469   Successfully installed the file.
+2026-09-18 12:11:47.469   -- File entry --
+2026-09-18 12:11:47.469   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Collections.dll
+2026-09-18 12:11:47.469   Time stamp of our file: 2026-08-14 03:04:04.000
+2026-09-18 12:11:47.471   Installing the file.
+2026-09-18 12:11:47.501   Successfully installed the file.
+2026-09-18 12:11:47.501   -- File entry --
+2026-09-18 12:11:47.501   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Collections.Immutable.dll
+2026-09-18 12:11:47.502   Time stamp of our file: 2026-08-14 03:04:06.000
+2026-09-18 12:11:47.502   Installing the file.
+2026-09-18 12:11:47.559   Successfully installed the file.
+2026-09-18 12:11:47.559   -- File entry --
+2026-09-18 12:11:47.559   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Collections.NonGeneric.dll
+2026-09-18 12:11:47.559   Time stamp of our file: 2026-08-14 03:04:08.000
+2026-09-18 12:11:47.559   Installing the file.
+2026-09-18 12:11:47.565   Successfully installed the file.
+2026-09-18 12:11:47.565   -- File entry --
+2026-09-18 12:11:47.565   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Collections.Specialized.dll
+2026-09-18 12:11:47.565   Time stamp of our file: 2026-08-14 03:04:10.000
+2026-09-18 12:11:47.565   Installing the file.
+2026-09-18 12:11:47.574   Successfully installed the file.
+2026-09-18 12:11:47.574   -- File entry --
+2026-09-18 12:11:47.575   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.ComponentModel.Annotations.dll
+2026-09-18 12:11:47.575   Time stamp of our file: 2026-08-14 03:04:10.000
+2026-09-18 12:11:47.575   Installing the file.
+2026-09-18 12:11:47.585   Successfully installed the file.
+2026-09-18 12:11:47.585   -- File entry --
+2026-09-18 12:11:47.586   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.ComponentModel.DataAnnotations.dll
+2026-09-18 12:11:47.586   Time stamp of our file: 2026-08-14 02:59:52.000
+2026-09-18 12:11:47.586   Installing the file.
+2026-09-18 12:11:47.588   Successfully installed the file.
+2026-09-18 12:11:47.588   -- File entry --
+2026-09-18 12:11:47.589   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.ComponentModel.dll
+2026-09-18 12:11:47.589   Time stamp of our file: 2026-08-14 03:04:12.000
+2026-09-18 12:11:47.589   Installing the file.
+2026-09-18 12:11:47.595   Successfully installed the file.
+2026-09-18 12:11:47.596   -- File entry --
+2026-09-18 12:11:47.596   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.ComponentModel.EventBasedAsync.dll
+2026-09-18 12:11:47.596   Time stamp of our file: 2026-08-14 03:04:14.000
+2026-09-18 12:11:47.596   Installing the file.
+2026-09-18 12:11:47.604   Successfully installed the file.
+2026-09-18 12:11:47.604   -- File entry --
+2026-09-18 12:11:47.605   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.ComponentModel.Primitives.dll
+2026-09-18 12:11:47.605   Time stamp of our file: 2026-08-14 03:04:14.000
+2026-09-18 12:11:47.605   Installing the file.
+2026-09-18 12:11:47.609   Successfully installed the file.
+2026-09-18 12:11:47.609   -- File entry --
+2026-09-18 12:11:47.610   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.ComponentModel.TypeConverter.dll
+2026-09-18 12:11:47.610   Time stamp of our file: 2026-08-14 03:04:16.000
+2026-09-18 12:11:47.610   Installing the file.
+2026-09-18 12:11:47.661   Successfully installed the file.
+2026-09-18 12:11:47.661   -- File entry --
+2026-09-18 12:11:47.662   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Configuration.ConfigurationManager.dll
+2026-09-18 12:11:47.662   Time stamp of our file: 2026-08-22 05:54:52.000
+2026-09-18 12:11:47.662   Installing the file.
+2026-09-18 12:11:47.713   Successfully installed the file.
+2026-09-18 12:11:47.713   -- File entry --
+2026-09-18 12:11:47.713   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Configuration.dll
+2026-09-18 12:11:47.713   Time stamp of our file: 2026-08-14 02:59:54.000
+2026-09-18 12:11:47.713   Installing the file.
+2026-09-18 12:11:47.714   Successfully installed the file.
+2026-09-18 12:11:47.714   -- File entry --
+2026-09-18 12:11:47.714   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Console.dll
+2026-09-18 12:11:47.714   Time stamp of our file: 2026-08-14 03:04:18.000
+2026-09-18 12:11:47.714   Installing the file.
+2026-09-18 12:11:47.721   Successfully installed the file.
+2026-09-18 12:11:47.721   -- File entry --
+2026-09-18 12:11:47.721   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Core.dll
+2026-09-18 12:11:47.721   Time stamp of our file: 2026-08-14 03:00:32.000
+2026-09-18 12:11:47.722   Installing the file.
+2026-09-18 12:11:47.725   Successfully installed the file.
+2026-09-18 12:11:47.725   -- File entry --
+2026-09-18 12:11:47.725   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Data.Common.dll
+2026-09-18 12:11:47.725   Time stamp of our file: 2026-08-14 03:04:20.000
+2026-09-18 12:11:47.725   Installing the file.
+2026-09-18 12:11:47.840   Successfully installed the file.
+2026-09-18 12:11:47.840   -- File entry --
+2026-09-18 12:11:47.840   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Data.DataSetExtensions.dll
+2026-09-18 12:11:47.840   Time stamp of our file: 2026-08-14 03:00:20.000
+2026-09-18 12:11:47.840   Installing the file.
+2026-09-18 12:11:47.842   Successfully installed the file.
+2026-09-18 12:11:47.842   -- File entry --
+2026-09-18 12:11:47.842   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Data.dll
+2026-09-18 12:11:47.842   Time stamp of our file: 2026-08-14 03:00:24.000
+2026-09-18 12:11:47.842   Installing the file.
+2026-09-18 12:11:47.845   Successfully installed the file.
+2026-09-18 12:11:47.845   -- File entry --
+2026-09-18 12:11:47.845   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Design.dll
+2026-09-18 12:11:47.846   Time stamp of our file: 2026-08-14 22:38:40.000
+2026-09-18 12:11:47.846   Installing the file.
+2026-09-18 12:11:47.848   Successfully installed the file.
+2026-09-18 12:11:47.848   -- File entry --
+2026-09-18 12:11:47.848   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.Contracts.dll
+2026-09-18 12:11:47.849   Time stamp of our file: 2026-08-14 02:57:56.000
+2026-09-18 12:11:47.849   Installing the file.
+2026-09-18 12:11:47.851   Successfully installed the file.
+2026-09-18 12:11:47.851   -- File entry --
+2026-09-18 12:11:47.851   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.Debug.dll
+2026-09-18 12:11:47.851   Time stamp of our file: 2026-08-14 02:59:52.000
+2026-09-18 12:11:47.851   Installing the file.
+2026-09-18 12:11:47.853   Successfully installed the file.
+2026-09-18 12:11:47.853   -- File entry --
+2026-09-18 12:11:47.853   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.DiagnosticSource.dll
+2026-09-18 12:11:47.853   Time stamp of our file: 2026-08-14 03:04:22.000
+2026-09-18 12:11:47.853   Installing the file.
+2026-09-18 12:11:47.870   Successfully installed the file.
+2026-09-18 12:11:47.870   -- File entry --
+2026-09-18 12:11:47.870   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.EventLog.dll
+2026-09-18 12:11:47.870   Time stamp of our file: 2026-08-22 05:54:52.000
+2026-09-18 12:11:47.870   Installing the file.
+2026-09-18 12:11:47.886   Successfully installed the file.
+2026-09-18 12:11:47.886   -- File entry --
+2026-09-18 12:11:47.887   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.EventLog.Messages.dll
+2026-09-18 12:11:47.887   Time stamp of our file: 2026-08-14 02:44:08.000
+2026-09-18 12:11:47.887   Installing the file.
+2026-09-18 12:11:47.898   Successfully installed the file.
+2026-09-18 12:11:47.898   -- File entry --
+2026-09-18 12:11:47.898   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.FileVersionInfo.dll
+2026-09-18 12:11:47.899   Time stamp of our file: 2026-08-14 03:04:24.000
+2026-09-18 12:11:47.899   Installing the file.
+2026-09-18 12:11:47.901   Successfully installed the file.
+2026-09-18 12:11:47.901   -- File entry --
+2026-09-18 12:11:47.901   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.PerformanceCounter.dll
+2026-09-18 12:11:47.901   Time stamp of our file: 2026-08-22 05:54:52.000
+2026-09-18 12:11:47.901   Installing the file.
+2026-09-18 12:11:47.917   Successfully installed the file.
+2026-09-18 12:11:47.917   -- File entry --
+2026-09-18 12:11:47.917   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.Process.dll
+2026-09-18 12:11:47.917   Time stamp of our file: 2026-08-14 03:04:26.000
+2026-09-18 12:11:47.917   Installing the file.
+2026-09-18 12:11:47.930   Successfully installed the file.
+2026-09-18 12:11:47.930   -- File entry --
+2026-09-18 12:11:47.930   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.StackTrace.dll
+2026-09-18 12:11:47.930   Time stamp of our file: 2026-08-14 03:04:26.000
+2026-09-18 12:11:47.930   Installing the file.
+2026-09-18 12:11:47.933   Successfully installed the file.
+2026-09-18 12:11:47.933   -- File entry --
+2026-09-18 12:11:47.933   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.TextWriterTraceListener.dll
+2026-09-18 12:11:47.933   Time stamp of our file: 2026-08-14 03:04:28.000
+2026-09-18 12:11:47.933   Installing the file.
+2026-09-18 12:11:47.938   Successfully installed the file.
+2026-09-18 12:11:47.938   -- File entry --
+2026-09-18 12:11:47.938   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.Tools.dll
+2026-09-18 12:11:47.938   Time stamp of our file: 2026-08-14 02:59:50.000
+2026-09-18 12:11:47.938   Installing the file.
+2026-09-18 12:11:47.940   Successfully installed the file.
+2026-09-18 12:11:47.940   -- File entry --
+2026-09-18 12:11:47.940   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.TraceSource.dll
+2026-09-18 12:11:47.941   Time stamp of our file: 2026-08-14 03:04:30.000
+2026-09-18 12:11:47.941   Installing the file.
+2026-09-18 12:11:47.951   Successfully installed the file.
+2026-09-18 12:11:47.951   -- File entry --
+2026-09-18 12:11:47.951   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Diagnostics.Tracing.dll
+2026-09-18 12:11:47.952   Time stamp of our file: 2026-08-14 02:58:08.000
+2026-09-18 12:11:47.952   Installing the file.
+2026-09-18 12:11:47.953   Successfully installed the file.
+2026-09-18 12:11:47.953   -- File entry --
+2026-09-18 12:11:47.953   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.DirectoryServices.dll
+2026-09-18 12:11:47.953   Time stamp of our file: 2026-08-22 05:54:54.000
+2026-09-18 12:11:47.953   Installing the file.
+2026-09-18 12:11:47.994   Successfully installed the file.
+2026-09-18 12:11:47.995   -- File entry --
+2026-09-18 12:11:47.995   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.dll
+2026-09-18 12:11:47.995   Time stamp of our file: 2026-08-14 03:00:38.000
+2026-09-18 12:11:47.995   Installing the file.
+2026-09-18 12:11:47.997   Successfully installed the file.
+2026-09-18 12:11:47.997   -- File entry --
+2026-09-18 12:11:47.997   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Drawing.Common.dll
+2026-09-18 12:11:47.997   Time stamp of our file: 2026-08-22 05:54:56.000
+2026-09-18 12:11:47.997   Installing the file.
+2026-09-18 12:11:48.040   Successfully installed the file.
+2026-09-18 12:11:48.040   -- File entry --
+2026-09-18 12:11:48.040   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Drawing.Design.dll
+2026-09-18 12:11:48.040   Time stamp of our file: 2026-08-14 22:38:34.000
+2026-09-18 12:11:48.040   Installing the file.
+2026-09-18 12:11:48.041   Successfully installed the file.
+2026-09-18 12:11:48.041   -- File entry --
+2026-09-18 12:11:48.041   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Drawing.dll
+2026-09-18 12:11:48.041   Time stamp of our file: 2026-08-14 22:38:34.000
+2026-09-18 12:11:48.042   Installing the file.
+2026-09-18 12:11:48.044   Successfully installed the file.
+2026-09-18 12:11:48.045   -- File entry --
+2026-09-18 12:11:48.045   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Drawing.Primitives.dll
+2026-09-18 12:11:48.045   Time stamp of our file: 2026-08-14 03:04:30.000
+2026-09-18 12:11:48.045   Installing the file.
+2026-09-18 12:11:48.053   Successfully installed the file.
+2026-09-18 12:11:48.053   -- File entry --
+2026-09-18 12:11:48.053   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Dynamic.Runtime.dll
+2026-09-18 12:11:48.053   Time stamp of our file: 2026-08-14 02:59:48.000
+2026-09-18 12:11:48.053   Installing the file.
+2026-09-18 12:11:48.054   Successfully installed the file.
+2026-09-18 12:11:48.054   -- File entry --
+2026-09-18 12:11:48.055   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Formats.Asn1.dll
+2026-09-18 12:11:48.055   Time stamp of our file: 2026-08-14 03:04:32.000
+2026-09-18 12:11:48.055   Installing the file.
+2026-09-18 12:11:48.068   Successfully installed the file.
+2026-09-18 12:11:48.068   -- File entry --
+2026-09-18 12:11:48.068   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Formats.Nrbf.dll
+2026-09-18 12:11:48.068   Time stamp of our file: 2026-08-22 05:54:54.000
+2026-09-18 12:11:48.068   Installing the file.
+2026-09-18 12:11:48.076   Successfully installed the file.
+2026-09-18 12:11:48.077   -- File entry --
+2026-09-18 12:11:48.077   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Formats.Tar.dll
+2026-09-18 12:11:48.077   Time stamp of our file: 2026-08-14 03:04:34.000
+2026-09-18 12:11:48.077   Installing the file.
+2026-09-18 12:11:48.089   Successfully installed the file.
+2026-09-18 12:11:48.089   -- File entry --
+2026-09-18 12:11:48.089   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Globalization.Calendars.dll
+2026-09-18 12:11:48.089   Time stamp of our file: 2026-08-14 02:59:46.000
+2026-09-18 12:11:48.089   Installing the file.
+2026-09-18 12:11:48.091   Successfully installed the file.
+2026-09-18 12:11:48.091   -- File entry --
+2026-09-18 12:11:48.091   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Globalization.dll
+2026-09-18 12:11:48.091   Time stamp of our file: 2026-08-14 02:59:50.000
+2026-09-18 12:11:48.091   Installing the file.
+2026-09-18 12:11:48.093   Successfully installed the file.
+2026-09-18 12:11:48.093   -- File entry --
+2026-09-18 12:11:48.093   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Globalization.Extensions.dll
+2026-09-18 12:11:48.093   Time stamp of our file: 2026-08-14 02:59:50.000
+2026-09-18 12:11:48.093   Installing the file.
+2026-09-18 12:11:48.095   Successfully installed the file.
+2026-09-18 12:11:48.095   -- File entry --
+2026-09-18 12:11:48.095   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.Compression.Brotli.dll
+2026-09-18 12:11:48.096   Time stamp of our file: 2026-08-14 03:04:36.000
+2026-09-18 12:11:48.096   Installing the file.
+2026-09-18 12:11:48.099   Successfully installed the file.
+2026-09-18 12:11:48.099   -- File entry --
+2026-09-18 12:11:48.099   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.Compression.dll
+2026-09-18 12:11:48.100   Time stamp of our file: 2026-08-14 03:04:36.000
+2026-09-18 12:11:48.100   Installing the file.
+2026-09-18 12:11:48.110   Successfully installed the file.
+2026-09-18 12:11:48.110   -- File entry --
+2026-09-18 12:11:48.111   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.Compression.FileSystem.dll
+2026-09-18 12:11:48.111   Time stamp of our file: 2026-08-14 02:59:54.000
+2026-09-18 12:11:48.111   Installing the file.
+2026-09-18 12:11:48.113   Successfully installed the file.
+2026-09-18 12:11:48.113   -- File entry --
+2026-09-18 12:11:48.113   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.Compression.Native.dll
+2026-09-18 12:11:48.114   Time stamp of our file: 2026-08-14 02:55:26.000
+2026-09-18 12:11:48.114   Installing the file.
+2026-09-18 12:11:48.148   Successfully installed the file.
+2026-09-18 12:11:48.148   -- File entry --
+2026-09-18 12:11:48.148   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.Compression.ZipFile.dll
+2026-09-18 12:11:48.149   Time stamp of our file: 2026-08-14 03:04:38.000
+2026-09-18 12:11:48.149   Installing the file.
+2026-09-18 12:11:48.151   Successfully installed the file.
+2026-09-18 12:11:48.151   -- File entry --
+2026-09-18 12:11:48.151   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.dll
+2026-09-18 12:11:48.153   Time stamp of our file: 2026-08-14 02:59:50.000
+2026-09-18 12:11:48.153   Installing the file.
+2026-09-18 12:11:48.155   Successfully installed the file.
+2026-09-18 12:11:48.155   -- File entry --
+2026-09-18 12:11:48.155   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.FileSystem.AccessControl.dll
+2026-09-18 12:11:48.155   Time stamp of our file: 2026-08-14 03:04:40.000
+2026-09-18 12:11:48.155   Installing the file.
+2026-09-18 12:11:48.161   Successfully installed the file.
+2026-09-18 12:11:48.161   -- File entry --
+2026-09-18 12:11:48.161   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.FileSystem.dll
+2026-09-18 12:11:48.161   Time stamp of our file: 2026-08-14 02:59:44.000
+2026-09-18 12:11:48.161   Installing the file.
+2026-09-18 12:11:48.163   Successfully installed the file.
+2026-09-18 12:11:48.163   -- File entry --
+2026-09-18 12:11:48.163   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.FileSystem.DriveInfo.dll
+2026-09-18 12:11:48.164   Time stamp of our file: 2026-08-14 03:04:40.000
+2026-09-18 12:11:48.164   Installing the file.
+2026-09-18 12:11:48.167   Successfully installed the file.
+2026-09-18 12:11:48.167   -- File entry --
+2026-09-18 12:11:48.167   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.FileSystem.Primitives.dll
+2026-09-18 12:11:48.168   Time stamp of our file: 2026-08-14 02:59:46.000
+2026-09-18 12:11:48.168   Installing the file.
+2026-09-18 12:11:48.170   Successfully installed the file.
+2026-09-18 12:11:48.170   -- File entry --
+2026-09-18 12:11:48.170   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.FileSystem.Watcher.dll
+2026-09-18 12:11:48.170   Time stamp of our file: 2026-08-14 03:04:42.000
+2026-09-18 12:11:48.170   Installing the file.
+2026-09-18 12:11:48.176   Successfully installed the file.
+2026-09-18 12:11:48.176   -- File entry --
+2026-09-18 12:11:48.176   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.IsolatedStorage.dll
+2026-09-18 12:11:48.176   Time stamp of our file: 2026-08-14 03:04:44.000
+2026-09-18 12:11:48.176   Installing the file.
+2026-09-18 12:11:48.181   Successfully installed the file.
+2026-09-18 12:11:48.181   -- File entry --
+2026-09-18 12:11:48.181   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.MemoryMappedFiles.dll
+2026-09-18 12:11:48.181   Time stamp of our file: 2026-08-14 03:04:44.000
+2026-09-18 12:11:48.181   Installing the file.
+2026-09-18 12:11:48.185   Successfully installed the file.
+2026-09-18 12:11:48.185   -- File entry --
+2026-09-18 12:11:48.185   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.Packaging.dll
+2026-09-18 12:11:48.185   Time stamp of our file: 2026-08-22 05:54:54.000
+2026-09-18 12:11:48.185   Installing the file.
+2026-09-18 12:11:48.207   Successfully installed the file.
+2026-09-18 12:11:48.207   -- File entry --
+2026-09-18 12:11:48.208   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.Pipelines.dll
+2026-09-18 12:11:48.208   Time stamp of our file: 2026-08-14 03:04:46.000
+2026-09-18 12:11:48.208   Installing the file.
+2026-09-18 12:11:48.217   Successfully installed the file.
+2026-09-18 12:11:48.218   -- File entry --
+2026-09-18 12:11:48.218   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.Pipes.AccessControl.dll
+2026-09-18 12:11:48.218   Time stamp of our file: 2026-08-14 02:57:00.000
+2026-09-18 12:11:48.218   Installing the file.
+2026-09-18 12:11:48.220   Successfully installed the file.
+2026-09-18 12:11:48.220   -- File entry --
+2026-09-18 12:11:48.220   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.Pipes.dll
+2026-09-18 12:11:48.220   Time stamp of our file: 2026-08-14 03:04:48.000
+2026-09-18 12:11:48.220   Installing the file.
+2026-09-18 12:11:48.229   Successfully installed the file.
+2026-09-18 12:11:48.229   -- File entry --
+2026-09-18 12:11:48.229   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.IO.UnmanagedMemoryStream.dll
+2026-09-18 12:11:48.229   Time stamp of our file: 2026-08-14 03:00:20.000
+2026-09-18 12:11:48.229   Installing the file.
+2026-09-18 12:11:48.231   Successfully installed the file.
+2026-09-18 12:11:48.231   -- File entry --
+2026-09-18 12:11:48.231   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Linq.dll
+2026-09-18 12:11:48.232   Time stamp of our file: 2026-08-14 03:04:50.000
+2026-09-18 12:11:48.232   Installing the file.
+2026-09-18 12:11:48.259   Successfully installed the file.
+2026-09-18 12:11:48.259   -- File entry --
+2026-09-18 12:11:48.260   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Linq.Expressions.dll
+2026-09-18 12:11:48.260   Time stamp of our file: 2026-08-14 03:04:54.000
+2026-09-18 12:11:48.260   Installing the file.
+2026-09-18 12:11:48.387   Successfully installed the file.
+2026-09-18 12:11:48.387   -- File entry --
+2026-09-18 12:11:48.388   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Linq.Parallel.dll
+2026-09-18 12:11:48.388   Time stamp of our file: 2026-08-14 03:04:56.000
+2026-09-18 12:11:48.388   Installing the file.
+2026-09-18 12:11:48.424   Successfully installed the file.
+2026-09-18 12:11:48.424   -- File entry --
+2026-09-18 12:11:48.424   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Linq.Queryable.dll
+2026-09-18 12:11:48.424   Time stamp of our file: 2026-08-14 03:04:58.000
+2026-09-18 12:11:48.424   Installing the file.
+2026-09-18 12:11:48.433   Successfully installed the file.
+2026-09-18 12:11:48.433   -- File entry --
+2026-09-18 12:11:48.433   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Management.dll
+2026-09-18 12:11:48.434   Time stamp of our file: 2024-10-29 11:39:12.000
+2026-09-18 12:11:48.434   Installing the file.
+2026-09-18 12:11:48.448   Successfully installed the file.
+2026-09-18 12:11:48.448   -- File entry --
+2026-09-18 12:11:48.448   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Memory.dll
+2026-09-18 12:11:48.448   Time stamp of our file: 2026-08-14 03:05:00.000
+2026-09-18 12:11:48.448   Installing the file.
+2026-09-18 12:11:48.459   Successfully installed the file.
+2026-09-18 12:11:48.459   -- File entry --
+2026-09-18 12:11:48.460   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.dll
+2026-09-18 12:11:48.460   Time stamp of our file: 2026-08-14 03:00:20.000
+2026-09-18 12:11:48.460   Installing the file.
+2026-09-18 12:11:48.462   Successfully installed the file.
+2026-09-18 12:11:48.463   -- File entry --
+2026-09-18 12:11:48.463   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.Http.dll
+2026-09-18 12:11:48.463   Time stamp of our file: 2026-08-14 03:05:02.000
+2026-09-18 12:11:48.463   Installing the file.
+2026-09-18 12:11:48.546   Successfully installed the file.
+2026-09-18 12:11:48.546   -- File entry --
+2026-09-18 12:11:48.546   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.Http.Json.dll
+2026-09-18 12:11:48.546   Time stamp of our file: 2026-08-14 03:05:02.000
+2026-09-18 12:11:48.546   Installing the file.
+2026-09-18 12:11:48.553   Successfully installed the file.
+2026-09-18 12:11:48.553   -- File entry --
+2026-09-18 12:11:48.553   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.HttpListener.dll
+2026-09-18 12:11:48.553   Time stamp of our file: 2026-08-14 03:05:04.000
+2026-09-18 12:11:48.553   Installing the file.
+2026-09-18 12:11:48.583   Successfully installed the file.
+2026-09-18 12:11:48.583   -- File entry --
+2026-09-18 12:11:48.583   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.Mail.dll
+2026-09-18 12:11:48.583   Time stamp of our file: 2026-08-14 03:05:06.000
+2026-09-18 12:11:48.583   Installing the file.
+2026-09-18 12:11:48.605   Successfully installed the file.
+2026-09-18 12:11:48.605   -- File entry --
+2026-09-18 12:11:48.605   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.NameResolution.dll
+2026-09-18 12:11:48.605   Time stamp of our file: 2026-08-14 03:05:08.000
+2026-09-18 12:11:48.605   Installing the file.
+2026-09-18 12:11:48.610   Successfully installed the file.
+2026-09-18 12:11:48.610   -- File entry --
+2026-09-18 12:11:48.612   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.NetworkInformation.dll
+2026-09-18 12:11:48.612   Time stamp of our file: 2026-08-14 03:05:08.000
+2026-09-18 12:11:48.612   Installing the file.
+2026-09-18 12:11:48.620   Successfully installed the file.
+2026-09-18 12:11:48.620   -- File entry --
+2026-09-18 12:11:48.621   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.Ping.dll
+2026-09-18 12:11:48.621   Time stamp of our file: 2026-08-14 03:05:10.000
+2026-09-18 12:11:48.621   Installing the file.
+2026-09-18 12:11:48.625   Successfully installed the file.
+2026-09-18 12:11:48.625   -- File entry --
+2026-09-18 12:11:48.625   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.Primitives.dll
+2026-09-18 12:11:48.627   Time stamp of our file: 2026-08-14 03:05:12.000
+2026-09-18 12:11:48.627   Installing the file.
+2026-09-18 12:11:48.640   Successfully installed the file.
+2026-09-18 12:11:48.640   -- File entry --
+2026-09-18 12:11:48.640   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.Quic.dll
+2026-09-18 12:11:48.641   Time stamp of our file: 2026-08-14 03:05:14.000
+2026-09-18 12:11:48.641   Installing the file.
+2026-09-18 12:11:48.658   Successfully installed the file.
+2026-09-18 12:11:48.658   -- File entry --
+2026-09-18 12:11:48.658   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.Requests.dll
+2026-09-18 12:11:48.658   Time stamp of our file: 2026-08-14 03:05:16.000
+2026-09-18 12:11:48.658   Installing the file.
+2026-09-18 12:11:48.676   Successfully installed the file.
+2026-09-18 12:11:48.676   -- File entry --
+2026-09-18 12:11:48.676   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.Security.dll
+2026-09-18 12:11:48.677   Time stamp of our file: 2026-08-14 03:05:18.000
+2026-09-18 12:11:48.677   Installing the file.
+2026-09-18 12:11:48.709   Successfully installed the file.
+2026-09-18 12:11:48.709   -- File entry --
+2026-09-18 12:11:48.709   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.ServicePoint.dll
+2026-09-18 12:11:48.710   Time stamp of our file: 2026-08-14 02:59:48.000
+2026-09-18 12:11:48.710   Installing the file.
+2026-09-18 12:11:48.716   Successfully installed the file.
+2026-09-18 12:11:48.716   -- File entry --
+2026-09-18 12:11:48.717   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.Sockets.dll
+2026-09-18 12:11:48.717   Time stamp of our file: 2026-08-14 03:05:18.000
+2026-09-18 12:11:48.717   Installing the file.
+2026-09-18 12:11:48.740   Successfully installed the file.
+2026-09-18 12:11:48.740   -- File entry --
+2026-09-18 12:11:48.740   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.WebClient.dll
+2026-09-18 12:11:48.741   Time stamp of our file: 2026-08-14 03:05:20.000
+2026-09-18 12:11:48.741   Installing the file.
+2026-09-18 12:11:48.750   Successfully installed the file.
+2026-09-18 12:11:48.750   -- File entry --
+2026-09-18 12:11:48.750   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.WebHeaderCollection.dll
+2026-09-18 12:11:48.750   Time stamp of our file: 2026-08-14 03:05:22.000
+2026-09-18 12:11:48.750   Installing the file.
+2026-09-18 12:11:48.754   Successfully installed the file.
+2026-09-18 12:11:48.754   -- File entry --
+2026-09-18 12:11:48.754   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.WebProxy.dll
+2026-09-18 12:11:48.754   Time stamp of our file: 2026-08-14 03:05:24.000
+2026-09-18 12:11:48.754   Installing the file.
+2026-09-18 12:11:48.757   Successfully installed the file.
+2026-09-18 12:11:48.757   -- File entry --
+2026-09-18 12:11:48.757   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.WebSockets.Client.dll
+2026-09-18 12:11:48.758   Time stamp of our file: 2026-08-14 03:05:24.000
+2026-09-18 12:11:48.758   Installing the file.
+2026-09-18 12:11:48.763   Successfully installed the file.
+2026-09-18 12:11:48.763   -- File entry --
+2026-09-18 12:11:48.763   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Net.WebSockets.dll
+2026-09-18 12:11:48.763   Time stamp of our file: 2026-08-14 03:05:26.000
+2026-09-18 12:11:48.763   Installing the file.
+2026-09-18 12:11:48.775   Successfully installed the file.
+2026-09-18 12:11:48.775   -- File entry --
+2026-09-18 12:11:48.775   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Numerics.dll
+2026-09-18 12:11:48.775   Time stamp of our file: 2026-08-14 02:59:48.000
+2026-09-18 12:11:48.775   Installing the file.
+2026-09-18 12:11:48.778   Successfully installed the file.
+2026-09-18 12:11:48.778   -- File entry --
+2026-09-18 12:11:48.778   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Numerics.Vectors.dll
+2026-09-18 12:11:48.779   Time stamp of our file: 2026-08-14 02:59:18.000
+2026-09-18 12:11:48.779   Installing the file.
+2026-09-18 12:11:48.781   Successfully installed the file.
+2026-09-18 12:11:48.781   -- File entry --
+2026-09-18 12:11:48.781   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.ObjectModel.dll
+2026-09-18 12:11:48.782   Time stamp of our file: 2026-08-14 03:05:28.000
+2026-09-18 12:11:48.782   Installing the file.
+2026-09-18 12:11:48.786   Successfully installed the file.
+2026-09-18 12:11:48.786   -- File entry --
+2026-09-18 12:11:48.786   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Printing.dll
+2026-09-18 12:11:48.786   Time stamp of our file: 2026-08-22 05:55:18.000
+2026-09-18 12:11:48.786   Installing the file.
+2026-09-18 12:11:48.823   Successfully installed the file.
+2026-09-18 12:11:48.825   -- File entry --
+2026-09-18 12:11:48.825   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Private.CoreLib.dll
+2026-09-18 12:11:48.825   Time stamp of our file: 2026-08-14 02:52:10.000
+2026-09-18 12:11:48.825   Installing the file.
+2026-09-18 12:11:49.410   Successfully installed the file.
+2026-09-18 12:11:49.415   -- File entry --
+2026-09-18 12:11:49.415   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Private.DataContractSerialization.dll
+2026-09-18 12:11:49.416   Time stamp of our file: 2026-08-14 03:05:30.000
+2026-09-18 12:11:49.416   Installing the file.
+2026-09-18 12:11:49.563   Successfully installed the file.
+2026-09-18 12:11:49.563   -- File entry --
+2026-09-18 12:11:49.564   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Private.Uri.dll
+2026-09-18 12:11:49.564   Time stamp of our file: 2026-08-14 03:05:32.000
+2026-09-18 12:11:49.564   Installing the file.
+2026-09-18 12:11:49.584   Successfully installed the file.
+2026-09-18 12:11:49.585   -- File entry --
+2026-09-18 12:11:49.585   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Private.Windows.Core.dll
+2026-09-18 12:11:49.585   Time stamp of our file: 2026-08-22 05:54:56.000
+2026-09-18 12:11:49.585   Installing the file.
+2026-09-18 12:11:49.656   Successfully installed the file.
+2026-09-18 12:11:49.659   -- File entry --
+2026-09-18 12:11:49.660   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Private.Xml.dll
+2026-09-18 12:11:49.660   Time stamp of our file: 2026-08-14 03:05:36.000
+2026-09-18 12:11:49.660   Installing the file.
+2026-09-18 12:11:50.169   Successfully installed the file.
+2026-09-18 12:11:50.169   -- File entry --
+2026-09-18 12:11:50.169   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Private.Xml.Linq.dll
+2026-09-18 12:11:50.170   Time stamp of our file: 2026-08-14 03:05:38.000
+2026-09-18 12:11:50.170   Installing the file.
+2026-09-18 12:11:50.201   Successfully installed the file.
+2026-09-18 12:11:50.201   -- File entry --
+2026-09-18 12:11:50.201   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Reflection.DispatchProxy.dll
+2026-09-18 12:11:50.202   Time stamp of our file: 2026-08-14 03:05:40.000
+2026-09-18 12:11:50.202   Installing the file.
+2026-09-18 12:11:50.206   Successfully installed the file.
+2026-09-18 12:11:50.207   -- File entry --
+2026-09-18 12:11:50.207   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Reflection.dll
+2026-09-18 12:11:50.207   Time stamp of our file: 2026-08-14 02:59:42.000
+2026-09-18 12:11:50.207   Installing the file.
+2026-09-18 12:11:50.208   Successfully installed the file.
+2026-09-18 12:11:50.208   -- File entry --
+2026-09-18 12:11:50.208   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Reflection.Emit.dll
+2026-09-18 12:11:50.209   Time stamp of our file: 2026-08-14 03:05:42.000
+2026-09-18 12:11:50.209   Installing the file.
+2026-09-18 12:11:50.241   Successfully installed the file.
+2026-09-18 12:11:50.241   -- File entry --
+2026-09-18 12:11:50.241   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Reflection.Emit.ILGeneration.dll
+2026-09-18 12:11:50.242   Time stamp of our file: 2026-08-14 02:57:52.000
+2026-09-18 12:11:50.242   Installing the file.
+2026-09-18 12:11:50.244   Successfully installed the file.
+2026-09-18 12:11:50.244   -- File entry --
+2026-09-18 12:11:50.245   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Reflection.Emit.Lightweight.dll
+2026-09-18 12:11:50.245   Time stamp of our file: 2026-08-14 02:58:38.000
+2026-09-18 12:11:50.245   Installing the file.
+2026-09-18 12:11:50.259   Successfully installed the file.
+2026-09-18 12:11:50.259   -- File entry --
+2026-09-18 12:11:50.259   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Reflection.Extensions.dll
+2026-09-18 12:11:50.260   Time stamp of our file: 2026-08-14 02:59:42.000
+2026-09-18 12:11:50.260   Installing the file.
+2026-09-18 12:11:50.263   Successfully installed the file.
+2026-09-18 12:11:50.265   -- File entry --
+2026-09-18 12:11:50.265   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Reflection.Metadata.dll
+2026-09-18 12:11:50.266   Time stamp of our file: 2026-08-14 03:05:44.000
+2026-09-18 12:11:50.266   Installing the file.
+2026-09-18 12:11:50.320   Successfully installed the file.
+2026-09-18 12:11:50.320   -- File entry --
+2026-09-18 12:11:50.320   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Reflection.Primitives.dll
+2026-09-18 12:11:50.321   Time stamp of our file: 2026-08-14 02:58:48.000
+2026-09-18 12:11:50.321   Installing the file.
+2026-09-18 12:11:50.323   Successfully installed the file.
+2026-09-18 12:11:50.323   -- File entry --
+2026-09-18 12:11:50.323   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Reflection.TypeExtensions.dll
+2026-09-18 12:11:50.323   Time stamp of our file: 2026-08-14 03:05:44.000
+2026-09-18 12:11:50.324   Installing the file.
+2026-09-18 12:11:50.326   Successfully installed the file.
+2026-09-18 12:11:50.327   -- File entry --
+2026-09-18 12:11:50.327   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Resources.Extensions.dll
+2026-09-18 12:11:50.327   Time stamp of our file: 2026-08-22 05:54:54.000
+2026-09-18 12:11:50.327   Installing the file.
+2026-09-18 12:11:50.340   Successfully installed the file.
+2026-09-18 12:11:50.340   -- File entry --
+2026-09-18 12:11:50.340   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Resources.Reader.dll
+2026-09-18 12:11:50.341   Time stamp of our file: 2026-08-14 02:59:42.000
+2026-09-18 12:11:50.341   Installing the file.
+2026-09-18 12:11:50.343   Successfully installed the file.
+2026-09-18 12:11:50.343   -- File entry --
+2026-09-18 12:11:50.343   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Resources.ResourceManager.dll
+2026-09-18 12:11:50.343   Time stamp of our file: 2026-08-14 02:59:44.000
+2026-09-18 12:11:50.343   Installing the file.
+2026-09-18 12:11:50.346   Successfully installed the file.
+2026-09-18 12:11:50.346   -- File entry --
+2026-09-18 12:11:50.346   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Resources.Writer.dll
+2026-09-18 12:11:50.346   Time stamp of our file: 2026-08-14 03:05:46.000
+2026-09-18 12:11:50.346   Installing the file.
+2026-09-18 12:11:50.349   Successfully installed the file.
+2026-09-18 12:11:50.349   -- File entry --
+2026-09-18 12:11:50.350   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.CompilerServices.Unsafe.dll
+2026-09-18 12:11:50.350   Time stamp of our file: 2026-08-14 02:59:42.000
+2026-09-18 12:11:50.350   Installing the file.
+2026-09-18 12:11:50.355   Successfully installed the file.
+2026-09-18 12:11:50.355   -- File entry --
+2026-09-18 12:11:50.356   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.CompilerServices.VisualC.dll
+2026-09-18 12:11:50.356   Time stamp of our file: 2026-08-14 03:05:48.000
+2026-09-18 12:11:50.356   Installing the file.
+2026-09-18 12:11:50.359   Successfully installed the file.
+2026-09-18 12:11:50.359   -- File entry --
+2026-09-18 12:11:50.359   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.dll
+2026-09-18 12:11:50.359   Time stamp of our file: 2026-08-14 02:59:24.000
+2026-09-18 12:11:50.359   Installing the file.
+2026-09-18 12:11:50.364   Successfully installed the file.
+2026-09-18 12:11:50.364   -- File entry --
+2026-09-18 12:11:50.364   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.Extensions.dll
+2026-09-18 12:11:50.365   Time stamp of our file: 2026-08-14 02:59:42.000
+2026-09-18 12:11:50.365   Installing the file.
+2026-09-18 12:11:50.368   Successfully installed the file.
+2026-09-18 12:11:50.368   -- File entry --
+2026-09-18 12:11:50.368   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.Handles.dll
+2026-09-18 12:11:50.369   Time stamp of our file: 2026-08-14 02:59:44.000
+2026-09-18 12:11:50.369   Installing the file.
+2026-09-18 12:11:50.372   Successfully installed the file.
+2026-09-18 12:11:50.372   -- File entry --
+2026-09-18 12:11:50.372   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.InteropServices.dll
+2026-09-18 12:11:50.373   Time stamp of our file: 2026-08-14 03:05:50.000
+2026-09-18 12:11:50.373   Installing the file.
+2026-09-18 12:11:50.378   Successfully installed the file.
+2026-09-18 12:11:50.378   -- File entry --
+2026-09-18 12:11:50.378   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.InteropServices.JavaScript.dll
+2026-09-18 12:11:50.379   Time stamp of our file: 2026-08-14 03:05:50.000
+2026-09-18 12:11:50.379   Installing the file.
+2026-09-18 12:11:50.381   Successfully installed the file.
+2026-09-18 12:11:50.382   -- File entry --
+2026-09-18 12:11:50.382   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.InteropServices.RuntimeInformation.dll
+2026-09-18 12:11:50.382   Time stamp of our file: 2026-08-14 02:59:44.000
+2026-09-18 12:11:50.382   Installing the file.
+2026-09-18 12:11:50.384   Successfully installed the file.
+2026-09-18 12:11:50.384   -- File entry --
+2026-09-18 12:11:50.385   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.Intrinsics.dll
+2026-09-18 12:11:50.385   Time stamp of our file: 2026-08-14 02:58:50.000
+2026-09-18 12:11:50.385   Installing the file.
+2026-09-18 12:11:50.390   Successfully installed the file.
+2026-09-18 12:11:50.390   -- File entry --
+2026-09-18 12:11:50.390   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.Loader.dll
+2026-09-18 12:11:50.390   Time stamp of our file: 2026-08-14 02:59:10.000
+2026-09-18 12:11:50.390   Installing the file.
+2026-09-18 12:11:50.392   Successfully installed the file.
+2026-09-18 12:11:50.392   -- File entry --
+2026-09-18 12:11:50.392   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.Numerics.dll
+2026-09-18 12:11:50.392   Time stamp of our file: 2026-08-14 03:05:52.000
+2026-09-18 12:11:50.392   Installing the file.
+2026-09-18 12:11:50.411   Successfully installed the file.
+2026-09-18 12:11:50.411   -- File entry --
+2026-09-18 12:11:50.411   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.Serialization.dll
+2026-09-18 12:11:50.411   Time stamp of our file: 2026-08-14 02:59:56.000
+2026-09-18 12:11:50.412   Installing the file.
+2026-09-18 12:11:50.414   Successfully installed the file.
+2026-09-18 12:11:50.414   -- File entry --
+2026-09-18 12:11:50.414   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.Serialization.Formatters.dll
+2026-09-18 12:11:50.415   Time stamp of our file: 2026-08-14 03:05:54.000
+2026-09-18 12:11:50.415   Installing the file.
+2026-09-18 12:11:50.430   Successfully installed the file.
+2026-09-18 12:11:50.431   -- File entry --
+2026-09-18 12:11:50.431   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.Serialization.Json.dll
+2026-09-18 12:11:50.431   Time stamp of our file: 2026-08-14 02:58:36.000
+2026-09-18 12:11:50.431   Installing the file.
+2026-09-18 12:11:50.433   Successfully installed the file.
+2026-09-18 12:11:50.433   -- File entry --
+2026-09-18 12:11:50.433   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.Serialization.Primitives.dll
+2026-09-18 12:11:50.433   Time stamp of our file: 2026-08-14 03:05:54.000
+2026-09-18 12:11:50.434   Installing the file.
+2026-09-18 12:11:50.436   Successfully installed the file.
+2026-09-18 12:11:50.436   -- File entry --
+2026-09-18 12:11:50.437   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Runtime.Serialization.Xml.dll
+2026-09-18 12:11:50.437   Time stamp of our file: 2026-08-14 02:58:30.000
+2026-09-18 12:11:50.437   Installing the file.
+2026-09-18 12:11:50.438   Successfully installed the file.
+2026-09-18 12:11:50.439   -- File entry --
+2026-09-18 12:11:50.439   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.AccessControl.dll
+2026-09-18 12:11:50.439   Time stamp of our file: 2026-08-14 03:05:56.000
+2026-09-18 12:11:50.439   Installing the file.
+2026-09-18 12:11:50.450   Successfully installed the file.
+2026-09-18 12:11:50.450   -- File entry --
+2026-09-18 12:11:50.450   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Claims.dll
+2026-09-18 12:11:50.450   Time stamp of our file: 2026-08-14 03:05:58.000
+2026-09-18 12:11:50.450   Installing the file.
+2026-09-18 12:11:50.456   Successfully installed the file.
+2026-09-18 12:11:50.456   -- File entry --
+2026-09-18 12:11:50.457   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.Algorithms.dll
+2026-09-18 12:11:50.457   Time stamp of our file: 2026-08-14 02:59:48.000
+2026-09-18 12:11:50.457   Installing the file.
+2026-09-18 12:11:50.459   Successfully installed the file.
+2026-09-18 12:11:50.459   -- File entry --
+2026-09-18 12:11:50.459   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.Cng.dll
+2026-09-18 12:11:50.460   Time stamp of our file: 2026-08-14 02:59:48.000
+2026-09-18 12:11:50.460   Installing the file.
+2026-09-18 12:11:50.462   Successfully installed the file.
+2026-09-18 12:11:50.462   -- File entry --
+2026-09-18 12:11:50.463   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.Csp.dll
+2026-09-18 12:11:50.463   Time stamp of our file: 2026-08-14 02:59:52.000
+2026-09-18 12:11:50.463   Installing the file.
+2026-09-18 12:11:50.465   Successfully installed the file.
+2026-09-18 12:11:50.465   -- File entry --
+2026-09-18 12:11:50.465   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.dll
+2026-09-18 12:11:50.465   Time stamp of our file: 2026-08-14 03:06:00.000
+2026-09-18 12:11:50.465   Installing the file.
+2026-09-18 12:11:50.562   Successfully installed the file.
+2026-09-18 12:11:50.562   -- File entry --
+2026-09-18 12:11:50.562   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.Encoding.dll
+2026-09-18 12:11:50.563   Time stamp of our file: 2026-08-14 02:59:54.000
+2026-09-18 12:11:50.563   Installing the file.
+2026-09-18 12:11:50.565   Successfully installed the file.
+2026-09-18 12:11:50.565   -- File entry --
+2026-09-18 12:11:50.565   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.OpenSsl.dll
+2026-09-18 12:11:50.565   Time stamp of our file: 2026-08-14 02:59:52.000
+2026-09-18 12:11:50.565   Installing the file.
+2026-09-18 12:11:50.566   Successfully installed the file.
+2026-09-18 12:11:50.566   -- File entry --
+2026-09-18 12:11:50.566   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.Pkcs.dll
+2026-09-18 12:11:50.567   Time stamp of our file: 2026-08-22 05:54:54.000
+2026-09-18 12:11:50.567   Installing the file.
+2026-09-18 12:11:50.596   Successfully installed the file.
+2026-09-18 12:11:50.596   -- File entry --
+2026-09-18 12:11:50.596   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.Primitives.dll
+2026-09-18 12:11:50.596   Time stamp of our file: 2026-08-14 02:59:48.000
+2026-09-18 12:11:50.596   Installing the file.
+2026-09-18 12:11:50.597   Successfully installed the file.
+2026-09-18 12:11:50.598   -- File entry --
+2026-09-18 12:11:50.598   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.ProtectedData.dll
+2026-09-18 12:11:50.598   Time stamp of our file: 2026-08-22 05:54:54.000
+2026-09-18 12:11:50.598   Installing the file.
+2026-09-18 12:11:50.602   Successfully installed the file.
+2026-09-18 12:11:50.602   -- File entry --
+2026-09-18 12:11:50.602   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.X509Certificates.dll
+2026-09-18 12:11:50.602   Time stamp of our file: 2026-08-14 02:59:48.000
+2026-09-18 12:11:50.602   Installing the file.
+2026-09-18 12:11:50.605   Successfully installed the file.
+2026-09-18 12:11:50.605   -- File entry --
+2026-09-18 12:11:50.606   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Cryptography.Xml.dll
+2026-09-18 12:11:50.606   Time stamp of our file: 2026-08-22 05:54:56.000
+2026-09-18 12:11:50.606   Installing the file.
+2026-09-18 12:11:50.629   Successfully installed the file.
+2026-09-18 12:11:50.629   -- File entry --
+2026-09-18 12:11:50.629   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.dll
+2026-09-18 12:11:50.629   Time stamp of our file: 2026-08-14 02:59:54.000
+2026-09-18 12:11:50.629   Installing the file.
+2026-09-18 12:11:50.632   Successfully installed the file.
+2026-09-18 12:11:50.632   -- File entry --
+2026-09-18 12:11:50.632   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Permissions.dll
+2026-09-18 12:11:50.632   Time stamp of our file: 2026-08-22 05:54:56.000
+2026-09-18 12:11:50.632   Installing the file.
+2026-09-18 12:11:50.640   Successfully installed the file.
+2026-09-18 12:11:50.640   -- File entry --
+2026-09-18 12:11:50.640   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Principal.dll
+2026-09-18 12:11:50.640   Time stamp of our file: 2026-08-14 02:59:44.000
+2026-09-18 12:11:50.640   Installing the file.
+2026-09-18 12:11:50.642   Successfully installed the file.
+2026-09-18 12:11:50.642   -- File entry --
+2026-09-18 12:11:50.643   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.Principal.Windows.dll
+2026-09-18 12:11:50.643   Time stamp of our file: 2026-08-14 03:06:02.000
+2026-09-18 12:11:50.643   Installing the file.
+2026-09-18 12:11:50.652   Successfully installed the file.
+2026-09-18 12:11:50.652   -- File entry --
+2026-09-18 12:11:50.653   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Security.SecureString.dll
+2026-09-18 12:11:50.653   Time stamp of our file: 2026-08-14 03:00:20.000
+2026-09-18 12:11:50.653   Installing the file.
+2026-09-18 12:11:50.655   Successfully installed the file.
+2026-09-18 12:11:50.655   -- File entry --
+2026-09-18 12:11:50.655   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.ServiceModel.Web.dll
+2026-09-18 12:11:50.655   Time stamp of our file: 2026-08-14 02:59:54.000
+2026-09-18 12:11:50.655   Installing the file.
+2026-09-18 12:11:50.656   Successfully installed the file.
+2026-09-18 12:11:50.656   -- File entry --
+2026-09-18 12:11:50.656   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.ServiceProcess.dll
+2026-09-18 12:11:50.657   Time stamp of our file: 2026-08-14 02:59:54.000
+2026-09-18 12:11:50.657   Installing the file.
+2026-09-18 12:11:50.658   Successfully installed the file.
+2026-09-18 12:11:50.658   -- File entry --
+2026-09-18 12:11:50.658   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Text.Encoding.CodePages.dll
+2026-09-18 12:11:50.659   Time stamp of our file: 2026-08-14 03:06:04.000
+2026-09-18 12:11:50.659   Installing the file.
+2026-09-18 12:11:50.688   Successfully installed the file.
+2026-09-18 12:11:50.688   -- File entry --
+2026-09-18 12:11:50.688   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Text.Encoding.dll
+2026-09-18 12:11:50.688   Time stamp of our file: 2026-08-14 02:59:46.000
+2026-09-18 12:11:50.688   Installing the file.
+2026-09-18 12:11:50.690   Successfully installed the file.
+2026-09-18 12:11:50.690   -- File entry --
+2026-09-18 12:11:50.690   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Text.Encoding.Extensions.dll
+2026-09-18 12:11:50.690   Time stamp of our file: 2026-08-14 02:58:34.000
+2026-09-18 12:11:50.690   Installing the file.
+2026-09-18 12:11:50.692   Successfully installed the file.
+2026-09-18 12:11:50.693   -- File entry --
+2026-09-18 12:11:50.693   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Text.Encodings.Web.dll
+2026-09-18 12:11:50.693   Time stamp of our file: 2026-08-14 03:06:06.000
+2026-09-18 12:11:50.693   Installing the file.
+2026-09-18 12:11:50.702   Successfully installed the file.
+2026-09-18 12:11:50.702   -- File entry --
+2026-09-18 12:11:50.702   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Text.Json.dll
+2026-09-18 12:11:50.702   Time stamp of our file: 2026-08-14 03:06:08.000
+2026-09-18 12:11:50.702   Installing the file.
+2026-09-18 12:11:50.772   Successfully installed the file.
+2026-09-18 12:11:50.772   -- File entry --
+2026-09-18 12:11:50.773   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Text.RegularExpressions.dll
+2026-09-18 12:11:50.773   Time stamp of our file: 2026-08-14 03:06:10.000
+2026-09-18 12:11:50.773   Installing the file.
+2026-09-18 12:11:50.814   Successfully installed the file.
+2026-09-18 12:11:50.814   -- File entry --
+2026-09-18 12:11:50.815   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.AccessControl.dll
+2026-09-18 12:11:50.815   Time stamp of our file: 2026-08-22 05:54:56.000
+2026-09-18 12:11:50.815   Installing the file.
+2026-09-18 12:11:50.818   Successfully installed the file.
+2026-09-18 12:11:50.819   -- File entry --
+2026-09-18 12:11:50.819   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.Channels.dll
+2026-09-18 12:11:50.819   Time stamp of our file: 2026-08-14 03:06:12.000
+2026-09-18 12:11:50.819   Installing the file.
+2026-09-18 12:11:50.825   Successfully installed the file.
+2026-09-18 12:11:50.825   -- File entry --
+2026-09-18 12:11:50.825   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.dll
+2026-09-18 12:11:50.825   Time stamp of our file: 2026-08-14 03:06:12.000
+2026-09-18 12:11:50.825   Installing the file.
+2026-09-18 12:11:50.829   Successfully installed the file.
+2026-09-18 12:11:50.829   -- File entry --
+2026-09-18 12:11:50.831   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.Overlapped.dll
+2026-09-18 12:11:50.831   Time stamp of our file: 2026-08-14 02:57:50.000
+2026-09-18 12:11:50.831   Installing the file.
+2026-09-18 12:11:50.833   Successfully installed the file.
+2026-09-18 12:11:50.833   -- File entry --
+2026-09-18 12:11:50.833   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.Tasks.Dataflow.dll
+2026-09-18 12:11:50.833   Time stamp of our file: 2026-08-14 03:06:14.000
+2026-09-18 12:11:50.833   Installing the file.
+2026-09-18 12:11:50.852   Successfully installed the file.
+2026-09-18 12:11:50.852   -- File entry --
+2026-09-18 12:11:50.852   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.Tasks.dll
+2026-09-18 12:11:50.853   Time stamp of our file: 2026-08-14 02:59:46.000
+2026-09-18 12:11:50.853   Installing the file.
+2026-09-18 12:11:50.856   Successfully installed the file.
+2026-09-18 12:11:50.856   -- File entry --
+2026-09-18 12:11:50.856   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.Tasks.Extensions.dll
+2026-09-18 12:11:50.856   Time stamp of our file: 2026-08-14 02:59:42.000
+2026-09-18 12:11:50.856   Installing the file.
+2026-09-18 12:11:50.858   Successfully installed the file.
+2026-09-18 12:11:50.858   -- File entry --
+2026-09-18 12:11:50.858   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.Tasks.Parallel.dll
+2026-09-18 12:11:50.858   Time stamp of our file: 2026-08-14 03:06:16.000
+2026-09-18 12:11:50.858   Installing the file.
+2026-09-18 12:11:50.865   Successfully installed the file.
+2026-09-18 12:11:50.865   -- File entry --
+2026-09-18 12:11:50.866   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.Thread.dll
+2026-09-18 12:11:50.866   Time stamp of our file: 2026-08-14 02:58:40.000
+2026-09-18 12:11:50.866   Installing the file.
+2026-09-18 12:11:50.868   Successfully installed the file.
+2026-09-18 12:11:50.869   -- File entry --
+2026-09-18 12:11:50.869   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.ThreadPool.dll
+2026-09-18 12:11:50.869   Time stamp of our file: 2026-08-14 02:57:50.000
+2026-09-18 12:11:50.869   Installing the file.
+2026-09-18 12:11:50.872   Successfully installed the file.
+2026-09-18 12:11:50.872   -- File entry --
+2026-09-18 12:11:50.872   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Threading.Timer.dll
+2026-09-18 12:11:50.872   Time stamp of our file: 2026-08-14 02:59:44.000
+2026-09-18 12:11:50.872   Installing the file.
+2026-09-18 12:11:50.873   Successfully installed the file.
+2026-09-18 12:11:50.873   -- File entry --
+2026-09-18 12:11:50.874   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Transactions.dll
+2026-09-18 12:11:50.874   Time stamp of our file: 2026-08-14 02:59:54.000
+2026-09-18 12:11:50.874   Installing the file.
+2026-09-18 12:11:50.878   Successfully installed the file.
+2026-09-18 12:11:50.878   -- File entry --
+2026-09-18 12:11:50.878   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Transactions.Local.dll
+2026-09-18 12:11:50.878   Time stamp of our file: 2026-08-14 03:06:18.000
+2026-09-18 12:11:50.878   Installing the file.
+2026-09-18 12:11:50.905   Successfully installed the file.
+2026-09-18 12:11:50.906   -- File entry --
+2026-09-18 12:11:50.906   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.ValueTuple.dll
+2026-09-18 12:11:50.906   Time stamp of our file: 2026-08-14 02:59:42.000
+2026-09-18 12:11:50.906   Installing the file.
+2026-09-18 12:11:50.907   Successfully installed the file.
+2026-09-18 12:11:50.907   -- File entry --
+2026-09-18 12:11:50.907   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Web.dll
+2026-09-18 12:11:50.908   Time stamp of our file: 2026-08-14 02:59:48.000
+2026-09-18 12:11:50.908   Installing the file.
+2026-09-18 12:11:50.909   Successfully installed the file.
+2026-09-18 12:11:50.909   -- File entry --
+2026-09-18 12:11:50.909   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Web.HttpUtility.dll
+2026-09-18 12:11:50.910   Time stamp of our file: 2026-08-14 03:06:20.000
+2026-09-18 12:11:50.910   Installing the file.
+2026-09-18 12:11:50.914   Successfully installed the file.
+2026-09-18 12:11:50.915   -- File entry --
+2026-09-18 12:11:50.915   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Windows.Controls.Ribbon.dll
+2026-09-18 12:11:50.915   Time stamp of our file: 2026-08-22 05:55:20.000
+2026-09-18 12:11:50.915   Installing the file.
+2026-09-18 12:11:50.968   Successfully installed the file.
+2026-09-18 12:11:50.968   -- File entry --
+2026-09-18 12:11:50.968   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Windows.dll
+2026-09-18 12:11:50.968   Time stamp of our file: 2026-08-14 02:59:46.000
+2026-09-18 12:11:50.969   Installing the file.
+2026-09-18 12:11:50.970   Successfully installed the file.
+2026-09-18 12:11:50.970   -- File entry --
+2026-09-18 12:11:50.971   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Windows.Extensions.dll
+2026-09-18 12:11:50.971   Time stamp of our file: 2026-08-22 05:54:56.000
+2026-09-18 12:11:50.971   Installing the file.
+2026-09-18 12:11:50.976   Successfully installed the file.
+2026-09-18 12:11:50.976   -- File entry --
+2026-09-18 12:11:50.976   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Windows.Forms.Design.dll
+2026-09-18 12:11:50.977   Time stamp of our file: 2026-08-22 05:55:00.000
+2026-09-18 12:11:50.977   Installing the file.
+2026-09-18 12:11:51.170   Successfully installed the file.
+2026-09-18 12:11:51.170   -- File entry --
+2026-09-18 12:11:51.171   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Windows.Forms.Design.Editors.dll
+2026-09-18 12:11:51.171   Time stamp of our file: 2026-08-14 22:38:34.000
+2026-09-18 12:11:51.171   Installing the file.
+2026-09-18 12:11:51.172   Successfully installed the file.
+2026-09-18 12:11:51.172   -- File entry --
+2026-09-18 12:11:51.172   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Windows.Forms.dll
+2026-09-18 12:11:51.172   Time stamp of our file: 2026-08-22 05:55:04.000
+2026-09-18 12:11:51.172   Installing the file.
+2026-09-18 12:11:51.631   Successfully installed the file.
+2026-09-18 12:11:51.631   -- File entry --
+2026-09-18 12:11:51.632   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Windows.Forms.Primitives.dll
+2026-09-18 12:11:51.632   Time stamp of our file: 2026-08-22 05:55:00.000
+2026-09-18 12:11:51.632   Installing the file.
+2026-09-18 12:11:51.756   Successfully installed the file.
+2026-09-18 12:11:51.756   -- File entry --
+2026-09-18 12:11:51.756   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Windows.Input.Manipulations.dll
+2026-09-18 12:11:51.756   Time stamp of our file: 2026-08-22 05:55:20.000
+2026-09-18 12:11:51.756   Installing the file.
+2026-09-18 12:11:51.763   Successfully installed the file.
+2026-09-18 12:11:51.763   -- File entry --
+2026-09-18 12:11:51.763   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Windows.Presentation.dll
+2026-09-18 12:11:51.763   Time stamp of our file: 2026-08-22 05:55:20.000
+2026-09-18 12:11:51.763   Installing the file.
+2026-09-18 12:11:51.765   Successfully installed the file.
+2026-09-18 12:11:51.766   -- File entry --
+2026-09-18 12:11:51.767   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Xaml.dll
+2026-09-18 12:11:51.767   Time stamp of our file: 2026-08-22 05:55:20.000
+2026-09-18 12:11:51.767   Installing the file.
+2026-09-18 12:11:51.827   Successfully installed the file.
+2026-09-18 12:11:51.827   -- File entry --
+2026-09-18 12:11:51.827   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Xml.dll
+2026-09-18 12:11:51.828   Time stamp of our file: 2026-08-14 02:59:50.000
+2026-09-18 12:11:51.828   Installing the file.
+2026-09-18 12:11:51.830   Successfully installed the file.
+2026-09-18 12:11:51.830   -- File entry --
+2026-09-18 12:11:51.830   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Xml.Linq.dll
+2026-09-18 12:11:51.830   Time stamp of our file: 2026-08-14 02:59:56.000
+2026-09-18 12:11:51.830   Installing the file.
+2026-09-18 12:11:51.832   Successfully installed the file.
+2026-09-18 12:11:51.832   -- File entry --
+2026-09-18 12:11:51.832   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Xml.ReaderWriter.dll
+2026-09-18 12:11:51.833   Time stamp of our file: 2026-08-14 02:59:24.000
+2026-09-18 12:11:51.833   Installing the file.
+2026-09-18 12:11:51.835   Successfully installed the file.
+2026-09-18 12:11:51.835   -- File entry --
+2026-09-18 12:11:51.835   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Xml.Serialization.dll
+2026-09-18 12:11:51.835   Time stamp of our file: 2026-08-14 02:59:50.000
+2026-09-18 12:11:51.835   Installing the file.
+2026-09-18 12:11:51.836   Successfully installed the file.
+2026-09-18 12:11:51.837   -- File entry --
+2026-09-18 12:11:51.837   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Xml.XDocument.dll
+2026-09-18 12:11:51.837   Time stamp of our file: 2026-08-14 02:59:38.000
+2026-09-18 12:11:51.837   Installing the file.
+2026-09-18 12:11:51.839   Successfully installed the file.
+2026-09-18 12:11:51.839   -- File entry --
+2026-09-18 12:11:51.839   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Xml.XmlDocument.dll
+2026-09-18 12:11:51.839   Time stamp of our file: 2026-08-14 02:59:46.000
+2026-09-18 12:11:51.839   Installing the file.
+2026-09-18 12:11:51.841   Successfully installed the file.
+2026-09-18 12:11:51.841   -- File entry --
+2026-09-18 12:11:51.841   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Xml.XmlSerializer.dll
+2026-09-18 12:11:51.841   Time stamp of our file: 2026-08-14 02:59:40.000
+2026-09-18 12:11:51.842   Installing the file.
+2026-09-18 12:11:51.844   Successfully installed the file.
+2026-09-18 12:11:51.844   -- File entry --
+2026-09-18 12:11:51.844   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Xml.XPath.dll
+2026-09-18 12:11:51.845   Time stamp of our file: 2026-08-14 02:59:36.000
+2026-09-18 12:11:51.845   Installing the file.
+2026-09-18 12:11:51.847   Successfully installed the file.
+2026-09-18 12:11:51.847   -- File entry --
+2026-09-18 12:11:51.847   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\System.Xml.XPath.XDocument.dll
+2026-09-18 12:11:51.848   Time stamp of our file: 2026-08-14 03:06:20.000
+2026-09-18 12:11:51.848   Installing the file.
+2026-09-18 12:11:51.850   Successfully installed the file.
+2026-09-18 12:11:51.850   -- File entry --
+2026-09-18 12:11:51.850   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\UIAutomationClient.dll
+2026-09-18 12:11:51.850   Time stamp of our file: 2026-08-22 05:55:20.000
+2026-09-18 12:11:51.850   Installing the file.
+2026-09-18 12:11:51.871   Successfully installed the file.
+2026-09-18 12:11:51.871   -- File entry --
+2026-09-18 12:11:51.871   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\UIAutomationClientSideProviders.dll
+2026-09-18 12:11:51.872   Time stamp of our file: 2026-08-22 05:55:22.000
+2026-09-18 12:11:51.872   Installing the file.
+2026-09-18 12:11:51.905   Successfully installed the file.
+2026-09-18 12:11:51.906   -- File entry --
+2026-09-18 12:11:51.906   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\UIAutomationProvider.dll
+2026-09-18 12:11:51.906   Time stamp of our file: 2026-08-22 05:55:22.000
+2026-09-18 12:11:51.906   Installing the file.
+2026-09-18 12:11:51.909   Successfully installed the file.
+2026-09-18 12:11:51.909   -- File entry --
+2026-09-18 12:11:51.909   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\UIAutomationTypes.dll
+2026-09-18 12:11:51.909   Time stamp of our file: 2026-08-22 05:55:22.000
+2026-09-18 12:11:51.909   Installing the file.
+2026-09-18 12:11:51.920   Successfully installed the file.
+2026-09-18 12:11:51.921   -- File entry --
+2026-09-18 12:11:51.921   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\vcruntime140_cor3.dll
+2026-09-18 12:11:51.922   Time stamp of our file: 2026-08-05 11:43:18.000
+2026-09-18 12:11:51.922   Installing the file.
+2026-09-18 12:11:51.929   Successfully installed the file.
+2026-09-18 12:11:51.929   -- File entry --
+2026-09-18 12:11:51.930   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Vortice.DirectX.dll
+2026-09-18 12:11:51.930   Time stamp of our file: 2023-03-04 02:08:36.000
+2026-09-18 12:11:51.930   Installing the file.
+2026-09-18 12:11:51.941   Successfully installed the file.
+2026-09-18 12:11:51.941   -- File entry --
+2026-09-18 12:11:51.941   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Vortice.DXGI.dll
+2026-09-18 12:11:51.942   Time stamp of our file: 2023-03-04 02:10:30.000
+2026-09-18 12:11:51.942   Installing the file.
+2026-09-18 12:11:51.947   Successfully installed the file.
+2026-09-18 12:11:51.948   -- File entry --
+2026-09-18 12:11:51.948   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\Vortice.Mathematics.dll
+2026-09-18 12:11:51.948   Time stamp of our file: 2022-12-31 01:25:48.000
+2026-09-18 12:11:51.948   Installing the file.
+2026-09-18 12:11:51.953   Successfully installed the file.
+2026-09-18 12:11:51.953   -- File entry --
+2026-09-18 12:11:51.953   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\WindowsBase.dll
+2026-09-18 12:11:51.953   Time stamp of our file: 2026-08-22 05:55:22.000
+2026-09-18 12:11:51.953   Installing the file.
+2026-09-18 12:11:52.054   Successfully installed the file.
+2026-09-18 12:11:52.054   -- File entry --
+2026-09-18 12:11:52.054   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\WindowsFormsIntegration.dll
+2026-09-18 12:11:52.054   Time stamp of our file: 2026-08-22 05:55:22.000
+2026-09-18 12:11:52.054   Installing the file.
+2026-09-18 12:11:52.066   Successfully installed the file.
+2026-09-18 12:11:52.066   -- File entry --
+2026-09-18 12:11:52.066   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\wpfgfx_cor3.dll
+2026-09-18 12:11:52.066   Time stamp of our file: 2026-08-22 04:50:46.000
+2026-09-18 12:11:52.066   Installing the file.
+2026-09-18 12:11:52.142   Successfully installed the file.
+2026-09-18 12:11:52.143   -- File entry --
+2026-09-18 12:11:52.143   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.144   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.144   Installing the file.
+2026-09-18 12:11:52.144   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs
+2026-09-18 12:11:52.146   Successfully installed the file.
+2026-09-18 12:11:52.146   -- File entry --
+2026-09-18 12:11:52.146   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\PresentationCore.resources.dll
+2026-09-18 12:11:52.146   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.146   Installing the file.
+2026-09-18 12:11:52.151   Successfully installed the file.
+2026-09-18 12:11:52.152   -- File entry --
+2026-09-18 12:11:52.152   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\PresentationFramework.resources.dll
+2026-09-18 12:11:52.152   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.152   Installing the file.
+2026-09-18 12:11:52.160   Successfully installed the file.
+2026-09-18 12:11:52.160   -- File entry --
+2026-09-18 12:11:52.160   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\PresentationUI.resources.dll
+2026-09-18 12:11:52.160   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.160   Installing the file.
+2026-09-18 12:11:52.163   Successfully installed the file.
+2026-09-18 12:11:52.163   -- File entry --
+2026-09-18 12:11:52.163   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\ReachFramework.resources.dll
+2026-09-18 12:11:52.163   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.163   Installing the file.
+2026-09-18 12:11:52.165   Successfully installed the file.
+2026-09-18 12:11:52.166   -- File entry --
+2026-09-18 12:11:52.166   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.166   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.166   Installing the file.
+2026-09-18 12:11:52.168   Successfully installed the file.
+2026-09-18 12:11:52.168   -- File entry --
+2026-09-18 12:11:52.168   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.169   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.169   Installing the file.
+2026-09-18 12:11:52.175   Successfully installed the file.
+2026-09-18 12:11:52.175   -- File entry --
+2026-09-18 12:11:52.175   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.175   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.175   Installing the file.
+2026-09-18 12:11:52.177   Successfully installed the file.
+2026-09-18 12:11:52.177   -- File entry --
+2026-09-18 12:11:52.177   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.177   Time stamp of our file: 2026-08-14 22:38:16.000
+2026-09-18 12:11:52.177   Installing the file.
+2026-09-18 12:11:52.187   Successfully installed the file.
+2026-09-18 12:11:52.187   -- File entry --
+2026-09-18 12:11:52.187   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.187   Time stamp of our file: 2026-08-22 04:50:00.000
+2026-09-18 12:11:52.188   Installing the file.
+2026-09-18 12:11:52.189   Successfully installed the file.
+2026-09-18 12:11:52.189   -- File entry --
+2026-09-18 12:11:52.189   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\System.Xaml.resources.dll
+2026-09-18 12:11:52.189   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.189   Installing the file.
+2026-09-18 12:11:52.191   Successfully installed the file.
+2026-09-18 12:11:52.191   -- File entry --
+2026-09-18 12:11:52.191   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.192   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.192   Installing the file.
+2026-09-18 12:11:52.193   Successfully installed the file.
+2026-09-18 12:11:52.193   -- File entry --
+2026-09-18 12:11:52.193   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.194   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.194   Installing the file.
+2026-09-18 12:11:52.196   Successfully installed the file.
+2026-09-18 12:11:52.196   -- File entry --
+2026-09-18 12:11:52.196   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.196   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.196   Installing the file.
+2026-09-18 12:11:52.199   Successfully installed the file.
+2026-09-18 12:11:52.199   -- File entry --
+2026-09-18 12:11:52.199   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.199   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.199   Installing the file.
+2026-09-18 12:11:52.200   Successfully installed the file.
+2026-09-18 12:11:52.200   -- File entry --
+2026-09-18 12:11:52.200   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\WindowsBase.resources.dll
+2026-09-18 12:11:52.200   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.200   Installing the file.
+2026-09-18 12:11:52.203   Successfully installed the file.
+2026-09-18 12:11:52.203   -- File entry --
+2026-09-18 12:11:52.203   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\cs\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.203   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.203   Installing the file.
+2026-09-18 12:11:52.204   Successfully installed the file.
+2026-09-18 12:11:52.204   -- File entry --
+2026-09-18 12:11:52.204   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.206   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.206   Installing the file.
+2026-09-18 12:11:52.206   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de
+2026-09-18 12:11:52.207   Successfully installed the file.
+2026-09-18 12:11:52.207   -- File entry --
+2026-09-18 12:11:52.207   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\PresentationCore.resources.dll
+2026-09-18 12:11:52.208   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.208   Installing the file.
+2026-09-18 12:11:52.210   Successfully installed the file.
+2026-09-18 12:11:52.211   -- File entry --
+2026-09-18 12:11:52.211   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\PresentationFramework.resources.dll
+2026-09-18 12:11:52.211   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.211   Installing the file.
+2026-09-18 12:11:52.217   Successfully installed the file.
+2026-09-18 12:11:52.217   -- File entry --
+2026-09-18 12:11:52.217   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\PresentationUI.resources.dll
+2026-09-18 12:11:52.217   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.217   Installing the file.
+2026-09-18 12:11:52.219   Successfully installed the file.
+2026-09-18 12:11:52.220   -- File entry --
+2026-09-18 12:11:52.220   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\ReachFramework.resources.dll
+2026-09-18 12:11:52.220   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.220   Installing the file.
+2026-09-18 12:11:52.222   Successfully installed the file.
+2026-09-18 12:11:52.222   -- File entry --
+2026-09-18 12:11:52.222   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.222   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.222   Installing the file.
+2026-09-18 12:11:52.223   Successfully installed the file.
+2026-09-18 12:11:52.223   -- File entry --
+2026-09-18 12:11:52.223   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.225   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.225   Installing the file.
+2026-09-18 12:11:52.232   Successfully installed the file.
+2026-09-18 12:11:52.232   -- File entry --
+2026-09-18 12:11:52.232   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.232   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.232   Installing the file.
+2026-09-18 12:11:52.235   Successfully installed the file.
+2026-09-18 12:11:52.235   -- File entry --
+2026-09-18 12:11:52.235   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.235   Time stamp of our file: 2026-08-14 22:38:16.000
+2026-09-18 12:11:52.235   Installing the file.
+2026-09-18 12:11:52.245   Successfully installed the file.
+2026-09-18 12:11:52.245   -- File entry --
+2026-09-18 12:11:52.246   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.246   Time stamp of our file: 2026-08-22 04:50:00.000
+2026-09-18 12:11:52.246   Installing the file.
+2026-09-18 12:11:52.248   Successfully installed the file.
+2026-09-18 12:11:52.248   -- File entry --
+2026-09-18 12:11:52.248   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\System.Xaml.resources.dll
+2026-09-18 12:11:52.248   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.248   Installing the file.
+2026-09-18 12:11:52.251   Successfully installed the file.
+2026-09-18 12:11:52.252   -- File entry --
+2026-09-18 12:11:52.252   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.252   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.252   Installing the file.
+2026-09-18 12:11:52.253   Successfully installed the file.
+2026-09-18 12:11:52.253   -- File entry --
+2026-09-18 12:11:52.253   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.255   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.255   Installing the file.
+2026-09-18 12:11:52.257   Successfully installed the file.
+2026-09-18 12:11:52.257   -- File entry --
+2026-09-18 12:11:52.257   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.257   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.257   Installing the file.
+2026-09-18 12:11:52.259   Successfully installed the file.
+2026-09-18 12:11:52.259   -- File entry --
+2026-09-18 12:11:52.259   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.259   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.259   Installing the file.
+2026-09-18 12:11:52.262   Successfully installed the file.
+2026-09-18 12:11:52.262   -- File entry --
+2026-09-18 12:11:52.262   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\WindowsBase.resources.dll
+2026-09-18 12:11:52.262   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.262   Installing the file.
+2026-09-18 12:11:52.267   Successfully installed the file.
+2026-09-18 12:11:52.267   -- File entry --
+2026-09-18 12:11:52.267   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\de\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.267   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.267   Installing the file.
+2026-09-18 12:11:52.269   Successfully installed the file.
+2026-09-18 12:11:52.269   -- File entry --
+2026-09-18 12:11:52.269   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.270   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.270   Installing the file.
+2026-09-18 12:11:52.270   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es
+2026-09-18 12:11:52.273   Successfully installed the file.
+2026-09-18 12:11:52.273   -- File entry --
+2026-09-18 12:11:52.273   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\PresentationCore.resources.dll
+2026-09-18 12:11:52.273   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.273   Installing the file.
+2026-09-18 12:11:52.277   Successfully installed the file.
+2026-09-18 12:11:52.278   -- File entry --
+2026-09-18 12:11:52.278   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\PresentationFramework.resources.dll
+2026-09-18 12:11:52.278   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.278   Installing the file.
+2026-09-18 12:11:52.283   Successfully installed the file.
+2026-09-18 12:11:52.283   -- File entry --
+2026-09-18 12:11:52.283   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\PresentationUI.resources.dll
+2026-09-18 12:11:52.283   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.283   Installing the file.
+2026-09-18 12:11:52.285   Successfully installed the file.
+2026-09-18 12:11:52.285   -- File entry --
+2026-09-18 12:11:52.286   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\ReachFramework.resources.dll
+2026-09-18 12:11:52.286   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.286   Installing the file.
+2026-09-18 12:11:52.288   Successfully installed the file.
+2026-09-18 12:11:52.288   -- File entry --
+2026-09-18 12:11:52.288   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.288   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.288   Installing the file.
+2026-09-18 12:11:52.290   Successfully installed the file.
+2026-09-18 12:11:52.290   -- File entry --
+2026-09-18 12:11:52.290   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.290   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.290   Installing the file.
+2026-09-18 12:11:52.296   Successfully installed the file.
+2026-09-18 12:11:52.297   -- File entry --
+2026-09-18 12:11:52.297   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.297   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.297   Installing the file.
+2026-09-18 12:11:52.298   Successfully installed the file.
+2026-09-18 12:11:52.298   -- File entry --
+2026-09-18 12:11:52.299   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.299   Time stamp of our file: 2026-08-14 22:38:16.000
+2026-09-18 12:11:52.299   Installing the file.
+2026-09-18 12:11:52.308   Successfully installed the file.
+2026-09-18 12:11:52.308   -- File entry --
+2026-09-18 12:11:52.308   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.309   Time stamp of our file: 2026-08-22 04:50:00.000
+2026-09-18 12:11:52.309   Installing the file.
+2026-09-18 12:11:52.310   Successfully installed the file.
+2026-09-18 12:11:52.310   -- File entry --
+2026-09-18 12:11:52.310   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\System.Xaml.resources.dll
+2026-09-18 12:11:52.310   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.310   Installing the file.
+2026-09-18 12:11:52.313   Successfully installed the file.
+2026-09-18 12:11:52.313   -- File entry --
+2026-09-18 12:11:52.313   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.313   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.313   Installing the file.
+2026-09-18 12:11:52.315   Successfully installed the file.
+2026-09-18 12:11:52.316   -- File entry --
+2026-09-18 12:11:52.316   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.316   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.316   Installing the file.
+2026-09-18 12:11:52.318   Successfully installed the file.
+2026-09-18 12:11:52.318   -- File entry --
+2026-09-18 12:11:52.318   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.318   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.318   Installing the file.
+2026-09-18 12:11:52.321   Successfully installed the file.
+2026-09-18 12:11:52.321   -- File entry --
+2026-09-18 12:11:52.321   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.321   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.321   Installing the file.
+2026-09-18 12:11:52.323   Successfully installed the file.
+2026-09-18 12:11:52.323   -- File entry --
+2026-09-18 12:11:52.323   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\WindowsBase.resources.dll
+2026-09-18 12:11:52.323   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.323   Installing the file.
+2026-09-18 12:11:52.326   Successfully installed the file.
+2026-09-18 12:11:52.326   -- File entry --
+2026-09-18 12:11:52.326   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\es\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.327   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.327   Installing the file.
+2026-09-18 12:11:52.328   Successfully installed the file.
+2026-09-18 12:11:52.329   -- File entry --
+2026-09-18 12:11:52.329   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.329   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.329   Installing the file.
+2026-09-18 12:11:52.329   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr
+2026-09-18 12:11:52.332   Successfully installed the file.
+2026-09-18 12:11:52.332   -- File entry --
+2026-09-18 12:11:52.332   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\PresentationCore.resources.dll
+2026-09-18 12:11:52.332   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.332   Installing the file.
+2026-09-18 12:11:52.336   Successfully installed the file.
+2026-09-18 12:11:52.336   -- File entry --
+2026-09-18 12:11:52.336   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\PresentationFramework.resources.dll
+2026-09-18 12:11:52.336   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.336   Installing the file.
+2026-09-18 12:11:52.341   Successfully installed the file.
+2026-09-18 12:11:52.342   -- File entry --
+2026-09-18 12:11:52.342   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\PresentationUI.resources.dll
+2026-09-18 12:11:52.343   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.343   Installing the file.
+2026-09-18 12:11:52.345   Successfully installed the file.
+2026-09-18 12:11:52.345   -- File entry --
+2026-09-18 12:11:52.345   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\ReachFramework.resources.dll
+2026-09-18 12:11:52.346   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.346   Installing the file.
+2026-09-18 12:11:52.347   Successfully installed the file.
+2026-09-18 12:11:52.347   -- File entry --
+2026-09-18 12:11:52.347   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.348   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.348   Installing the file.
+2026-09-18 12:11:52.349   Successfully installed the file.
+2026-09-18 12:11:52.349   -- File entry --
+2026-09-18 12:11:52.350   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.350   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.350   Installing the file.
+2026-09-18 12:11:52.356   Successfully installed the file.
+2026-09-18 12:11:52.356   -- File entry --
+2026-09-18 12:11:52.357   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.357   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.357   Installing the file.
+2026-09-18 12:11:52.358   Successfully installed the file.
+2026-09-18 12:11:52.358   -- File entry --
+2026-09-18 12:11:52.358   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.358   Time stamp of our file: 2026-08-14 22:38:16.000
+2026-09-18 12:11:52.358   Installing the file.
+2026-09-18 12:11:52.365   Successfully installed the file.
+2026-09-18 12:11:52.366   -- File entry --
+2026-09-18 12:11:52.366   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.366   Time stamp of our file: 2026-08-22 04:50:00.000
+2026-09-18 12:11:52.366   Installing the file.
+2026-09-18 12:11:52.367   Successfully installed the file.
+2026-09-18 12:11:52.367   -- File entry --
+2026-09-18 12:11:52.367   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\System.Xaml.resources.dll
+2026-09-18 12:11:52.368   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.368   Installing the file.
+2026-09-18 12:11:52.371   Successfully installed the file.
+2026-09-18 12:11:52.371   -- File entry --
+2026-09-18 12:11:52.371   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.372   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.372   Installing the file.
+2026-09-18 12:11:52.373   Successfully installed the file.
+2026-09-18 12:11:52.373   -- File entry --
+2026-09-18 12:11:52.373   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.373   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.373   Installing the file.
+2026-09-18 12:11:52.376   Successfully installed the file.
+2026-09-18 12:11:52.376   -- File entry --
+2026-09-18 12:11:52.376   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.376   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.376   Installing the file.
+2026-09-18 12:11:52.378   Successfully installed the file.
+2026-09-18 12:11:52.378   -- File entry --
+2026-09-18 12:11:52.378   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.378   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.378   Installing the file.
+2026-09-18 12:11:52.380   Successfully installed the file.
+2026-09-18 12:11:52.380   -- File entry --
+2026-09-18 12:11:52.380   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\WindowsBase.resources.dll
+2026-09-18 12:11:52.380   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.380   Installing the file.
+2026-09-18 12:11:52.383   Successfully installed the file.
+2026-09-18 12:11:52.384   -- File entry --
+2026-09-18 12:11:52.384   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\fr\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.384   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.384   Installing the file.
+2026-09-18 12:11:52.386   Successfully installed the file.
+2026-09-18 12:11:52.386   -- File entry --
+2026-09-18 12:11:52.386   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.387   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.387   Installing the file.
+2026-09-18 12:11:52.387   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it
+2026-09-18 12:11:52.389   Successfully installed the file.
+2026-09-18 12:11:52.389   -- File entry --
+2026-09-18 12:11:52.389   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\PresentationCore.resources.dll
+2026-09-18 12:11:52.390   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.390   Installing the file.
+2026-09-18 12:11:52.394   Successfully installed the file.
+2026-09-18 12:11:52.394   -- File entry --
+2026-09-18 12:11:52.394   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\PresentationFramework.resources.dll
+2026-09-18 12:11:52.394   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.394   Installing the file.
+2026-09-18 12:11:52.401   Successfully installed the file.
+2026-09-18 12:11:52.402   -- File entry --
+2026-09-18 12:11:52.402   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\PresentationUI.resources.dll
+2026-09-18 12:11:52.402   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.402   Installing the file.
+2026-09-18 12:11:52.405   Successfully installed the file.
+2026-09-18 12:11:52.405   -- File entry --
+2026-09-18 12:11:52.405   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\ReachFramework.resources.dll
+2026-09-18 12:11:52.405   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.405   Installing the file.
+2026-09-18 12:11:52.407   Successfully installed the file.
+2026-09-18 12:11:52.407   -- File entry --
+2026-09-18 12:11:52.408   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.408   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.408   Installing the file.
+2026-09-18 12:11:52.409   Successfully installed the file.
+2026-09-18 12:11:52.409   -- File entry --
+2026-09-18 12:11:52.409   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.410   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.410   Installing the file.
+2026-09-18 12:11:52.415   Successfully installed the file.
+2026-09-18 12:11:52.415   -- File entry --
+2026-09-18 12:11:52.415   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.415   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.415   Installing the file.
+2026-09-18 12:11:52.417   Successfully installed the file.
+2026-09-18 12:11:52.417   -- File entry --
+2026-09-18 12:11:52.417   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.418   Time stamp of our file: 2026-08-14 22:38:16.000
+2026-09-18 12:11:52.418   Installing the file.
+2026-09-18 12:11:52.428   Successfully installed the file.
+2026-09-18 12:11:52.428   -- File entry --
+2026-09-18 12:11:52.429   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.429   Time stamp of our file: 2026-08-22 04:50:02.000
+2026-09-18 12:11:52.429   Installing the file.
+2026-09-18 12:11:52.430   Successfully installed the file.
+2026-09-18 12:11:52.431   -- File entry --
+2026-09-18 12:11:52.431   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\System.Xaml.resources.dll
+2026-09-18 12:11:52.431   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.431   Installing the file.
+2026-09-18 12:11:52.435   Successfully installed the file.
+2026-09-18 12:11:52.435   -- File entry --
+2026-09-18 12:11:52.435   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.435   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.435   Installing the file.
+2026-09-18 12:11:52.437   Successfully installed the file.
+2026-09-18 12:11:52.437   -- File entry --
+2026-09-18 12:11:52.438   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.438   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.438   Installing the file.
+2026-09-18 12:11:52.440   Successfully installed the file.
+2026-09-18 12:11:52.440   -- File entry --
+2026-09-18 12:11:52.440   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.441   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.441   Installing the file.
+2026-09-18 12:11:52.442   Successfully installed the file.
+2026-09-18 12:11:52.443   -- File entry --
+2026-09-18 12:11:52.443   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.443   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.443   Installing the file.
+2026-09-18 12:11:52.445   Successfully installed the file.
+2026-09-18 12:11:52.445   -- File entry --
+2026-09-18 12:11:52.445   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\WindowsBase.resources.dll
+2026-09-18 12:11:52.445   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.445   Installing the file.
+2026-09-18 12:11:52.449   Successfully installed the file.
+2026-09-18 12:11:52.449   -- File entry --
+2026-09-18 12:11:52.449   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\it\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.449   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.449   Installing the file.
+2026-09-18 12:11:52.451   Successfully installed the file.
+2026-09-18 12:11:52.451   -- File entry --
+2026-09-18 12:11:52.451   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.451   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.451   Installing the file.
+2026-09-18 12:11:52.451   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja
+2026-09-18 12:11:52.453   Successfully installed the file.
+2026-09-18 12:11:52.453   -- File entry --
+2026-09-18 12:11:52.453   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\PresentationCore.resources.dll
+2026-09-18 12:11:52.453   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.453   Installing the file.
+2026-09-18 12:11:52.459   Successfully installed the file.
+2026-09-18 12:11:52.459   -- File entry --
+2026-09-18 12:11:52.459   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\PresentationFramework.resources.dll
+2026-09-18 12:11:52.459   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.459   Installing the file.
+2026-09-18 12:11:52.467   Successfully installed the file.
+2026-09-18 12:11:52.467   -- File entry --
+2026-09-18 12:11:52.467   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\PresentationUI.resources.dll
+2026-09-18 12:11:52.467   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.467   Installing the file.
+2026-09-18 12:11:52.470   Successfully installed the file.
+2026-09-18 12:11:52.470   -- File entry --
+2026-09-18 12:11:52.470   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\ReachFramework.resources.dll
+2026-09-18 12:11:52.470   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.470   Installing the file.
+2026-09-18 12:11:52.472   Successfully installed the file.
+2026-09-18 12:11:52.473   -- File entry --
+2026-09-18 12:11:52.473   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.473   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.473   Installing the file.
+2026-09-18 12:11:52.475   Successfully installed the file.
+2026-09-18 12:11:52.475   -- File entry --
+2026-09-18 12:11:52.475   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.476   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.476   Installing the file.
+2026-09-18 12:11:52.482   Successfully installed the file.
+2026-09-18 12:11:52.482   -- File entry --
+2026-09-18 12:11:52.482   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.483   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.483   Installing the file.
+2026-09-18 12:11:52.483   Successfully installed the file.
+2026-09-18 12:11:52.485   -- File entry --
+2026-09-18 12:11:52.485   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.485   Time stamp of our file: 2026-08-14 22:38:18.000
+2026-09-18 12:11:52.485   Installing the file.
+2026-09-18 12:11:52.499   Successfully installed the file.
+2026-09-18 12:11:52.499   -- File entry --
+2026-09-18 12:11:52.499   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.499   Time stamp of our file: 2026-08-22 04:50:02.000
+2026-09-18 12:11:52.499   Installing the file.
+2026-09-18 12:11:52.501   Successfully installed the file.
+2026-09-18 12:11:52.502   -- File entry --
+2026-09-18 12:11:52.502   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\System.Xaml.resources.dll
+2026-09-18 12:11:52.502   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.502   Installing the file.
+2026-09-18 12:11:52.506   Successfully installed the file.
+2026-09-18 12:11:52.506   -- File entry --
+2026-09-18 12:11:52.506   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.506   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.506   Installing the file.
+2026-09-18 12:11:52.509   Successfully installed the file.
+2026-09-18 12:11:52.509   -- File entry --
+2026-09-18 12:11:52.510   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.510   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.510   Installing the file.
+2026-09-18 12:11:52.513   Successfully installed the file.
+2026-09-18 12:11:52.513   -- File entry --
+2026-09-18 12:11:52.513   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.514   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.514   Installing the file.
+2026-09-18 12:11:52.515   Successfully installed the file.
+2026-09-18 12:11:52.515   -- File entry --
+2026-09-18 12:11:52.515   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.515   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.515   Installing the file.
+2026-09-18 12:11:52.517   Successfully installed the file.
+2026-09-18 12:11:52.518   -- File entry --
+2026-09-18 12:11:52.518   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\WindowsBase.resources.dll
+2026-09-18 12:11:52.518   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.518   Installing the file.
+2026-09-18 12:11:52.522   Successfully installed the file.
+2026-09-18 12:11:52.522   -- File entry --
+2026-09-18 12:11:52.522   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ja\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.523   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.523   Installing the file.
+2026-09-18 12:11:52.525   Successfully installed the file.
+2026-09-18 12:11:52.525   -- File entry --
+2026-09-18 12:11:52.525   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.525   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.525   Installing the file.
+2026-09-18 12:11:52.526   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko
+2026-09-18 12:11:52.527   Successfully installed the file.
+2026-09-18 12:11:52.527   -- File entry --
+2026-09-18 12:11:52.527   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\PresentationCore.resources.dll
+2026-09-18 12:11:52.529   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.529   Installing the file.
+2026-09-18 12:11:52.533   Successfully installed the file.
+2026-09-18 12:11:52.533   -- File entry --
+2026-09-18 12:11:52.533   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\PresentationFramework.resources.dll
+2026-09-18 12:11:52.534   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.534   Installing the file.
+2026-09-18 12:11:52.542   Successfully installed the file.
+2026-09-18 12:11:52.542   -- File entry --
+2026-09-18 12:11:52.542   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\PresentationUI.resources.dll
+2026-09-18 12:11:52.542   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.542   Installing the file.
+2026-09-18 12:11:52.544   Successfully installed the file.
+2026-09-18 12:11:52.544   -- File entry --
+2026-09-18 12:11:52.544   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\ReachFramework.resources.dll
+2026-09-18 12:11:52.544   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.544   Installing the file.
+2026-09-18 12:11:52.548   Successfully installed the file.
+2026-09-18 12:11:52.548   -- File entry --
+2026-09-18 12:11:52.548   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.549   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.549   Installing the file.
+2026-09-18 12:11:52.551   Successfully installed the file.
+2026-09-18 12:11:52.551   -- File entry --
+2026-09-18 12:11:52.551   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.551   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.551   Installing the file.
+2026-09-18 12:11:52.559   Successfully installed the file.
+2026-09-18 12:11:52.559   -- File entry --
+2026-09-18 12:11:52.559   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.559   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.559   Installing the file.
+2026-09-18 12:11:52.560   Successfully installed the file.
+2026-09-18 12:11:52.560   -- File entry --
+2026-09-18 12:11:52.560   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.560   Time stamp of our file: 2026-08-14 22:38:18.000
+2026-09-18 12:11:52.560   Installing the file.
+2026-09-18 12:11:52.574   Successfully installed the file.
+2026-09-18 12:11:52.575   -- File entry --
+2026-09-18 12:11:52.575   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.575   Time stamp of our file: 2026-08-22 04:50:02.000
+2026-09-18 12:11:52.575   Installing the file.
+2026-09-18 12:11:52.577   Successfully installed the file.
+2026-09-18 12:11:52.577   -- File entry --
+2026-09-18 12:11:52.577   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\System.Xaml.resources.dll
+2026-09-18 12:11:52.577   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.577   Installing the file.
+2026-09-18 12:11:52.581   Successfully installed the file.
+2026-09-18 12:11:52.582   -- File entry --
+2026-09-18 12:11:52.583   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.583   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.583   Installing the file.
+2026-09-18 12:11:52.588   Successfully installed the file.
+2026-09-18 12:11:52.589   -- File entry --
+2026-09-18 12:11:52.589   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.589   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.589   Installing the file.
+2026-09-18 12:11:52.591   Successfully installed the file.
+2026-09-18 12:11:52.591   -- File entry --
+2026-09-18 12:11:52.591   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.591   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.591   Installing the file.
+2026-09-18 12:11:52.593   Successfully installed the file.
+2026-09-18 12:11:52.593   -- File entry --
+2026-09-18 12:11:52.593   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.593   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.593   Installing the file.
+2026-09-18 12:11:52.596   Successfully installed the file.
+2026-09-18 12:11:52.596   -- File entry --
+2026-09-18 12:11:52.596   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\WindowsBase.resources.dll
+2026-09-18 12:11:52.596   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.596   Installing the file.
+2026-09-18 12:11:52.600   Successfully installed the file.
+2026-09-18 12:11:52.600   -- File entry --
+2026-09-18 12:11:52.601   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ko\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.601   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.601   Installing the file.
+2026-09-18 12:11:52.602   Successfully installed the file.
+2026-09-18 12:11:52.603   -- File entry --
+2026-09-18 12:11:52.603   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.603   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.603   Installing the file.
+2026-09-18 12:11:52.603   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl
+2026-09-18 12:11:52.605   Successfully installed the file.
+2026-09-18 12:11:52.605   -- File entry --
+2026-09-18 12:11:52.605   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\PresentationCore.resources.dll
+2026-09-18 12:11:52.605   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.605   Installing the file.
+2026-09-18 12:11:52.610   Successfully installed the file.
+2026-09-18 12:11:52.610   -- File entry --
+2026-09-18 12:11:52.610   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\PresentationFramework.resources.dll
+2026-09-18 12:11:52.610   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.610   Installing the file.
+2026-09-18 12:11:52.618   Successfully installed the file.
+2026-09-18 12:11:52.618   -- File entry --
+2026-09-18 12:11:52.618   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\PresentationUI.resources.dll
+2026-09-18 12:11:52.618   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.618   Installing the file.
+2026-09-18 12:11:52.621   Successfully installed the file.
+2026-09-18 12:11:52.621   -- File entry --
+2026-09-18 12:11:52.621   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\ReachFramework.resources.dll
+2026-09-18 12:11:52.621   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.621   Installing the file.
+2026-09-18 12:11:52.623   Successfully installed the file.
+2026-09-18 12:11:52.624   -- File entry --
+2026-09-18 12:11:52.624   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.624   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.624   Installing the file.
+2026-09-18 12:11:52.626   Successfully installed the file.
+2026-09-18 12:11:52.626   -- File entry --
+2026-09-18 12:11:52.626   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.627   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.627   Installing the file.
+2026-09-18 12:11:52.636   Successfully installed the file.
+2026-09-18 12:11:52.636   -- File entry --
+2026-09-18 12:11:52.636   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.636   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.636   Installing the file.
+2026-09-18 12:11:52.638   Successfully installed the file.
+2026-09-18 12:11:52.638   -- File entry --
+2026-09-18 12:11:52.638   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.639   Time stamp of our file: 2026-08-14 22:38:18.000
+2026-09-18 12:11:52.639   Installing the file.
+2026-09-18 12:11:52.648   Successfully installed the file.
+2026-09-18 12:11:52.648   -- File entry --
+2026-09-18 12:11:52.648   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.648   Time stamp of our file: 2026-08-22 04:50:02.000
+2026-09-18 12:11:52.648   Installing the file.
+2026-09-18 12:11:52.650   Successfully installed the file.
+2026-09-18 12:11:52.650   -- File entry --
+2026-09-18 12:11:52.650   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\System.Xaml.resources.dll
+2026-09-18 12:11:52.650   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.650   Installing the file.
+2026-09-18 12:11:52.655   Successfully installed the file.
+2026-09-18 12:11:52.655   -- File entry --
+2026-09-18 12:11:52.655   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.655   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.655   Installing the file.
+2026-09-18 12:11:52.657   Successfully installed the file.
+2026-09-18 12:11:52.657   -- File entry --
+2026-09-18 12:11:52.657   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.657   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.657   Installing the file.
+2026-09-18 12:11:52.659   Successfully installed the file.
+2026-09-18 12:11:52.659   -- File entry --
+2026-09-18 12:11:52.659   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.660   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.660   Installing the file.
+2026-09-18 12:11:52.662   Successfully installed the file.
+2026-09-18 12:11:52.662   -- File entry --
+2026-09-18 12:11:52.662   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.663   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.663   Installing the file.
+2026-09-18 12:11:52.665   Successfully installed the file.
+2026-09-18 12:11:52.665   -- File entry --
+2026-09-18 12:11:52.665   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\WindowsBase.resources.dll
+2026-09-18 12:11:52.665   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.665   Installing the file.
+2026-09-18 12:11:52.669   Successfully installed the file.
+2026-09-18 12:11:52.669   -- File entry --
+2026-09-18 12:11:52.669   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pl\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.670   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.670   Installing the file.
+2026-09-18 12:11:52.671   Successfully installed the file.
+2026-09-18 12:11:52.672   -- File entry --
+2026-09-18 12:11:52.672   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.672   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.672   Installing the file.
+2026-09-18 12:11:52.673   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR
+2026-09-18 12:11:52.675   Successfully installed the file.
+2026-09-18 12:11:52.675   -- File entry --
+2026-09-18 12:11:52.675   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\PresentationCore.resources.dll
+2026-09-18 12:11:52.675   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.675   Installing the file.
+2026-09-18 12:11:52.679   Successfully installed the file.
+2026-09-18 12:11:52.679   -- File entry --
+2026-09-18 12:11:52.679   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\PresentationFramework.resources.dll
+2026-09-18 12:11:52.680   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.680   Installing the file.
+2026-09-18 12:11:52.685   Successfully installed the file.
+2026-09-18 12:11:52.685   -- File entry --
+2026-09-18 12:11:52.685   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\PresentationUI.resources.dll
+2026-09-18 12:11:52.686   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.686   Installing the file.
+2026-09-18 12:11:52.688   Successfully installed the file.
+2026-09-18 12:11:52.689   -- File entry --
+2026-09-18 12:11:52.689   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\ReachFramework.resources.dll
+2026-09-18 12:11:52.689   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.689   Installing the file.
+2026-09-18 12:11:52.691   Successfully installed the file.
+2026-09-18 12:11:52.691   -- File entry --
+2026-09-18 12:11:52.691   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.692   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.692   Installing the file.
+2026-09-18 12:11:52.693   Successfully installed the file.
+2026-09-18 12:11:52.694   -- File entry --
+2026-09-18 12:11:52.694   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.695   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.695   Installing the file.
+2026-09-18 12:11:52.702   Successfully installed the file.
+2026-09-18 12:11:52.702   -- File entry --
+2026-09-18 12:11:52.702   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.703   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.703   Installing the file.
+2026-09-18 12:11:52.706   Successfully installed the file.
+2026-09-18 12:11:52.707   -- File entry --
+2026-09-18 12:11:52.707   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.707   Time stamp of our file: 2026-08-14 22:38:18.000
+2026-09-18 12:11:52.707   Installing the file.
+2026-09-18 12:11:52.717   Successfully installed the file.
+2026-09-18 12:11:52.717   -- File entry --
+2026-09-18 12:11:52.717   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.718   Time stamp of our file: 2026-08-22 04:50:02.000
+2026-09-18 12:11:52.718   Installing the file.
+2026-09-18 12:11:52.719   Successfully installed the file.
+2026-09-18 12:11:52.720   -- File entry --
+2026-09-18 12:11:52.720   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\System.Xaml.resources.dll
+2026-09-18 12:11:52.720   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.720   Installing the file.
+2026-09-18 12:11:52.723   Successfully installed the file.
+2026-09-18 12:11:52.723   -- File entry --
+2026-09-18 12:11:52.723   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.723   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.723   Installing the file.
+2026-09-18 12:11:52.725   Successfully installed the file.
+2026-09-18 12:11:52.725   -- File entry --
+2026-09-18 12:11:52.725   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.725   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.725   Installing the file.
+2026-09-18 12:11:52.727   Successfully installed the file.
+2026-09-18 12:11:52.727   -- File entry --
+2026-09-18 12:11:52.727   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.727   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.727   Installing the file.
+2026-09-18 12:11:52.730   Successfully installed the file.
+2026-09-18 12:11:52.730   -- File entry --
+2026-09-18 12:11:52.730   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.730   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.730   Installing the file.
+2026-09-18 12:11:52.732   Successfully installed the file.
+2026-09-18 12:11:52.732   -- File entry --
+2026-09-18 12:11:52.732   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\WindowsBase.resources.dll
+2026-09-18 12:11:52.733   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.733   Installing the file.
+2026-09-18 12:11:52.736   Successfully installed the file.
+2026-09-18 12:11:52.736   -- File entry --
+2026-09-18 12:11:52.736   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\pt-BR\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.736   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.736   Installing the file.
+2026-09-18 12:11:52.738   Successfully installed the file.
+2026-09-18 12:11:52.738   -- File entry --
+2026-09-18 12:11:52.739   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.739   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.739   Installing the file.
+2026-09-18 12:11:52.739   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru
+2026-09-18 12:11:52.743   Successfully installed the file.
+2026-09-18 12:11:52.745   -- File entry --
+2026-09-18 12:11:52.745   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\PresentationCore.resources.dll
+2026-09-18 12:11:52.746   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.746   Installing the file.
+2026-09-18 12:11:52.753   Successfully installed the file.
+2026-09-18 12:11:52.753   -- File entry --
+2026-09-18 12:11:52.754   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\PresentationFramework.resources.dll
+2026-09-18 12:11:52.754   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.754   Installing the file.
+2026-09-18 12:11:52.763   Successfully installed the file.
+2026-09-18 12:11:52.763   -- File entry --
+2026-09-18 12:11:52.763   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\PresentationUI.resources.dll
+2026-09-18 12:11:52.763   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.763   Installing the file.
+2026-09-18 12:11:52.766   Successfully installed the file.
+2026-09-18 12:11:52.766   -- File entry --
+2026-09-18 12:11:52.766   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\ReachFramework.resources.dll
+2026-09-18 12:11:52.766   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.766   Installing the file.
+2026-09-18 12:11:52.769   Successfully installed the file.
+2026-09-18 12:11:52.769   -- File entry --
+2026-09-18 12:11:52.769   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.769   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.769   Installing the file.
+2026-09-18 12:11:52.773   Successfully installed the file.
+2026-09-18 12:11:52.773   -- File entry --
+2026-09-18 12:11:52.775   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.775   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.775   Installing the file.
+2026-09-18 12:11:52.787   Successfully installed the file.
+2026-09-18 12:11:52.787   -- File entry --
+2026-09-18 12:11:52.787   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.788   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.788   Installing the file.
+2026-09-18 12:11:52.797   Successfully installed the file.
+2026-09-18 12:11:52.798   -- File entry --
+2026-09-18 12:11:52.798   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.798   Time stamp of our file: 2026-08-14 22:38:18.000
+2026-09-18 12:11:52.798   Installing the file.
+2026-09-18 12:11:52.819   Successfully installed the file.
+2026-09-18 12:11:52.819   -- File entry --
+2026-09-18 12:11:52.820   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.820   Time stamp of our file: 2026-08-22 04:50:02.000
+2026-09-18 12:11:52.820   Installing the file.
+2026-09-18 12:11:52.822   Successfully installed the file.
+2026-09-18 12:11:52.823   -- File entry --
+2026-09-18 12:11:52.823   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\System.Xaml.resources.dll
+2026-09-18 12:11:52.823   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.823   Installing the file.
+2026-09-18 12:11:52.827   Successfully installed the file.
+2026-09-18 12:11:52.827   -- File entry --
+2026-09-18 12:11:52.827   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.828   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.828   Installing the file.
+2026-09-18 12:11:52.831   Successfully installed the file.
+2026-09-18 12:11:52.831   -- File entry --
+2026-09-18 12:11:52.831   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.831   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.831   Installing the file.
+2026-09-18 12:11:52.833   Successfully installed the file.
+2026-09-18 12:11:52.833   -- File entry --
+2026-09-18 12:11:52.833   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.833   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.833   Installing the file.
+2026-09-18 12:11:52.839   Successfully installed the file.
+2026-09-18 12:11:52.839   -- File entry --
+2026-09-18 12:11:52.839   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.840   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.840   Installing the file.
+2026-09-18 12:11:52.842   Successfully installed the file.
+2026-09-18 12:11:52.842   -- File entry --
+2026-09-18 12:11:52.842   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\WindowsBase.resources.dll
+2026-09-18 12:11:52.842   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.842   Installing the file.
+2026-09-18 12:11:52.847   Successfully installed the file.
+2026-09-18 12:11:52.847   -- File entry --
+2026-09-18 12:11:52.847   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\ru\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.847   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.847   Installing the file.
+2026-09-18 12:11:52.852   Successfully installed the file.
+2026-09-18 12:11:52.853   -- File entry --
+2026-09-18 12:11:52.853   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.853   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.853   Installing the file.
+2026-09-18 12:11:52.853   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr
+2026-09-18 12:11:52.857   Successfully installed the file.
+2026-09-18 12:11:52.857   -- File entry --
+2026-09-18 12:11:52.857   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\PresentationCore.resources.dll
+2026-09-18 12:11:52.857   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.857   Installing the file.
+2026-09-18 12:11:52.862   Successfully installed the file.
+2026-09-18 12:11:52.862   -- File entry --
+2026-09-18 12:11:52.863   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\PresentationFramework.resources.dll
+2026-09-18 12:11:52.863   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.863   Installing the file.
+2026-09-18 12:11:52.868   Successfully installed the file.
+2026-09-18 12:11:52.868   -- File entry --
+2026-09-18 12:11:52.868   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\PresentationUI.resources.dll
+2026-09-18 12:11:52.869   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.869   Installing the file.
+2026-09-18 12:11:52.872   Successfully installed the file.
+2026-09-18 12:11:52.872   -- File entry --
+2026-09-18 12:11:52.872   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\ReachFramework.resources.dll
+2026-09-18 12:11:52.872   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.872   Installing the file.
+2026-09-18 12:11:52.876   Successfully installed the file.
+2026-09-18 12:11:52.876   -- File entry --
+2026-09-18 12:11:52.877   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.877   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.877   Installing the file.
+2026-09-18 12:11:52.879   Successfully installed the file.
+2026-09-18 12:11:52.879   -- File entry --
+2026-09-18 12:11:52.879   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.881   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.881   Installing the file.
+2026-09-18 12:11:52.890   Successfully installed the file.
+2026-09-18 12:11:52.890   -- File entry --
+2026-09-18 12:11:52.890   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.890   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.890   Installing the file.
+2026-09-18 12:11:52.892   Successfully installed the file.
+2026-09-18 12:11:52.892   -- File entry --
+2026-09-18 12:11:52.893   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.893   Time stamp of our file: 2026-08-14 22:38:18.000
+2026-09-18 12:11:52.893   Installing the file.
+2026-09-18 12:11:52.905   Successfully installed the file.
+2026-09-18 12:11:52.905   -- File entry --
+2026-09-18 12:11:52.905   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.908   Time stamp of our file: 2026-08-22 04:50:02.000
+2026-09-18 12:11:52.908   Installing the file.
+2026-09-18 12:11:52.910   Successfully installed the file.
+2026-09-18 12:11:52.910   -- File entry --
+2026-09-18 12:11:52.910   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\System.Xaml.resources.dll
+2026-09-18 12:11:52.910   Time stamp of our file: 2026-08-22 04:50:04.000
+2026-09-18 12:11:52.910   Installing the file.
+2026-09-18 12:11:52.914   Successfully installed the file.
+2026-09-18 12:11:52.914   -- File entry --
+2026-09-18 12:11:52.914   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.914   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.914   Installing the file.
+2026-09-18 12:11:52.917   Successfully installed the file.
+2026-09-18 12:11:52.917   -- File entry --
+2026-09-18 12:11:52.917   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.917   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.917   Installing the file.
+2026-09-18 12:11:52.920   Successfully installed the file.
+2026-09-18 12:11:52.920   -- File entry --
+2026-09-18 12:11:52.920   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\UIAutomationProvider.resources.dll
+2026-09-18 12:11:52.921   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:52.921   Installing the file.
+2026-09-18 12:11:52.923   Successfully installed the file.
+2026-09-18 12:11:52.923   -- File entry --
+2026-09-18 12:11:52.923   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\UIAutomationTypes.resources.dll
+2026-09-18 12:11:52.924   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:52.924   Installing the file.
+2026-09-18 12:11:52.927   Successfully installed the file.
+2026-09-18 12:11:52.927   -- File entry --
+2026-09-18 12:11:52.927   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\WindowsBase.resources.dll
+2026-09-18 12:11:52.928   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:52.928   Installing the file.
+2026-09-18 12:11:52.932   Successfully installed the file.
+2026-09-18 12:11:52.932   -- File entry --
+2026-09-18 12:11:52.932   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\tr\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:52.932   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:52.932   Installing the file.
+2026-09-18 12:11:52.933   Successfully installed the file.
+2026-09-18 12:11:52.933   -- File entry --
+2026-09-18 12:11:52.933   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:52.933   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:52.933   Installing the file.
+2026-09-18 12:11:52.935   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans
+2026-09-18 12:11:52.938   Successfully installed the file.
+2026-09-18 12:11:52.938   -- File entry --
+2026-09-18 12:11:52.938   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\PresentationCore.resources.dll
+2026-09-18 12:11:52.938   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:52.938   Installing the file.
+2026-09-18 12:11:52.948   Successfully installed the file.
+2026-09-18 12:11:52.948   -- File entry --
+2026-09-18 12:11:52.948   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\PresentationFramework.resources.dll
+2026-09-18 12:11:52.948   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:52.948   Installing the file.
+2026-09-18 12:11:52.956   Successfully installed the file.
+2026-09-18 12:11:52.957   -- File entry --
+2026-09-18 12:11:52.957   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\PresentationUI.resources.dll
+2026-09-18 12:11:52.957   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:52.957   Installing the file.
+2026-09-18 12:11:52.960   Successfully installed the file.
+2026-09-18 12:11:52.960   -- File entry --
+2026-09-18 12:11:52.960   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\ReachFramework.resources.dll
+2026-09-18 12:11:52.960   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:52.960   Installing the file.
+2026-09-18 12:11:52.963   Successfully installed the file.
+2026-09-18 12:11:52.963   -- File entry --
+2026-09-18 12:11:52.963   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:52.963   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:52.963   Installing the file.
+2026-09-18 12:11:52.965   Successfully installed the file.
+2026-09-18 12:11:52.965   -- File entry --
+2026-09-18 12:11:52.966   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:52.966   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:52.966   Installing the file.
+2026-09-18 12:11:52.974   Successfully installed the file.
+2026-09-18 12:11:52.974   -- File entry --
+2026-09-18 12:11:52.974   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:52.975   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:52.975   Installing the file.
+2026-09-18 12:11:52.976   Successfully installed the file.
+2026-09-18 12:11:52.976   -- File entry --
+2026-09-18 12:11:52.976   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\System.Windows.Forms.resources.dll
+2026-09-18 12:11:52.977   Time stamp of our file: 2026-08-14 22:38:18.000
+2026-09-18 12:11:52.977   Installing the file.
+2026-09-18 12:11:52.987   Successfully installed the file.
+2026-09-18 12:11:52.987   -- File entry --
+2026-09-18 12:11:52.987   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:52.988   Time stamp of our file: 2026-08-22 04:50:02.000
+2026-09-18 12:11:52.988   Installing the file.
+2026-09-18 12:11:52.989   Successfully installed the file.
+2026-09-18 12:11:52.989   -- File entry --
+2026-09-18 12:11:52.990   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\System.Xaml.resources.dll
+2026-09-18 12:11:52.990   Time stamp of our file: 2026-08-22 04:50:06.000
+2026-09-18 12:11:52.991   Installing the file.
+2026-09-18 12:11:52.994   Successfully installed the file.
+2026-09-18 12:11:52.994   -- File entry --
+2026-09-18 12:11:52.995   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\UIAutomationClient.resources.dll
+2026-09-18 12:11:52.995   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:52.995   Installing the file.
+2026-09-18 12:11:52.998   Successfully installed the file.
+2026-09-18 12:11:52.999   -- File entry --
+2026-09-18 12:11:52.999   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:52.999   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:52.999   Installing the file.
+2026-09-18 12:11:53.000   Successfully installed the file.
+2026-09-18 12:11:53.000   -- File entry --
+2026-09-18 12:11:53.000   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\UIAutomationProvider.resources.dll
+2026-09-18 12:11:53.001   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:53.001   Installing the file.
+2026-09-18 12:11:53.002   Successfully installed the file.
+2026-09-18 12:11:53.002   -- File entry --
+2026-09-18 12:11:53.003   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\UIAutomationTypes.resources.dll
+2026-09-18 12:11:53.003   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:53.003   Installing the file.
+2026-09-18 12:11:53.005   Successfully installed the file.
+2026-09-18 12:11:53.005   -- File entry --
+2026-09-18 12:11:53.006   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\WindowsBase.resources.dll
+2026-09-18 12:11:53.006   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:53.006   Installing the file.
+2026-09-18 12:11:53.009   Successfully installed the file.
+2026-09-18 12:11:53.009   -- File entry --
+2026-09-18 12:11:53.009   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hans\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:53.010   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:53.010   Installing the file.
+2026-09-18 12:11:53.013   Successfully installed the file.
+2026-09-18 12:11:53.013   -- File entry --
+2026-09-18 12:11:53.013   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\Microsoft.VisualBasic.Forms.resources.dll
+2026-09-18 12:11:53.013   Time stamp of our file: 2026-08-14 22:38:20.000
+2026-09-18 12:11:53.013   Installing the file.
+2026-09-18 12:11:53.013   Creating directory: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant
+2026-09-18 12:11:53.016   Successfully installed the file.
+2026-09-18 12:11:53.016   -- File entry --
+2026-09-18 12:11:53.016   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\PresentationCore.resources.dll
+2026-09-18 12:11:53.016   Time stamp of our file: 2026-08-22 04:50:44.000
+2026-09-18 12:11:53.017   Installing the file.
+2026-09-18 12:11:53.022   Successfully installed the file.
+2026-09-18 12:11:53.022   -- File entry --
+2026-09-18 12:11:53.022   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\PresentationFramework.resources.dll
+2026-09-18 12:11:53.022   Time stamp of our file: 2026-08-22 04:51:14.000
+2026-09-18 12:11:53.022   Installing the file.
+2026-09-18 12:11:53.030   Successfully installed the file.
+2026-09-18 12:11:53.030   -- File entry --
+2026-09-18 12:11:53.030   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\PresentationUI.resources.dll
+2026-09-18 12:11:53.030   Time stamp of our file: 2026-08-22 04:51:36.000
+2026-09-18 12:11:53.030   Installing the file.
+2026-09-18 12:11:53.032   Successfully installed the file.
+2026-09-18 12:11:53.032   -- File entry --
+2026-09-18 12:11:53.034   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\ReachFramework.resources.dll
+2026-09-18 12:11:53.034   Time stamp of our file: 2026-08-22 04:51:00.000
+2026-09-18 12:11:53.034   Installing the file.
+2026-09-18 12:11:53.038   Successfully installed the file.
+2026-09-18 12:11:53.038   -- File entry --
+2026-09-18 12:11:53.038   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\System.Windows.Controls.Ribbon.resources.dll
+2026-09-18 12:11:53.039   Time stamp of our file: 2026-08-22 04:52:00.000
+2026-09-18 12:11:53.039   Installing the file.
+2026-09-18 12:11:53.042   Successfully installed the file.
+2026-09-18 12:11:53.043   -- File entry --
+2026-09-18 12:11:53.043   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\System.Windows.Forms.Design.resources.dll
+2026-09-18 12:11:53.043   Time stamp of our file: 2026-08-14 22:38:32.000
+2026-09-18 12:11:53.043   Installing the file.
+2026-09-18 12:11:53.052   Successfully installed the file.
+2026-09-18 12:11:53.052   -- File entry --
+2026-09-18 12:11:53.052   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\System.Windows.Forms.Primitives.resources.dll
+2026-09-18 12:11:53.052   Time stamp of our file: 2026-08-14 22:37:42.000
+2026-09-18 12:11:53.052   Installing the file.
+2026-09-18 12:11:53.055   Successfully installed the file.
+2026-09-18 12:11:53.055   -- File entry --
+2026-09-18 12:11:53.056   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\System.Windows.Forms.resources.dll
+2026-09-18 12:11:53.056   Time stamp of our file: 2026-08-14 22:38:18.000
+2026-09-18 12:11:53.056   Installing the file.
+2026-09-18 12:11:53.066   Successfully installed the file.
+2026-09-18 12:11:53.066   -- File entry --
+2026-09-18 12:11:53.066   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\System.Windows.Input.Manipulations.resources.dll
+2026-09-18 12:11:53.067   Time stamp of our file: 2026-08-22 04:50:02.000
+2026-09-18 12:11:53.067   Installing the file.
+2026-09-18 12:11:53.069   Successfully installed the file.
+2026-09-18 12:11:53.069   -- File entry --
+2026-09-18 12:11:53.069   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\System.Xaml.resources.dll
+2026-09-18 12:11:53.070   Time stamp of our file: 2026-08-22 04:50:06.000
+2026-09-18 12:11:53.070   Installing the file.
+2026-09-18 12:11:53.072   Successfully installed the file.
+2026-09-18 12:11:53.072   -- File entry --
+2026-09-18 12:11:53.072   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\UIAutomationClient.resources.dll
+2026-09-18 12:11:53.073   Time stamp of our file: 2026-08-22 04:50:50.000
+2026-09-18 12:11:53.073   Installing the file.
+2026-09-18 12:11:53.075   Successfully installed the file.
+2026-09-18 12:11:53.075   -- File entry --
+2026-09-18 12:11:53.076   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\UIAutomationClientSideProviders.resources.dll
+2026-09-18 12:11:53.076   Time stamp of our file: 2026-08-22 04:50:52.000
+2026-09-18 12:11:53.076   Installing the file.
+2026-09-18 12:11:53.078   Successfully installed the file.
+2026-09-18 12:11:53.078   -- File entry --
+2026-09-18 12:11:53.078   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\UIAutomationProvider.resources.dll
+2026-09-18 12:11:53.078   Time stamp of our file: 2026-08-22 04:50:26.000
+2026-09-18 12:11:53.078   Installing the file.
+2026-09-18 12:11:53.082   Successfully installed the file.
+2026-09-18 12:11:53.082   -- File entry --
+2026-09-18 12:11:53.082   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\UIAutomationTypes.resources.dll
+2026-09-18 12:11:53.083   Time stamp of our file: 2026-08-22 04:50:24.000
+2026-09-18 12:11:53.083   Installing the file.
+2026-09-18 12:11:53.084   Successfully installed the file.
+2026-09-18 12:11:53.085   -- File entry --
+2026-09-18 12:11:53.085   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\WindowsBase.resources.dll
+2026-09-18 12:11:53.085   Time stamp of our file: 2026-08-22 04:50:22.000
+2026-09-18 12:11:53.085   Installing the file.
+2026-09-18 12:11:53.088   Successfully installed the file.
+2026-09-18 12:11:53.088   -- File entry --
+2026-09-18 12:11:53.089   Dest filename: C:\Users\user\AppData\Local\Programs\MainPCDoctorV1\zh-Hant\WindowsFormsIntegration.resources.dll
+2026-09-18 12:11:53.089   Time stamp of our file: 2026-08-22 04:51:16.000
+2026-09-18 12:11:53.089   Installing the file.
+2026-09-18 12:11:53.090   Successfully installed the file.
+2026-09-18 12:11:53.091   -- Icon entry --
+2026-09-18 12:11:53.091   Dest filename: C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MainPC Doctor\MainPC Doctor.lnk
+2026-09-18 12:11:53.091   Creating the icon.
+2026-09-18 12:11:53.237   Successfully created the icon.
+2026-09-18 12:11:53.265   -- Icon entry --
+2026-09-18 12:11:53.266   Dest filename: C:\Users\user\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\MainPC Doctor\Uninstall MainPC Doctor.lnk
+2026-09-18 12:11:53.266   Creating the icon.
+2026-09-18 12:11:53.282   Successfully created the icon.
+2026-09-18 12:11:53.389   -- Icon entry --
+2026-09-18 12:11:53.389   Dest filename: C:\Users\user\Desktop\MainPC Doctor.lnk
+2026-09-18 12:11:53.389   Creating the icon.
+2026-09-18 12:11:53.402   Successfully created the icon.
+2026-09-18 12:11:53.443   -- Registry entry --
+2026-09-18 12:11:53.443   Key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run
+2026-09-18 12:11:53.443   Value name: MainPCDoctor
+2026-09-18 12:11:53.443   Creating or opening the key.
+2026-09-18 12:11:53.443   Creating or setting the value.
+2026-09-18 12:11:53.443   Successfully created or set the value.
+2026-09-18 12:11:53.443   Saving uninstall information.
+2026-09-18 12:11:53.443   Deleting uninstall key left over from previous non administrative install.
+2026-09-18 12:11:53.444   Creating new uninstall key: HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall\{F4A2B3C8-91DE-4F5A-B862-D3E7A1C05F2B}_is1
+2026-09-18 12:11:53.444   Writing uninstall key values.
+2026-09-18 12:11:53.445   Detected previous administrative 64-bit install? No
+2026-09-18 12:11:53.445   Detected previous administrative 32-bit install? No
+2026-09-18 12:11:53.449   Installation process succeeded.
+2026-09-18 12:11:53.449   Need to restart Windows? No
+2026-09-18 12:11:53.461   Deinitializing Setup.
+2026-09-18 12:11:53.476   Log closed.

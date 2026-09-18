@@ -1,0 +1,106 @@
+using MainPCDoctor.Core.Abstractions;
+using MainPCDoctor.Core.Diagnosis;
+using MainPCDoctor.Core.History;
+using MainPCDoctor.Core.Incidents;
+using MainPCDoctor.Core.Recommendations;
+using MainPCDoctor.Desktop.Background;
+using MainPCDoctor.Desktop.Tray;
+using MainPCDoctor.Platform.Windows.Collectors;
+using MainPCDoctor.Storage;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Serilog;
+using System.IO;
+using System.Windows.Forms;
+
+namespace MainPCDoctor.Desktop;
+
+internal static class Program
+{
+    [STAThread]
+    private static void Main(string[] args)
+    {
+        // Single-instance guard — hold the mutex for the lifetime of this call.
+        using var singleInstanceMutex = new Mutex(
+            initiallyOwned: true,
+            name: "Local\\MainPCDoctorSingleInstance",
+            out bool createdNew);
+
+        if (!createdNew)
+            return; // Another instance is already running — exit silently.
+
+        bool startMinimized = args.Any(a => a.Equals("--tray", StringComparison.OrdinalIgnoreCase));
+
+        System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+
+        var logDir = Path.Combine(
+            Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
+            "MainPCDoctor", "logs");
+        Directory.CreateDirectory(logDir);
+
+        Log.Logger = new LoggerConfiguration()
+            .MinimumLevel.Information()
+            .WriteTo.File(Path.Combine(logDir, "mainpc-.log"),
+                rollingInterval: RollingInterval.Day,
+                retainedFileCountLimit: 7)
+            .CreateLogger();
+
+        var host = Host.CreateDefaultBuilder(args)
+            .ConfigureServices((_, services) =>
+            {
+                // Core
+                services.AddSingleton<RollingMetricsBuffer>(_ => new RollingMetricsBuffer(capacity: 600));
+                services.AddSingleton<DiagnosisThresholds>(_ => DiagnosisThresholds.Default);
+                services.AddSingleton<IDiagnosisEngine, DiagnosisEngine>(sp =>
+                {
+                    var engine = new DiagnosisEngine();
+                    return engine;
+                });
+
+                // Storage — DB lives in %APPDATA%\MainPCDoctor\mainpc.db
+                services.AddSingleton<DatabaseFactory>(_ =>
+                {
+                    var dataDir = Path.Combine(
+                        Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
+                        "MainPCDoctor");
+                    Directory.CreateDirectory(dataDir);
+                    return new DatabaseFactory(Path.Combine(dataDir, "mainpc.db"));
+                });
+                services.AddSingleton<SQLiteMetricsStore>();
+                services.AddSingleton<IIncidentStore, SQLiteIncidentStore>();
+                services.AddSingleton<MetricsAggregator>();
+                services.AddSingleton<RetentionManager>();
+
+                // Recommendations
+                services.AddSingleton<UpgradeRecommendationEngine>();
+
+                // Platform
+                services.AddSingleton<ISystemMetricsCollector, WindowsSystemMetricsCollector>();
+
+                // Background
+                services.AddSingleton<IncidentTracker>();
+                services.AddHostedService<MonitoringWorker>();
+
+                // Tray + Notifications
+                services.AddSingleton<TrayController>();
+                services.AddSingleton<INotificationService, WindowsNotificationService>();
+            })
+            .ConfigureLogging(logging =>
+            {
+                logging.ClearProviders();
+                logging.AddSerilog(dispose: true);
+            })
+            .Build();
+
+        host.Start();
+
+        App.Services       = host.Services;
+        App.StartMinimized = startMinimized;
+        var app = new App();
+        app.Run();
+
+        host.StopAsync(TimeSpan.FromSeconds(10)).GetAwaiter().GetResult();
+        host.Dispose();
+    }
+}

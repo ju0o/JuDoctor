@@ -1,0 +1,34 @@
+diff --git a/qa/evidence/v1-governor-fix/ResourceGovernor.before.cs.txt b/src/MainPCDoctor.Desktop/Background/ResourceGovernor.cs
+index 62d1ee0..59f45bc 100644
+--- a/qa/evidence/v1-governor-fix/ResourceGovernor.before.cs.txt
++++ b/src/MainPCDoctor.Desktop/Background/ResourceGovernor.cs
+@@ -2,11 +2,11 @@ using System.Diagnostics;
+ 
+ namespace MainPCDoctor.Desktop.Background;
+ 
+-// Throttles the monitoring worker when the system itself is under memory pressure
+-// or when MainPCDoctor is consuming more than its own budget.
++// Reduce sampling frequency when MainPCDoctor exceeds its private-memory budget.
+ internal static class ResourceGovernor
+ {
+-    private const double SelfCpuBudgetPercent = 2.0;
++    internal const long PrivateMemoryBudgetBytes = 400L * 1_048_576;
++    internal static readonly TimeSpan PressureInterval = TimeSpan.FromSeconds(60);
+ 
+     private static readonly Process _self = Process.GetCurrentProcess();
+ 
+@@ -14,11 +14,9 @@ internal static class ResourceGovernor
+     {
+         try
+         {
+-            // Use private bytes (not working set) to guard against actual leaks.
+-            // Self-contained .NET WPF apps have 150–220 MB working set at idle due to shared
+-            // CLR pages; private committed memory reflects what we actually own (~5 MB idle).
+-            long privateMb = _self.PrivateMemorySize64 / 1_048_576;
+-            return privateMb > 400;
++            // Process caches memory properties; refresh before every decision.
++            _self.Refresh();
++            return _self.PrivateMemorySize64 > PrivateMemoryBudgetBytes;
+         }
+         catch { return false; }
+     }

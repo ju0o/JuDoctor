@@ -1,0 +1,29 @@
+=== INSTALLER BUILD EVIDENCE ===
+
+BUILD v1 (SUPERSEDED — ResourceGovernor bug):
+  File: MainPCDoctor-1.0.0-Setup.exe
+  Size: 50.9 MB
+  SHA256: AD4A8117B8EC4D73088C90A5E8099D05084D740A3C1A5362E3A1FDCF51E68460
+  Built: 2026-09-18 (prior session)
+  Issue: ResourceGovernor used WorkingSet64 > 200 MB — throttled 100% of monitoring cycles
+
+BUILD v2 (CURRENT — ResourceGovernor fix):
+  File: MainPCDoctor-1.0.0-Setup-v2.exe
+  Size: 50.9 MB
+  SHA256: 8F7CB43883E3948E8F6C00BBD7F2EBD9FE328F7A30E512F43CB4DC833CB3D45D
+  Built: 2026-09-18 09:29:45
+  Fix: ResourceGovernor.cs — switched to PrivateMemorySize64 > 400 MB
+  Private memory at idle: 4.6 MB (healthy, well below threshold)
+  Working set at idle: 160-280 MB (shared CLR pages — normal for self-contained .NET 9 WPF)
+
+PUBLISH PATH:
+  dotnet publish src\MainPCDoctor.Desktop\MainPCDoctor.Desktop.csproj --runtime win-x64 --self-contained true
+  Output: src\MainPCDoctor.Desktop\bin\publish\win-x64\
+  Script: installer\publish.ps1 -Installer
+
+INNO SETUP: 6.7.3 (C:\Program Files (x86)\Inno Setup 6\ISCC.exe)
+SCRIPT: installer\MainPCDoctor.iss
+  DefaultDirName={autopf}\MainPCDoctor (no spaces — required for WPF pack-URI)
+  PrivilegesRequired=lowest
+
+TESTS: 67/67 pass after v2 fix (dotnet test --configuration Release)

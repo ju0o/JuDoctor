@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-09-18T03:16:04.385238+00:00",
+  "started": "2026-09-18T12:05:39.503349+09:00",
+  "elapsed_seconds": 624.881889,
+  "rows": 11,
+  "first_heartbeat": "2026-09-18T03:05:54.674719+00:00",
+  "last_heartbeat": "2026-09-18T03:15:56.556914+00:00",
+  "checks": {
+    "at_least_10_minutes": true,
+    "at_least_10_records": true,
+    "normal_health": true,
+    "private_memory_present": true,
+    "heartbeat_current": true,
+    "no_duplicate_aggregates": true,
+    "record_gaps_bounded": true,
+    "minimum_fields_present": true,
+    "integrity_ok": true
+  },
+  "pass": true
+}

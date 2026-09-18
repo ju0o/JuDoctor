@@ -1,0 +1,45 @@
+<Window x:Class="MainPCDoctor.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:MainPCDoctor.Desktop.Views"
+        mc:Ignorable="d"
+        Title="MainPC Doctor"
+        Height="720" Width="1100"
+        MinHeight="580" MinWidth="860"
+        Background="{StaticResource BgDeepBrush}"
+        Foreground="{StaticResource TextPrimaryBrush}"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Nav -->
+        <Border Grid.Column="0"
+                Background="{StaticResource BgSurfaceBrush}"
+                BorderBrush="{StaticResource BorderSubtleBrush}"
+                BorderThickness="0,0,1,0">
+            <StackPanel Margin="12,24,12,12">
+                <!-- Logo -->
+                <TextBlock Text="MAINPC" FontFamily="Consolas" FontSize="18" FontWeight="Bold"
+                           Foreground="{StaticResource CyanPrimaryBrush}" Margin="4,0,0,2" />
+                <TextBlock Text="DOCTOR" FontFamily="Consolas" FontSize="11"
+                           Foreground="{StaticResource TextSecondaryBrush}" Margin="4,0,0,16" />
+
+                <Button Content="Dashboard"       Style="{StaticResource NavButton}" Tag="Dashboard"  Click="Nav_Click" />
+                <Button Content="Incident History" Style="{StaticResource NavButton}" Tag="History"    Click="Nav_Click" />
+                <Button Content="System Capacity"  Style="{StaticResource NavButton}" Tag="Capacity"   Click="Nav_Click" />
+                <Button Content="Why Was Slow?"    Style="{StaticResource NavButton}" Tag="WhySlow"    Click="Nav_Click" />
+                <Button Content="Settings"         Style="{StaticResource NavButton}" Tag="Settings"   Click="Nav_Click" />
+            </StackPanel>
+        </Border>
+
+        <!-- Content Frame -->
+        <Frame Grid.Column="1" x:Name="ContentFrame"
+               NavigationUIVisibility="Hidden" />
+    </Grid>
+</Window>

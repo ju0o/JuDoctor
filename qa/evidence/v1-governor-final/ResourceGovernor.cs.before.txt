@@ -1,0 +1,23 @@
+using System.Diagnostics;
+
+namespace MainPCDoctor.Desktop.Background;
+
+// Reduce sampling frequency when MainPCDoctor exceeds its private-memory budget.
+internal static class ResourceGovernor
+{
+    internal const long PrivateMemoryBudgetBytes = 400L * 1_048_576;
+    internal static readonly TimeSpan PressureInterval = TimeSpan.FromSeconds(60);
+
+    private static readonly Process _self = Process.GetCurrentProcess();
+
+    public static bool ShouldThrottle()
+    {
+        try
+        {
+            // Process caches memory properties; refresh before every decision.
+            _self.Refresh();
+            return _self.PrivateMemorySize64 > PrivateMemoryBudgetBytes;
+        }
+        catch { return false; }
+    }
+}

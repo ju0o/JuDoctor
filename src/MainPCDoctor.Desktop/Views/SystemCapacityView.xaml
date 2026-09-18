@@ -1,0 +1,48 @@
+<Page x:Class="MainPCDoctor.Desktop.Views.SystemCapacityView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{StaticResource BgDeepBrush}"
+      Title="System Capacity">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="24">
+            <TextBlock Text="SYSTEM CAPACITY" Style="{StaticResource HeadingMedium}" Margin="0,0,0,16" />
+
+            <!-- CPU rec -->
+            <Border Style="{StaticResource Card}" Margin="0,0,0,12">
+                <StackPanel>
+                    <TextBlock Text="CPU" Style="{StaticResource HeadingMedium}" Margin="0,0,0,8" />
+                    <TextBlock x:Name="CpuRecText" Style="{StaticResource BodyText}" TextWrapping="Wrap" />
+                    <TextBlock x:Name="CpuConfText" Style="{StaticResource CaptionText}" Margin="0,4,0,0" />
+                </StackPanel>
+            </Border>
+
+            <!-- RAM rec -->
+            <Border Style="{StaticResource Card}" Margin="0,0,0,12">
+                <StackPanel>
+                    <TextBlock Text="RAM" Style="{StaticResource HeadingMedium}" Margin="0,0,0,8" />
+                    <TextBlock x:Name="RamRecText" Style="{StaticResource BodyText}" TextWrapping="Wrap" />
+                    <TextBlock x:Name="RamConfText" Style="{StaticResource CaptionText}" Margin="0,4,0,0" />
+                </StackPanel>
+            </Border>
+
+            <!-- GPU / Disk status only -->
+            <Border Style="{StaticResource Card}" Margin="0,0,0,12">
+                <StackPanel>
+                    <TextBlock Text="GPU" Style="{StaticResource HeadingMedium}" Margin="0,0,0,8" />
+                    <TextBlock x:Name="GpuStatusText" Style="{StaticResource BodyText}"
+                               Text="Monitoring — upgrade analysis not available in V1." TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+
+            <Border Style="{StaticResource Card}" Margin="0,0,0,12">
+                <StackPanel>
+                    <TextBlock Text="DISK" Style="{StaticResource HeadingMedium}" Margin="0,0,0,8" />
+                    <TextBlock x:Name="DiskStatusText" Style="{StaticResource BodyText}"
+                               Text="Monitoring — upgrade analysis not available in V1." TextWrapping="Wrap" />
+                </StackPanel>
+            </Border>
+
+        </StackPanel>
+    </ScrollViewer>
+</Page>

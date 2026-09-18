@@ -1,0 +1,33 @@
+  복원할 프로젝트를 확인하는 중...
+  복원할 모든 프로젝트가 최신 상태입니다.
+  MainPCDoctor.Core -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\src\MainPCDoctor.Core\bin\Debug\net9.0\MainPCDoctor.Core.dll
+  MainPCDoctor.Platform.Windows -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\src\MainPCDoctor.Platform.Windows\bin\Debug\net9.0-windows\MainPCDoctor.Platform.Windows.dll
+  MainPCDoctor.Storage -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\src\MainPCDoctor.Storage\bin\Debug\net9.0\MainPCDoctor.Storage.dll
+  MainPCDoctor.Core.Tests -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\tests\MainPCDoctor.Core.Tests\bin\Debug\net9.0\MainPCDoctor.Core.Tests.dll
+C:\Users\user\Desktop\4_Projects_Ju\JuGuard\tests\MainPCDoctor.Core.Tests\bin\Debug\net9.0\MainPCDoctor.Core.Tests.dll(.NETCoreApp,Version=v9.0)에 대한 테스트 실행
+VSTest 버전 17.14.1 (x64)
+
+테스트 실행을 시작하는 중입니다. 잠시 기다려 주세요...
+지정된 패턴과 일치한 총 테스트 파일 수는 1개입니다.
+  MainPCDoctor.Storage.Tests -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\tests\MainPCDoctor.Storage.Tests\bin\Debug\net9.0\MainPCDoctor.Storage.Tests.dll
+C:\Users\user\Desktop\4_Projects_Ju\JuGuard\tests\MainPCDoctor.Storage.Tests\bin\Debug\net9.0\MainPCDoctor.Storage.Tests.dll(.NETCoreApp,Version=v9.0)에 대한 테스트 실행
+VSTest 버전 17.14.1 (x64)
+
+테스트 실행을 시작하는 중입니다. 잠시 기다려 주세요...
+지정된 패턴과 일치한 총 테스트 파일 수는 1개입니다.
+결과 파일: C:\Users\user\Desktop\4_Projects_Ju\JuGuard\qa\evidence\v1-governor-final\final_net9.0_20260918120323.trx
+
+통과!  - 실패:     0, 통과:    53, 건너뜀:     0, 전체:    53, 기간: 205 ms - MainPCDoctor.Core.Tests.dll (net9.0)
+결과 파일: C:\Users\user\Desktop\4_Projects_Ju\JuGuard\qa\evidence\v1-governor-final\final_net9.0_20260918120325.trx
+
+통과!  - 실패:     0, 통과:     2, 건너뜀:     0, 전체:     2, 기간: 847 ms - MainPCDoctor.Storage.Tests.dll (net9.0)
+  MainPCDoctor.Desktop -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\src\MainPCDoctor.Desktop\bin\Debug\net9.0-windows\MainPCDoctor.Desktop.dll
+  MainPCDoctor.Integration.Tests -> C:\Users\user\Desktop\4_Projects_Ju\JuGuard\tests\MainPCDoctor.Integration.Tests\bin\Debug\net9.0-windows\MainPCDoctor.Integration.Tests.dll
+C:\Users\user\Desktop\4_Projects_Ju\JuGuard\tests\MainPCDoctor.Integration.Tests\bin\Debug\net9.0-windows\MainPCDoctor.Integration.Tests.dll(.NETCoreApp,Version=v9.0)에 대한 테스트 실행
+VSTest 버전 17.14.1 (x64)
+
+테스트 실행을 시작하는 중입니다. 잠시 기다려 주세요...
+지정된 패턴과 일치한 총 테스트 파일 수는 1개입니다.
+결과 파일: C:\Users\user\Desktop\4_Projects_Ju\JuGuard\qa\evidence\v1-governor-final\final_net9.0_20260918120330.trx
+
+통과!  - 실패:     0, 통과:    20, 건너뜀:     0, 전체:    20, 기간: 1 s - MainPCDoctor.Integration.Tests.dll (net9.0)

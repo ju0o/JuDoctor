@@ -4,6 +4,7 @@
 **/publish/
 artifacts/
 installer/Output/
+installer/bin/
 
 # IDE / editor
 .vs/
@@ -13,6 +14,7 @@ installer/Output/
 *.userosscache
 *.sln.docstates
 .vscode/
+*.DotSettings.user
 
 # Test / coverage
 TestResults/
@@ -51,6 +53,6 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-# Private planning / local evidence — keep out of public repo by default
-planning/
-qa/evidence/
+# QA tool build output (source files in qa/tools/ are tracked; binaries are not)
+qa/tools/**/bin/
+qa/tools/**/obj/

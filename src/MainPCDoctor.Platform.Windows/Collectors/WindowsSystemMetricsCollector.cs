@@ -1,0 +1,77 @@
+using MainPCDoctor.Core.Abstractions;
+using MainPCDoctor.Core.Models;
+using Microsoft.Extensions.Logging;
+
+namespace MainPCDoctor.Platform.Windows.Collectors;
+
+public sealed class WindowsSystemMetricsCollector : ISystemMetricsCollector
+{
+    private readonly ILogger<WindowsSystemMetricsCollector> _logger;
+    private readonly WindowsCpuCollector     _cpu     = new();
+    private readonly WindowsMemoryCollector  _memory  = new();
+    private readonly WindowsDiskCollector    _disk    = new();
+    private readonly WindowsGpuCollector     _gpu     = new();
+    private readonly WindowsProcessCollector _process = new();
+    private readonly LhmTemperatureProvider  _lhm     = new();
+    private int _processSampleTick;
+
+    public WindowsSystemMetricsCollector(ILogger<WindowsSystemMetricsCollector> logger)
+    {
+        _logger = logger;
+    }
+
+    public void Initialize()
+    {
+        _cpu.Initialize();
+        _memory.Initialize();
+        _disk.Initialize();
+        _gpu.Initialize();
+        _lhm.Initialize();
+        _logger.LogInformation(
+            "Windows collectors initialized. TotalRAM={RamGb:F1} GB  VRAM={VramGb:F1} GB",
+            _memory.TotalPhysicalGb, _gpu.VramTotalGb);
+    }
+
+    public Task<SystemSnapshot> CollectMinimumAsync(CancellationToken ct = default)
+    {
+        ct.ThrowIfCancellationRequested();
+        // No process enumeration, disk/GPU counters, or temperature queries.
+        return Task.FromResult(new SystemSnapshot(DateTimeOffset.UtcNow,
+            _cpu.Collect(), _memory.Collect(), [], null, null));
+    }
+
+    public async Task<SystemSnapshot> CollectAsync(CancellationToken ct = default)
+    {
+        ct.ThrowIfCancellationRequested();
+
+        var now = DateTimeOffset.UtcNow;
+
+        var cpuMetrics  = _cpu.Collect();
+        var memMetrics  = _memory.Collect();
+        var diskMetrics = _disk.Collect();
+        var gpuMetrics  = _gpu.Collect();
+
+        // Apply LHM temperatures (best-effort; null when sensors unavailable)
+        var (cpuTemp, gpuTemp) = _lhm.ReadTemperatures();
+        if (cpuTemp.HasValue)
+            cpuMetrics = cpuMetrics with { TemperatureCelsius = cpuTemp };
+        if (gpuTemp.HasValue && gpuMetrics != null)
+            gpuMetrics = gpuMetrics with { TemperatureCelsius = gpuTemp };
+
+        // Processes collected every 3 ticks (~30 s at 10 s normal interval)
+        ProcessSummary? processes = null;
+        if (_processSampleTick++ % 3 == 0)
+            processes = await Task.Run(_process.Collect, ct);
+
+        return new SystemSnapshot(now, cpuMetrics, memMetrics, diskMetrics, gpuMetrics, processes);
+    }
+
+    public void Dispose()
+    {
+        _cpu.Dispose();
+        _memory.Dispose();
+        _disk.Dispose();
+        _gpu.Dispose();
+        _lhm.Dispose();
+    }
+}

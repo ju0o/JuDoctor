@@ -1,0 +1,43 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Font family — Consolas as monospace fallback; Segoe UI for body -->
+    <FontFamily x:Key="MonoFont">Consolas, Courier New</FontFamily>
+    <FontFamily x:Key="BodyFont">Segoe UI, Sans-Serif</FontFamily>
+
+    <!-- Text styles -->
+    <Style x:Key="DisplayLarge" TargetType="TextBlock">
+        <Setter Property="FontFamily"   Value="{StaticResource MonoFont}" />
+        <Setter Property="FontSize"     Value="32" />
+        <Setter Property="FontWeight"   Value="Bold" />
+        <Setter Property="Foreground"   Value="{StaticResource CyanPrimaryBrush}" />
+    </Style>
+
+    <Style x:Key="HeadingMedium" TargetType="TextBlock">
+        <Setter Property="FontFamily"  Value="{StaticResource MonoFont}" />
+        <Setter Property="FontSize"    Value="13" />
+        <Setter Property="FontWeight"  Value="SemiBold" />
+        <Setter Property="Foreground"  Value="{StaticResource TextSecondaryBrush}" />
+        <Setter Property="TextDecorations" Value="{x:Null}" />
+    </Style>
+
+    <Style x:Key="BodyText" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource BodyFont}" />
+        <Setter Property="FontSize"   Value="13" />
+        <Setter Property="Foreground" Value="{StaticResource TextPrimaryBrush}" />
+    </Style>
+
+    <Style x:Key="CaptionText" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource BodyFont}" />
+        <Setter Property="FontSize"   Value="11" />
+        <Setter Property="Foreground" Value="{StaticResource TextDimBrush}" />
+    </Style>
+
+    <Style x:Key="MetricValue" TargetType="TextBlock">
+        <Setter Property="FontFamily" Value="{StaticResource MonoFont}" />
+        <Setter Property="FontSize"   Value="28" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="Foreground" Value="{StaticResource TextPrimaryBrush}" />
+    </Style>
+
+</ResourceDictionary>

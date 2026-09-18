@@ -1,0 +1,138 @@
+using MainPCDoctor.Core.Abstractions;
+using MainPCDoctor.Core.Diagnosis;
+using MainPCDoctor.Core.History;
+using MainPCDoctor.Core.Incidents;
+using MainPCDoctor.Core.Models;
+using MainPCDoctor.Storage;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+
+namespace MainPCDoctor.Desktop.Background;
+
+public sealed class MonitoringWorker : BackgroundService
+{
+    private readonly ISystemMetricsCollector   _collector;
+    private readonly IDiagnosisEngine          _diagnosis;
+    private readonly RollingMetricsBuffer      _buffer;
+    private readonly IncidentTracker           _tracker;
+    private readonly MetricsAggregator         _aggregator;
+    private readonly RetentionManager          _retention;
+    private readonly ILogger<MonitoringWorker> _logger;
+
+    private SamplingState _state        = SamplingState.Normal;
+    private bool          _ramWired;
+    internal Func<bool> IsUnderPressure { get; init; } = ResourceGovernor.ShouldThrottle;
+    internal Func<TimeSpan, CancellationToken, Task> DelayAsync { get; init; }
+        = (interval, ct) => Task.Delay(interval, ct);
+
+    public MonitoringWorker(
+        ISystemMetricsCollector    collector,
+        IDiagnosisEngine           diagnosis,
+        RollingMetricsBuffer       buffer,
+        IncidentTracker            tracker,
+        MetricsAggregator          aggregator,
+        RetentionManager           retention,
+        ILogger<MonitoringWorker>  logger)
+    {
+        _collector = collector;
+        _diagnosis = diagnosis;
+        _buffer    = buffer;
+        _tracker   = tracker;
+        _aggregator = aggregator;
+        _retention  = retention;
+        _logger     = logger;
+    }
+
+    protected override async Task ExecuteAsync(CancellationToken stoppingToken)
+    {
+        _collector.Initialize();
+        _logger.LogInformation("MonitoringWorker started");
+
+        // Recover orphaned incidents from a previous unclean shutdown
+        await _retention.RecoverOrphansAsync(stoppingToken).ConfigureAwait(false);
+
+        // Schedule daily retention once at midnight
+        using var retentionCancellation = CancellationTokenSource.CreateLinkedTokenSource(stoppingToken);
+        var retentionTask = RunDailyRetentionAsync(retentionCancellation.Token);
+
+        bool wasUnderPressure = false;
+        try
+        {
+            while (!stoppingToken.IsCancellationRequested)
+            {
+                bool underPressure = IsUnderPressure();
+                if (underPressure != wasUnderPressure)
+                {
+                    if (underPressure)
+                        _logger.LogWarning("ResourceGovernor reducing sampling to 60 seconds; monitoring remains active");
+                    else
+                        _logger.LogInformation("ResourceGovernor recovered; resuming normal sampling");
+                    wasUnderPressure = underPressure;
+                }
+                var interval = underPressure
+                    ? ResourceGovernor.PressureInterval
+                    : SamplingScheduler.GetInterval(_state);
+                await DelayAsync(interval, stoppingToken).ConfigureAwait(false);
+
+                try
+                {
+                    var snapshot = await _collector.CollectAsync(stoppingToken).ConfigureAwait(false);
+                    _buffer.Add(snapshot);
+                    await _aggregator.TryFlushAsync(stoppingToken).ConfigureAwait(false);
+
+                    // Wire total RAM into diagnosis engine on first real snapshot
+                    if (!_ramWired && snapshot.Memory.TotalPhysicalGb > 0)
+                    {
+                        if (_diagnosis is DiagnosisEngine de)
+                            de.SetTotalPhysicalRam(snapshot.Memory.TotalPhysicalGb);
+                        _ramWired = true;
+                    }
+
+                    var window = _buffer.GetRecent(seconds: 600);
+                    var result = _diagnosis.Evaluate(window);
+                    await _tracker.UpdateAsync(result, stoppingToken).ConfigureAwait(false);
+
+                    _state = SelectNextState(result);
+                }
+                catch (OperationCanceledException) { break; }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "Monitoring cycle error");
+                }
+            }
+        }
+        catch (OperationCanceledException) when (stoppingToken.IsCancellationRequested) { }
+        finally
+        {
+            retentionCancellation.Cancel();
+            await retentionTask.ConfigureAwait(false);
+            _logger.LogInformation("MonitoringWorker stopped");
+        }
+    }
+
+    private async Task RunDailyRetentionAsync(CancellationToken ct)
+    {
+        try
+        {
+            // Wait until tomorrow midnight, then run and repeat
+            while (!ct.IsCancellationRequested)
+            {
+                var nextMidnight = DateTime.Today.AddDays(1);
+                var delay = nextMidnight - DateTime.Now;
+                if (delay < TimeSpan.Zero) delay = TimeSpan.FromHours(1);
+                await Task.Delay(delay, ct).ConfigureAwait(false);
+                await _retention.RunAsync(ct: ct).ConfigureAwait(false);
+            }
+        }
+        catch (OperationCanceledException) { }
+    }
+
+    private static SamplingState SelectNextState(DiagnosisResult result)
+    {
+        if (result.Primary?.Outcome == DiagnosisOutcome.Confirmed)
+            return SamplingState.Incident;
+        if (result.Primary?.Outcome == DiagnosisOutcome.Candidate)
+            return SamplingState.Normal;
+        return SamplingState.Eco;
+    }
+}

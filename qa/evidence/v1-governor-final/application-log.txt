@@ -1,0 +1,16 @@
+2026-09-18 12:04:46.115 +09:00 [INF] Windows collectors initialized. TotalRAM=31.9 GB  VRAM=5.9 GB
+2026-09-18 12:04:46.178 +09:00 [INF] MonitoringWorker started
+2026-09-18 12:04:46.300 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-18 12:04:46.300 +09:00 [INF] Hosting environment: Production
+2026-09-18 12:04:46.300 +09:00 [INF] Content root path: C:\Users\user\Desktop\4_Projects_Ju\JuGuard
+2026-09-18 12:05:44.284 +09:00 [INF] Windows collectors initialized. TotalRAM=31.9 GB  VRAM=5.9 GB
+2026-09-18 12:05:44.373 +09:00 [INF] MonitoringWorker started
+2026-09-18 12:05:44.636 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-18 12:05:44.637 +09:00 [INF] Hosting environment: Production
+2026-09-18 12:05:44.637 +09:00 [INF] Content root path: C:\Users\user\Desktop\4_Projects_Ju\JuGuard
+2026-09-18 12:08:55.185 +09:00 [INF] Incident confirmed: "ProcessAnomaly"
+2026-09-18 12:16:48.880 +09:00 [INF] Windows collectors initialized. TotalRAM=31.9 GB  VRAM=5.9 GB
+2026-09-18 12:16:48.927 +09:00 [INF] MonitoringWorker started
+2026-09-18 12:16:49.030 +09:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-18 12:16:49.030 +09:00 [INF] Hosting environment: Production
+2026-09-18 12:16:49.030 +09:00 [INF] Content root path: C:\Users\user\Desktop\4_Projects_Ju\JuGuard

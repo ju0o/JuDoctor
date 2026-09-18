@@ -1,0 +1,45 @@
+V1 Acceptance Gate — Automated Test Evidence
+Date: 2026-09-18
+Machine: dev workstation
+
+dotnet test MainPCDoctor.sln
+---------------------------------------------------------------------
+MainPCDoctor.Core.Tests      FAIL  50/51  1 intentional failure (see below)
+MainPCDoctor.Storage.Tests   PASS   2/2
+MainPCDoctor.Integration.Tests PASS 2/2
+---------------------------------------------------------------------
+Total: 54/55 PASS  1 FAIL  0 skipped
+
+New tests added this gate (2 new, bringing Core.Tests from 49 → 51):
+  DiagnosisRulesTests.Cpu_NoFiring_At299Seconds
+    — Boundary: 29 samples × 10s (280s window, 29 sustained < 30 required) → null
+    — PASS ✅
+
+  UpgradeRecommendationSafetyTests.NoRecommendation_WhenObservationBetween7And13Days
+    — Gate contract: Level 4 recommendation requires >=14 days observation (any confidence).
+    — Current implementation gates only at <7 days; Low confidence fires at 7-13 days.
+    — FAIL ❌ — documents V1_ACCEPTANCE_BLOCKER (RECOMMENDATION_GATE_14DAY)
+    — Actual result: UpgradeRecommendation { Component=CPU, Confidence=Low, EvidenceScore=393,
+      ObservationDays=10 } — recommendation fires at 10 days when it must not.
+
+New findings from this gate session (not in prior report):
+  RECOMMENDATION_GATE_14DAY — V1_ACCEPTANCE_BLOCKER
+    UpgradeRecommendationEngine.cs:33 uses < 7 day gate; V1 contract requires < 14.
+    Fix: change 7 to 14 and remove unreachable dead-code penalty block.
+
+  TRAY_STARTUP_SHOW — CHANGES_REQUIRED
+    App.OnStartup (App.xaml.cs:24) always calls dashboard.Show().
+    --tray flag from installer autostart entry is never parsed.
+    Dashboard window opens on Windows startup — violates Section 7 contract.
+
+  SINGLE_INSTANCE_MISSING — CHANGES_REQUIRED
+    No Mutex or single-instance check anywhere in Program.cs.
+    Two instances can run simultaneously.
+
+  LEVEL4_NOTIFICATION_WIRE — P2 post-dogfood
+    NotifyLevel4Upgrade() is implemented but never called from background path.
+    Level 4 upgrade recommendation toasts require user to open System Capacity view.
+
+Prior gate evidence (2026-09-17):
+  Core.Tests PASS 49/49  Storage.Tests PASS 2/2  Integration.Tests PASS 2/2
+  Total: 53/53 PASS
