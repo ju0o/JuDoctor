@@ -1,0 +1,41 @@
+name: Feature request
+description: Describe a repeated user problem JuDoctor could solve
+title: "[Feature] "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        JuDoctor keeps the v1.0.x line stability-focused. Feature requests are evaluated by the user problem and repeated real-world evidence, not by feature count.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What real workflow/problem are you trying to solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What do you do today?
+      description: Describe the current workaround.
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired
+    attributes:
+      label: Desired outcome
+      description: What should be easier or possible after the change?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: PC count, home/technician/business use, hardware environment, frequency, etc.
+    validations:
+      required: false
