@@ -2,7 +2,7 @@
 
 > **Know why your Windows PC is slowing down — before replacing hardware blindly.**
 
-[한국어 README](README_KO.md) · [Download](https://github.com/ju0o/JuDoctor/releases/latest) · [Known issues](KNOWN_ISSUES.md) · [Privacy](PRIVACY.md)
+[한국어 README](README_KO.md) · [Releases](https://github.com/ju0o/JuDoctor/releases) · [Known issues](KNOWN_ISSUES.md) · [Privacy](PRIVACY.md)
 
 [![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?logo=windows)](https://github.com/ju0o/JuDoctor)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
@@ -21,9 +21,13 @@ Task Manager shows numbers. JuDoctor tries to answer the question behind them:
 
 ### Windows 10 / 11 x64
 
-**[⬇ Download the latest JuDoctor installer](https://github.com/ju0o/JuDoctor/releases/latest)**
+**[⬇ Download JuDoctor from GitHub Releases](https://github.com/ju0o/JuDoctor/releases)**
 
-Official release assets are published through **GitHub Releases**:
+The first public binary release (`v1.0.0`) is currently being prepared. Once published, the latest-release download will be available here:
+
+**[Latest release](https://github.com/ju0o/JuDoctor/releases/latest)**
+
+Every official Windows release is structured with these assets:
 
 - `JuDoctor-<version>-Setup.exe`
 - `JuDoctor-<version>-Setup.exe.sha256`
@@ -33,6 +37,12 @@ JuDoctor V1 uses a **self-contained folder publish wrapped by the installer**, s
 > Early unsigned builds may trigger Windows SmartScreen because the publisher does not yet have established reputation. If that happens, verify the installer SHA256 against the hash published in the same GitHub Release.
 
 See [Installation](docs/INSTALLATION.md) for details.
+
+### Reproducible release path
+
+This repository already includes a Windows GitHub Actions release pipeline. A `v*` tag (for example `v1.0.0`) runs the full test suite, builds the installer through `installer/publish.ps1 -Installer`, generates SHA256, and publishes both files to GitHub Releases.
+
+See [Releasing JuDoctor](docs/RELEASING.md).
 
 ---
 
@@ -150,11 +160,13 @@ Screenshots will be added to this README with the first public binary release.
 
 ## Build from source
 
-JuDoctor is a Windows WPF application built with .NET. The public source tree is organized around separate monitoring, diagnostics, storage, platform, desktop, and test responsibilities.
+JuDoctor is a Windows WPF application built with .NET. The public source tree is organized around separate monitoring, diagnostics, storage, Windows-platform, desktop, installer, and test responsibilities.
 
-For the first public release, use the provided release tooling rather than `PublishSingleFile=true`; WPF pack-URI resources have a known single-file limitation in V1.
+The **sanitized public-source migration is the next release step** and is tracked in [Issue #1](https://github.com/ju0o/JuDoctor/issues/1). Private planning notes, local databases, raw machine evidence, logs, secrets, and signing material must remain outside this repository.
 
-Public source/build instructions will live alongside the sanitized source migration. See [ROADMAP.md](ROADMAP.md).
+For V1, use the release tooling rather than `PublishSingleFile=true`; WPF pack-URI resources have a known single-file limitation.
+
+See [Public Source Migration Checklist](docs/PUBLIC_MIGRATION_CHECKLIST.md).
 
 ---
 
@@ -182,7 +194,9 @@ Hardware compatibility reports are especially useful. When filing an issue, plea
 
 ## License
 
-Source code is released under the **GNU General Public License v3.0**. See [LICENSE](LICENSE).
+JuDoctor is intended to be released under **GNU GPL v3.0**. See [LICENSE](LICENSE).
+
+The current public bootstrap contains a short-form GPL notice; the canonical full GPL-3.0 text is a release blocker tracked in Issue #1 and must be present before binary distribution.
 
 The license does not grant third parties the right to present modified distributions as the official **JuDoctor** product. See [TRADEMARKS.md](TRADEMARKS.md).
 
@@ -192,6 +206,6 @@ The license does not grant third parties the right to present modified distribut
 
 **JuDoctor V1 — Windows / Local-first / Public release track**
 
-Current focus: ship a trustworthy Windows release, collect compatibility feedback from real PCs, and keep the `v1.0.x` line stability-only.
+Current focus: migrate the sanitized certified source, produce the first traceable installer release, and then collect compatibility feedback from real Windows PCs.
 
 > Task Manager tells you what the number is. **JuDoctor tries to tell you whether that number actually matters.**
