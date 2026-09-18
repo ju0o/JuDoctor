@@ -53,6 +53,8 @@ Thumbs.db
 Desktop.ini
 .DS_Store
 
-# QA tool build output (source files in qa/tools/ are tracked; binaries are not)
+# QA
+# Keep the curated Markdown QA reports public, but never commit raw machine evidence/log bundles.
+qa/evidence/
 qa/tools/**/bin/
 qa/tools/**/obj/
