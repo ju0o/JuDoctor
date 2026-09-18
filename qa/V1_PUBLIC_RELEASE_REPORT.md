@@ -31,7 +31,7 @@ This baseline predates the dependency security remediation described below. The 
 
 ## Release blocker — bundled SQLite dependency
 
-The current public Storage project references `Microsoft.Data.Sqlite 9.0.0`.
+The public Storage project now references `Microsoft.Data.Sqlite 9.0.20`.
 
 The dependency audit found that this version can resolve a `SQLitePCLRaw.lib.e_sqlite3` version in the affected range for:
 
@@ -43,7 +43,7 @@ The V1 installer must not be treated as a final public release candidate until t
 
 ### Intended remediation
 
-Use a current compatible .NET 9 servicing version of `Microsoft.Data.Sqlite` whose dependency metadata requires `SQLitePCLRaw.bundle_e_sqlite3 >= 2.1.12` (audit target: `9.0.20`).
+The verified restore resolves `SQLitePCLRaw.bundle_e_sqlite3 2.1.12` and `SQLitePCLRaw.lib.e_sqlite3 2.1.12` through `Microsoft.Data.Sqlite 9.0.20`.
 
 After updating:
 
@@ -59,6 +59,16 @@ Required result:
 - no vulnerable shipped package reported for this advisory;
 - 0 build errors;
 - 0 test failures.
+
+### Security remediation verification
+
+- `Microsoft.Data.Sqlite`: `9.0.20`
+- `SQLitePCLRaw.bundle_e_sqlite3`: `2.1.12`
+- `SQLitePCLRaw.lib.e_sqlite3`: `2.1.12`
+- Vulnerability audit: PASS; all seven solution projects reported no vulnerable packages.
+- Release build: PASS; 0 warnings and 0 errors.
+- Regression tests: `93 / 93 PASS` (Core 53, Storage 3, Integration 37).
+- Verified installer SHA256: `C110997997EC42C2AC73C7541474E30292DB3ABC6E07768DE0A7CE60C6D4C98B`.
 
 ## Installer gate
 
