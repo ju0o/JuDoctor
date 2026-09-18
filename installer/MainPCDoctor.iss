@@ -1,21 +1,23 @@
-; MainPC Doctor — Inno Setup Script
+; JuDoctor — Inno Setup Script
 ; Build: dotnet publish first, then compile this script with Inno Setup 6+
 
-#define AppName      "MainPC Doctor"
+#define AppName      "JuDoctor"
 #define AppVersion   "1.0.0"
-#define AppPublisher "JuGuard"
+#define AppPublisher "ju0o"
 #define AppExeName   "MainPCDoctor.Desktop.exe"
 #define PublishDir   "..\src\MainPCDoctor.Desktop\bin\publish\win-x64"
 
 [Setup]
+; Keep the existing AppId so installed V1 builds remain upgrade-compatible.
 AppId={{F4A2B3C8-91DE-4F5A-B862-D3E7A1C05F2B}
 AppName={#AppName}
 AppVersion={#AppVersion}
 AppPublisher={#AppPublisher}
+; Keep the internal install directory stable for V1 compatibility.
 DefaultDirName={autopf}\MainPCDoctor
 DefaultGroupName={#AppName}
 OutputDir=.\output
-OutputBaseFilename=MainPCDoctor-{#AppVersion}-Setup
+OutputBaseFilename=JuDoctor-{#AppVersion}-Setup
 Compression=lzma2/ultra64
 SolidCompression=yes
 WizardStyle=modern
@@ -34,19 +36,19 @@ Name: "korean";  MessagesFile: "compiler:Languages\Korean.isl"
 
 [Tasks]
 Name: "desktopicon";    Description: "{cm:CreateDesktopIcon}";   GroupDescription: "{cm:AdditionalIcons}"
-Name: "startupentry";   Description: "Launch MainPC Doctor on Windows startup"; GroupDescription: "Options"
+Name: "startupentry";   Description: "Launch JuDoctor on Windows startup"; GroupDescription: "Options"
 
 [Files]
 ; All publish output (self-contained win-x64)
 Source: "{#PublishDir}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
-Name: "{group}\{#AppName}";         Filename: "{app}\{#AppExeName}"
+Name: "{group}\{#AppName}";           Filename: "{app}\{#AppExeName}"
 Name: "{group}\Uninstall {#AppName}"; Filename: "{uninstallexe}"
-Name: "{userdesktop}\{#AppName}";   Filename: "{app}\{#AppExeName}"; Tasks: desktopicon
+Name: "{userdesktop}\{#AppName}";     Filename: "{app}\{#AppExeName}"; Tasks: desktopicon
 
 [Registry]
-; Startup entry (optional, user task)
+; Keep the internal startup value name stable for V1 compatibility.
 Root: HKCU; Subkey: "Software\Microsoft\Windows\CurrentVersion\Run"; \
   ValueType: string; ValueName: "MainPCDoctor"; \
   ValueData: """{app}\{#AppExeName}"" --tray"; \
