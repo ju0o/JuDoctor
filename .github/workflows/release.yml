@@ -1,0 +1,143 @@
+name: Release JuDoctor
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release version without the v prefix (example: 1.0.0)"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "9.0.x"
+
+      - name: Resolve version
+        id: version
+        shell: pwsh
+        run: |
+          if ("${{ github.event_name }}" -eq "workflow_dispatch") {
+            $version = "${{ inputs.version }}"
+          } else {
+            $version = "${{ github.ref_name }}".TrimStart('v')
+          }
+
+          if ([string]::IsNullOrWhiteSpace($version)) {
+            throw "Could not resolve release version."
+          }
+
+          "version=$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          "tag=v$version" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+
+      - name: Locate solution
+        id: solution
+        shell: pwsh
+        run: |
+          $solution = Get-ChildItem -Path . -Filter *.sln -File | Select-Object -First 1
+          if (-not $solution) {
+            throw "No .sln file found. Migrate the sanitized public source before creating a release."
+          }
+
+          "path=$($solution.FullName)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+
+      - name: Restore
+        shell: pwsh
+        run: dotnet restore "${{ steps.solution.outputs.path }}"
+
+      - name: Test
+        shell: pwsh
+        run: dotnet test "${{ steps.solution.outputs.path }}" --configuration Release --no-restore
+
+      - name: Install Inno Setup
+        shell: pwsh
+        run: choco install innosetup --no-progress -y
+
+      - name: Build production installer
+        shell: pwsh
+        run: |
+          if (-not (Test-Path ".\installer\publish.ps1")) {
+            throw "installer/publish.ps1 was not found."
+          }
+
+          .\installer\publish.ps1 -Installer
+
+      - name: Prepare release assets
+        id: assets
+        shell: pwsh
+        run: |
+          $version = "${{ steps.version.outputs.version }}"
+          New-Item -ItemType Directory -Force -Path ".\artifacts" | Out-Null
+
+          $candidate = Get-ChildItem -Path . -Recurse -File -Filter "*Setup*.exe" |
+            Where-Object { $_.FullName -notmatch "\\.git\\" } |
+            Sort-Object LastWriteTimeUtc -Descending |
+            Select-Object -First 1
+
+          if (-not $candidate) {
+            throw "No installer matching *Setup*.exe was produced."
+          }
+
+          $installerName = "JuDoctor-$version-Setup.exe"
+          $installerPath = Join-Path ".\artifacts" $installerName
+          Copy-Item $candidate.FullName $installerPath -Force
+
+          $hash = (Get-FileHash $installerPath -Algorithm SHA256).Hash.ToUpperInvariant()
+          $hashName = "$installerName.sha256"
+          $hashPath = Join-Path ".\artifacts" $hashName
+          "$hash  $installerName" | Set-Content -Path $hashPath -Encoding ascii -NoNewline
+
+          "installer=$installerPath" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+          "hash=$hashPath" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+
+          Write-Host "Release installer: $installerPath"
+          Write-Host "SHA256: $hash"
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: JuDoctor-${{ steps.version.outputs.version }}
+          path: |
+            artifacts/JuDoctor-${{ steps.version.outputs.version }}-Setup.exe
+            artifacts/JuDoctor-${{ steps.version.outputs.version }}-Setup.exe.sha256
+
+      - name: Publish GitHub Release
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $version = "${{ steps.version.outputs.version }}"
+          $tag = "${{ steps.version.outputs.tag }}"
+          $installer = ".\artifacts\JuDoctor-$version-Setup.exe"
+          $hash = ".\artifacts\JuDoctor-$version-Setup.exe.sha256"
+          $notes = ".\RELEASE_NOTES_v$version.md"
+
+          gh release view $tag *> $null
+          $exists = ($LASTEXITCODE -eq 0)
+
+          if ($exists) {
+            gh release upload $tag $installer $hash --clobber
+            exit $LASTEXITCODE
+          }
+
+          if (Test-Path $notes) {
+            gh release create $tag $installer $hash --title "JuDoctor $tag" --notes-file $notes
+          } else {
+            gh release create $tag $installer $hash --title "JuDoctor $tag" --generate-notes
+          }
+
+          exit $LASTEXITCODE
