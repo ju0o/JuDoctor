@@ -42,7 +42,7 @@ public sealed class WindowsNotificationService : INotificationService
             : "CPU Upgrade Recommended";
 
         _tray.ShowBalloon(title,
-            $"Confidence: {confidence}. Open MainPC Doctor for details.",
+            $"Confidence: {confidence}. Open JuDoctor for details.",
             ToolTipIcon.Info);
 
         _logger.LogInformation("Level4 upgrade notification sent: {Component} ({Confidence})", component, confidence);
