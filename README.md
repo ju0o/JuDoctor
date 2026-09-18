@@ -52,7 +52,7 @@ Get-FileHash .\JuDoctor-1.0.0-Setup.exe -Algorithm SHA256
 
 See [Installation](docs/INSTALLATION.md) for more details.
 
-> **Release status:** the public source is already available in this repository. The downloadable installer is published through the repository's release workflow. If the direct v1.0.0 link above is not live yet, use the [Releases page](https://github.com/ju0o/JuDoctor/releases) to check the current binary release status.
+> **Release status:** the public source is available, but the first downloadable binary remains blocked until the current dependency security audit is cleared. Track release readiness in [Issue #1](https://github.com/ju0o/JuDoctor/issues/1).
 
 ---
 
@@ -163,7 +163,7 @@ JuDoctor V1 includes:
 - **System Capacity** — long-term CPU/RAM capacity status
 - **Settings** — startup and monitoring preferences
 
-Public screenshots will be added here as part of the first binary release presentation.
+Public screenshots will be added here as part of the first binary release presentation. Screenshot requirements live in [docs/screenshots](docs/screenshots/README.md).
 
 ---
 
@@ -230,6 +230,8 @@ Hardware compatibility reports are especially useful. Please include your Window
 ## License
 
 JuDoctor source is released under **GNU GPL v3.0**. See [LICENSE](LICENSE).
+
+Third-party dependency licenses and the current release audit are documented in [docs/THIRD_PARTY_LICENSES.md](docs/THIRD_PARTY_LICENSES.md).
 
 The software license does not grant third parties the right to present modified builds as the official **JuDoctor** product. See [TRADEMARKS.md](TRADEMARKS.md).
 
